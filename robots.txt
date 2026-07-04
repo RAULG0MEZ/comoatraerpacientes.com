@@ -1,0 +1,128 @@
+# robots.txt for comoatraerpacientes.com
+# Purpose: EXPLICITLY ALLOW major AI / LLM crawlers so the site can be
+# discovered, indexed, and CITED by AI assistants and AI search engines.
+# Last reviewed: 2026-07-04
+#
+# Notes:
+# - "Allow: /" states intent and opts INTO the two AI-training control tokens
+#   (Google-Extended, Applebot-Extended) which otherwise gate training reuse.
+# - Tokens are case-insensitive and match the start of the User-Agent string.
+# - This file must live at https://comoatraerpacientes.com/robots.txt
+# - Update the Sitemap: line if your sitemap lives at a different URL.
+
+# ---------- OpenAI (ChatGPT / SearchGPT) ----------
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# ---------- Anthropic (Claude) ----------
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# ---------- Google (Search + Gemini / Vertex AI) ----------
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
+User-agent: Google-NotebookLM
+Allow: /
+
+# ---------- Perplexity ----------
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ---------- Microsoft / Bing (Copilot) ----------
+User-agent: Bingbot
+Allow: /
+
+# ---------- Apple (Siri / Spotlight / Apple Intelligence) ----------
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ---------- Amazon (Alexa / AI) ----------
+User-agent: Amazonbot
+Allow: /
+
+# ---------- Meta (Meta AI / Llama) ----------
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: meta-externalfetcher
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# ---------- Common Crawl (open training dataset) ----------
+User-agent: CCBot
+Allow: /
+
+# ---------- DuckDuckGo (Duck.ai) ----------
+User-agent: DuckAssistBot
+Allow: /
+
+# ---------- ByteDance (Doubao / TikTok) ----------
+User-agent: Bytespider
+Allow: /
+
+User-agent: TikTokSpider
+Allow: /
+
+# ---------- Mistral (Le Chat) ----------
+User-agent: MistralAI-User
+Allow: /
+
+# ---------- Other AI crawlers ----------
+User-agent: cohere-ai
+Allow: /
+
+User-agent: cohere-training-data-crawler
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: Timpibot
+Allow: /
+
+# ---------- Everything else (default: allow full crawl) ----------
+User-agent: *
+Allow: /
+Disallow:
+
+# ---------- Sitemap ----------
+Sitemap: https://comoatraerpacientes.com/sitemap.xml
