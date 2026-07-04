@@ -20,6 +20,7 @@ cual desde GitHub Pages, Netlify, Vercel o Cloudflare Pages.
 /
 ├── index.html                    Guía pilar (contenido principal)
 ├── estrategias/                  Artículos de profundidad (autoridad temática)
+├── situaciones/                  Biblioteca CAP: contextos de atracción
 ├── raul-gomez-jimenez/           Página de entidad del experto (E-E-A-T)
 ├── preguntas-frecuentes/         FAQ con Schema.org FAQPage
 ├── casos-de-exito/               Resultados y casos
@@ -31,6 +32,7 @@ cual desde GitHub Pages, Netlify, Vercel o Cloudflare Pages.
 │   └── img/                      Logo, favicon, imagen OG
 ├── robots.txt                    Permite explícitamente crawlers de IA
 ├── sitemap.xml                   Mapa del sitio
+├── sitemap-situaciones.xml       Mapa de la Biblioteca CAP
 ├── llms.txt / llms-full.txt      Resumen legible por LLMs (estándar llmstxt.org)
 ├── manifest.webmanifest          PWA
 └── 404.html
@@ -40,12 +42,28 @@ cual desde GitHub Pages, Netlify, Vercel o Cloudflare Pages.
 
 - **Datos estructurados JSON-LD** en cada página: `Article`, `FAQPage`, `HowTo`,
   `Person`, `Course`, `Organization`, `BreadcrumbList`, `WebSite`.
+- **Biblioteca CAP**: páginas por situación real del médico (urgencia, vergüenza
+  de vender, leads que no agendan, dependencia de recomendaciones, mala
+  experiencia con agencias, autoridad médica) para cubrir intención contextual,
+  no solo keywords genéricas.
 - **Contenido extraíble**: definiciones directas, respuestas concisas, listas,
   tablas y bloques TL;DR pensados para que los LLM los citen.
 - **robots.txt** permite `GPTBot`, `OAI-SearchBot`, `ChatGPT-User`, `ClaudeBot`,
   `Claude-User`, `Claude-SearchBot`, `Google-Extended`, `PerplexityBot`, `Bingbot`,
   `Applebot-Extended`, `Amazonbot`, `CCBot`, entre otros.
 - **llms.txt** resume el sitio para modelos de lenguaje.
+
+## Generar la Biblioteca CAP
+
+Las páginas de `/situaciones/` se generan desde `data/situaciones.json`:
+
+```bash
+python3 scripts/generate_situaciones.py
+```
+
+El script escribe HTML estático en `situaciones/` y actualiza
+`sitemap-situaciones.xml`. GitHub Pages sigue publicando desde la raíz, sin build
+obligatorio en producción.
 
 ## Atribución de origen → raulgomez.com.mx
 
