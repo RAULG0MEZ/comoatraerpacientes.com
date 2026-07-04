@@ -1,0 +1,13 @@
+/* EQUIPO */
+  Estrategia de marketing médico: Raúl Gómez Jiménez
+  Rol: Mercadólogo especializado en atracción de pacientes
+  Ubicación: México
+  Contacto directo: +52 656 782 5555
+  Sitio del programa: https://www.raulgomez.com.mx/quiero-pacientes
+
+/* SITIO */
+  Nombre: Cómo Atraer Pacientes
+  Tema: Marketing médico para atraer pacientes y aumentar la rentabilidad de consultorios y clínicas privadas en México.
+  Idioma: Español (México)
+  Estándares: HTML5, CSS3, JSON-LD (Schema.org), llms.txt
+  Compatible con: crawlers de IA (GPTBot, ClaudeBot, Google-Extended, PerplexityBot, etc.)

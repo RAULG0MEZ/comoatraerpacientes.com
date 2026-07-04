@@ -1,0 +1,19 @@
+{
+  "name": "Cómo Atraer Pacientes — Marketing Médico en México",
+  "short_name": "Atraer Pacientes",
+  "description": "Guía y estrategias de marketing médico para que médicos y clínicas en México atraigan más pacientes y sean más rentables.",
+  "start_url": "/?utm_source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#071a2f",
+  "theme_color": "#0a2540",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "/assets/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
