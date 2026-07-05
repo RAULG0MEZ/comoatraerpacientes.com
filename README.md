@@ -21,6 +21,9 @@ cual desde GitHub Pages, Netlify, Vercel o Cloudflare Pages.
 ├── index.html                    Guía pilar (contenido principal)
 ├── estrategias/                  Artículos de profundidad (autoridad temática)
 ├── situaciones/                  Biblioteca CAP: contextos de atracción
+├── especialidades/               Rutas por especialidad médica
+├── diagnostico/                  Diagnóstico CAP interactivo
+├── herramientas/                 Calculadoras y herramientas prácticas
 ├── raul-gomez-jimenez/           Página de entidad del experto (E-E-A-T)
 ├── preguntas-frecuentes/         FAQ con Schema.org FAQPage
 ├── casos-de-exito/               Resultados y casos
@@ -33,6 +36,8 @@ cual desde GitHub Pages, Netlify, Vercel o Cloudflare Pages.
 ├── robots.txt                    Permite explícitamente crawlers de IA
 ├── sitemap.xml                   Mapa del sitio
 ├── sitemap-situaciones.xml       Mapa de la Biblioteca CAP
+├── sitemap-especialidades.xml    Mapa de páginas por especialidad
+├── sitemap-herramientas.xml      Mapa de herramientas internas
 ├── llms.txt / llms-full.txt      Resumen legible por LLMs (estándar llmstxt.org)
 ├── manifest.webmanifest          PWA
 └── 404.html
@@ -65,16 +70,31 @@ El script escribe HTML estático en `situaciones/` y actualiza
 `sitemap-situaciones.xml`. GitHub Pages sigue publicando desde la raíz, sin build
 obligatorio en producción.
 
-## Atribución de origen → raulgomez.com.mx
+## Generar páginas por especialidad
+
+Las páginas de `/especialidades/` se generan desde `data/especialidades.json`:
+
+```bash
+python3 scripts/generate_especialidades.py
+```
+
+El script escribe el hub y las rutas
+`/especialidades/<slug>/como-atraer-pacientes/`, además de
+`sitemap-especialidades.xml`.
+
+## Atribución de origen
 
 `assets/js/attribution.js` detecta **cómo llegó el visitante** (ChatGPT, Gemini,
 Claude, Perplexity, Copilot, Google, Bing, redes o directo) leyendo
 `document.referrer` y los parámetros UTM de entrada, guarda el **primer contacto**
-y reescribe todos los enlaces a `raulgomez.com.mx/quiero-pacientes` añadiendo
-`utm_source`, `utm_medium`, `utm_campaign`, `utm_content`, `ref_channel` y
-`ref_host`. Así el equipo sabe de qué IA o canal proviene cada prospecto.
+y reescribe los enlaces salientes a `raulgomez.com.mx` añadiendo `utm_source`,
+`utm_medium`, `utm_campaign`, `utm_content`, `ref_channel` y `ref_host`.
+
+Los CTAs principales del sitio deben apuntar primero a rutas internas como
+`/diagnostico/`, `/especialidades/`, `/herramientas/` o `/situaciones/`. El dominio
+externo queda como respaldo de marca, no como destino primario de tráfico frío.
 
 ## Contacto
 
-- Programa para atraer pacientes: <https://www.raulgomez.com.mx/quiero-pacientes>
+- Diagnóstico CAP: <https://comoatraerpacientes.com/diagnostico/>
 - Teléfono directo: **+52 656 782 5555**

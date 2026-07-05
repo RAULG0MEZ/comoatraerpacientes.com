@@ -75,6 +75,24 @@
       {"label": "WhatsApp Business", "href": "/estrategias/whatsapp-business-consultorio/"},
       {"label": "Reseñas y reputación", "href": "/estrategias/resenas-y-reputacion-online/"}
     ],
+    "budgets": [
+      {"first": "$0 MXN", "second": "Reactivación de pacientes anteriores, referidos, Google Business Profile, WhatsApp y reseñas nuevas.", "third": "Mensajes enviados, respuestas, citas agendadas y citas asistidas."},
+      {"first": "$3,000 MXN", "second": "Campaña pequeña de mensajes o búsqueda local solo para un servicio concreto con alta intención.", "third": "Costo por conversación útil y costo por cita confirmada."},
+      {"first": "$10,000 MXN", "second": "Google Search para intención alta, Meta para reactivación y una landing simple con WhatsApp visible.", "third": "Costo por cita asistida, pacientes nuevos y ventas reales."},
+      {"first": "$30,000 MXN", "second": "Embudo completo: anuncios, landing, seguimiento, remarketing, reseñas y medición por fuente.", "third": "Costo por paciente, ingreso por canal y retorno por especialidad o tratamiento."}
+    ],
+    "scripts": [
+      {"title": "Reactivación de pacientes anteriores", "body": "Hola, soy el Dr./Dra. [nombre]. Estoy actualizando agenda de seguimiento para pacientes que ya atendimos. Si te sirve revisar [problema/tratamiento] o tienes alguna molestia pendiente, puedo ayudarte a encontrar un espacio esta semana. ¿Quieres que te mande horarios disponibles?"},
+      {"title": "Pedir referido sin sonar urgido", "body": "Hola, [nombre]. Gracias por confiar en mí para tu atención. Si conoces a alguien que esté pasando por [problema específico], con gusto puedo orientarlo para saber si necesita consulta. Te dejo mi WhatsApp directo por si le sirve."},
+      {"title": "Responder cuando preguntan precio", "body": "Claro. La consulta tiene un costo de [precio] e incluye valoración, explicación del diagnóstico probable y opciones de tratamiento. Para decirte si eres candidato/a a [servicio], primero necesito revisar tu caso. Tengo espacios [día/hora]. ¿Te aparto uno?"}
+    ],
+    "specialtyDifferences": [
+      {"first": "Dentistas", "second": "Servicios urgentes, dolor, limpieza, valoración y tratamientos que ya tienen intención clara.", "third": "Evita vender descuento; habla de diagnóstico, plan y opciones."},
+      {"first": "Dermatólogos", "second": "Acné, manchas, caída de cabello, piel sensible y procedimientos estéticos con evaluación previa.", "third": "Educa riesgos de automedicarse y muestra claridad del proceso."},
+      {"first": "Psicólogos", "second": "Primera sesión, crisis, ansiedad, pareja, duelo y continuidad semanal.", "third": "Baja fricción emocional: privacidad, enfoque, horarios y cómo empieza la terapia."},
+      {"first": "Ginecólogos", "second": "Chequeos, control, dolor, embarazo, anticoncepción y urgencias no graves.", "third": "Confianza, privacidad y rapidez para agendar pesan más que promociones."},
+      {"first": "Nutriólogos", "second": "Objetivos concretos: bajar grasa, control metabólico, embarazo, deporte o hábitos sostenibles.", "third": "Vende acompañamiento y método, no solo una dieta."}
+    ],
     "actions": [
       {"label": "Hoy", "items": ["Haz una lista de pacientes anteriores y prospectos que no agendaron.", "Configura respuestas rápidas de WhatsApp para precio, horarios, ubicación y siguiente paso."]},
       {"label": "Esta semana", "items": ["Pide reseñas nuevas y actualiza Google Business Profile.", "Lanza una campaña pequeña solo si puedes responder y dar seguimiento rápido."]},
@@ -82,6 +100,10 @@
     ],
     "avoid": ["Prometer resultados médicos para vender rápido.", "Publicar todos los días sin CTA claro.", "Mandar promociones masivas sin segmentación.", "Invertir en anuncios sin medir citas reales."],
     "phrases": ["Necesito pacientes este mes.", "No puedo esperar seis meses a que el SEO funcione.", "Quiero citas reales, no likes.", "Necesito acciones rápidas sin dañar mi reputación."],
+    "sources": [
+      {"label": "Google Business Profile: cómo editar la información de una empresa", "href": "https://support.google.com/business/answer/3039617"},
+      {"label": "Meta Business Help: políticas para anuncios de salud personal", "href": "https://www.facebook.com/business/help/2489235377779939"}
+    ],
     "cta": "Haz un diagnóstico de urgencia para decidir qué canal activar primero esta semana.",
     "related": ["no-tengo-ingresos-como-medico", "tengo-leads-pero-no-agendan", "me-estafaron-con-marketing-medico"],
     "faq": [

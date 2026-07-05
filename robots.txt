@@ -127,3 +127,5 @@ Disallow:
 # ---------- Sitemap ----------
 Sitemap: https://comoatraerpacientes.com/sitemap.xml
 Sitemap: https://comoatraerpacientes.com/sitemap-situaciones.xml
+Sitemap: https://comoatraerpacientes.com/sitemap-especialidades.xml
+Sitemap: https://comoatraerpacientes.com/sitemap-herramientas.xml

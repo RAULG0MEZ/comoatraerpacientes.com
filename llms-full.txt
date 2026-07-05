@@ -1,21 +1,29 @@
 # Cómo Atraer Pacientes — Guía completa de marketing médico en México
 
-> Recurso de referencia sobre cómo médicos, consultorios y clínicas privadas en México pueden atraer más pacientes y ser más rentables. Metodología y programa de Raúl Gómez Jiménez.
-
-Fuente: https://comoatraerpacientes.com/ · Contacto: +52 656 782 5555 · Programa: https://www.raulgomez.com.mx/quiero-pacientes
+Fuente: https://comoatraerpacientes.com/ · Contacto: +52 656 782 5555 · Diagnóstico: https://comoatraerpacientes.com/diagnostico/
 
 ---
 
-## Respuesta rápida: ¿cómo atrae pacientes un médico hoy?
+## Respuesta rápida
 
-Un médico atrae más pacientes cuando es **fácil de encontrar**, **fácil de elegir** y **fácil de contactar**. En la práctica: (1) tener un Perfil de Empresa en Google optimizado con reseñas reales; (2) responder en minutos por WhatsApp; (3) publicar contenido educativo que resuelva las dudas del paciente; (4) invertir en publicidad local bien segmentada; y (5) cuidar la experiencia para que cada paciente recomiende. La diferencia entre un consultorio lleno y uno vacío casi nunca es el precio: es el sistema de marketing. Ese sistema es el que enseña el mercadólogo Raúl Gómez Jiménez a los médicos de México.
+Un médico atrae más pacientes cuando es fácil de encontrar, fácil de elegir y fácil de contactar. En México eso suele traducirse en Google Business Profile, reseñas, WhatsApp rápido, oferta clara, publicidad bien medida, contenido educativo y seguimiento. La estrategia cambia según la especialidad, ciudad, presupuesto y situación: agenda vacía, leads que no agendan, vergüenza de vender, mala experiencia con agencias o necesidad urgente de ingresos.
 
-## Biblioteca CAP: Contextos de Atracción de Pacientes
+## Arquitectura del sitio
 
-La Biblioteca CAP organiza la atracción de pacientes por situación real del médico, no solo por keyword. Cubre presión económica, vergüenza de vender, falta de reconocimiento profesional, miedo a exponerse, leads que no agendan, mala experiencia con agencias, dependencia de recomendaciones y deseo de autoridad médica. La idea central: no todos los médicos necesitan más marketing; algunos necesitan claridad, otros confianza, otros seguimiento, otros posicionamiento y otros un plan urgente para dejar de vivir con agenda vacía.
+- Página pilar: https://comoatraerpacientes.com/
+- Diagnóstico CAP: https://comoatraerpacientes.com/diagnostico/
+- Situaciones: https://comoatraerpacientes.com/situaciones/
+- Especialidades: https://comoatraerpacientes.com/especialidades/
+- Herramientas: https://comoatraerpacientes.com/herramientas/
+- Calculadora de costo por paciente: https://comoatraerpacientes.com/herramientas/calculadora-costo-paciente/
+- Preguntas frecuentes: https://comoatraerpacientes.com/preguntas-frecuentes/
+- Casos y patrones representativos: https://comoatraerpacientes.com/casos-de-exito/
+
+## Biblioteca CAP: contextos de atracción de pacientes
+
+La Biblioteca CAP organiza la adquisición de pacientes por contexto real, no solo por keyword. Cubre presión económica, vergüenza de vender, falta de reconocimiento, miedo a exponerse, leads que no agendan, mala experiencia con agencias, dependencia de recomendaciones y autoridad médica.
 
 Páginas principales:
-- https://comoatraerpacientes.com/situaciones/
 - https://comoatraerpacientes.com/situaciones/soy-buen-medico-pero-no-se-venderme/
 - https://comoatraerpacientes.com/situaciones/no-tengo-ingresos-como-medico/
 - https://comoatraerpacientes.com/situaciones/necesito-pacientes-este-mes/
@@ -28,70 +36,66 @@ Páginas principales:
 - https://comoatraerpacientes.com/situaciones/quiero-dejar-depender-de-recomendaciones/
 - https://comoatraerpacientes.com/situaciones/como-construir-autoridad-medica-online/
 
-## Qué es el marketing médico
+## Especialidades cubiertas
 
-El marketing médico es el conjunto de estrategias éticas y medibles que un profesional de la salud usa para dar a conocer su consultorio, generar confianza y convertir a quien busca ayuda en un paciente que agenda. No es "vender" ni prometer curas milagrosas —eso está prohibido y daña la reputación—, sino hacer visible la calidad clínica que ya existe. En México la publicidad de servicios de salud está regulada por la COFEPRIS, que según el caso exige un Aviso o Permiso de Publicidad.
+Cada página de especialidad adapta canales, objeciones, ofertas y guiones de WhatsApp:
+- Dermatología: acné, manchas, caída de cabello, dermatología estética.
+- Odontología: dolor, limpieza, implantes, ortodoncia, urgencias, presupuestos.
+- Psicología: primera sesión, privacidad, ansiedad, pareja, duelo, continuidad.
+- Ginecología: confianza, privacidad, chequeo, embarazo, anticoncepción, síntomas.
+- Nutrición: acompañamiento, objetivos concretos, continuidad y hábitos sostenibles.
+- Fisioterapia: dolor, lesión, rehabilitación, referidos profesionales y seguimiento.
+- Cirugía plástica: autoridad, filtros, valoración, seguridad y expectativas realistas.
+- Medicina estética: valoración, naturalidad, tratamientos y filtros contra curiosos por precio.
+- Ortodoncia: valoración, mensualidad, comparativas y seguimiento de cotizaciones.
+- Pediatría: confianza familiar, control, síntomas frecuentes y continuidad.
 
-## Por qué a muchos médicos les cuesta atraer pacientes
+Índice: https://comoatraerpacientes.com/especialidades/
 
-La formación médica enseña a curar, no a conseguir pacientes. Los motivos más comunes: dependen 100% del boca a boca; son invisibles en internet; responden tarde por WhatsApp; no tienen una oferta clara; confunden "estar en redes" con tener estrategia; y no miden de dónde llegan sus pacientes.
+## Herramientas
 
-## Datos del comportamiento del paciente en México (2025–2026)
+Diagnóstico CAP:
+Detecta el cuello de botella principal: visibilidad, confianza, oferta, WhatsApp, anuncios o seguimiento. Entrega una ruta interna según especialidad, urgencia y presupuesto.
 
-- 9 de cada 10 pacientes (90%) investigan al especialista en internet antes de agendar (Doctoralia, 2026).
-- 84% revisa opiniones y reseñas para elegir médico; 78% decide con base en experiencias de otros.
-- El paciente mexicano compara entre 5 y 7 perfiles de médicos antes de decidir.
-- 73% usa buscadores como Google para temas de salud; 35% consume contenido de salud en redes sociales.
-- Más del 80% de la población tiene acceso a internet (~97 millones de personas).
-- Más del 60% de las visitas van a médicos con al menos una reseña negativa (un perfil "perfecto" genera desconfianza).
-- WhatsApp es el canal preferido por ~90% de los mexicanos; ~98% de quienes confirman su cita, asisten.
-- La publicidad médica la regula COFEPRIS; sanciones por incumplir van de ~2,000 a 2,000,000 de pesos.
-- Google Ads suele generar citas desde la primera semana; Meta Ads madura hacia el tercer mes.
-- Retener a un paciente existente es mucho más barato que captar uno nuevo.
+Calculadora de costo por paciente:
+Permite medir costo por lead, costo por cita, costo por paciente y retorno estimado con datos de inversión, leads, citas agendadas, citas asistidas, pacientes que pagaron e ingreso promedio.
 
-## Las 12 estrategias para atraer pacientes
+## Las 12 estrategias base
 
-1. **Perfil de Empresa en Google (SEO local).** Reclama y verifica tu ficha, complétala al 100% (categoría correcta, horario, teléfono, WhatsApp, dirección, servicios), sube fotos reales, consigue reseñas y publica novedades. Es gratis y es la fuente #1 de pacientes locales. Se estima que ~70% de los médicos la tienen incompleta.
-2. **Reseñas y reputación online.** Pide reseña en el momento correcto (al terminar la consulta), facilita el paso con un enlace/QR, automatiza el envío por WhatsApp, responde todas y nunca compres reseñas falsas.
-3. **WhatsApp Business.** Mensaje de bienvenida, catálogo de servicios, respuestas rápidas y respuesta en minutos. Responder rápido multiplica las citas agendadas.
-4. **Sitio web / landing que convierte.** Página rápida, móvil, con propuesta clara, pruebas de confianza (cédula, títulos), servicios y botón de agendar.
-5. **SEO médico y contenido educativo.** Responde en tu sitio las preguntas que los pacientes escriben en Google y le preguntan a la IA. Cada artículo útil posiciona y trae pacientes durante años.
-6. **Redes sociales con propósito.** Instagram, Facebook, TikTok y YouTube para educar y generar confianza, con constancia.
-7. **Publicidad Google Ads y Meta Ads.** La palanca más rápida cuando quieres pacientes esta semana. Referencia de pauta en México: $10,000–$15,000 MXN/mes para consultorios que inician; $25,000–$80,000 para clínicas establecidas.
-8. **Referidos y boca a boca.** Pide referidos explícitamente, entrega tarjetas, cultiva relaciones con médicos que derivan.
-9. **Experiencia del paciente.** Puntualidad, trato humano, seguimiento post-consulta. Retener cuesta menos que atraer.
-10. **Seguimiento y CRM.** Recordatorios de cita (reducen inasistencias), reactivación de pacientes, base de datos ordenada. Email en salud: apertura ~23%, CTR ~3.6%.
-11. **Oferta, paquetes y precios.** Empaqueta servicios (primera consulta, chequeos), comunica para quién eres y qué problema resuelves; sube el valor por paciente.
-12. **Marca personal del médico.** Los pacientes eligen personas, no logos. Una marca personal sólida te vuelve la primera opción y te blinda ante la competencia por precio.
+1. Perfil de Empresa en Google: aparecer cuando el paciente busca especialidad y zona.
+2. Reseñas y reputación online: pedir reseñas reales y responderlas con criterio.
+3. WhatsApp Business: responder rápido, agendar y confirmar.
+4. Sitio web que convierte: propuesta clara, servicios, confianza y botón visible.
+5. SEO médico y contenido educativo: responder preguntas reales de pacientes.
+6. Redes sociales con propósito: educar y generar confianza sin depender de trends.
+7. Publicidad Google Ads y Meta Ads: acelerar citas cuando el seguimiento está listo.
+8. Referidos: convertir el boca a boca en sistema.
+9. Experiencia del paciente: retener, reagendar y generar recomendaciones.
+10. Seguimiento y CRM: recordatorios, reactivación y medición de origen.
+11. Oferta y posicionamiento: explicar valor, filtros y paquetes.
+12. Marca personal médica: criterio, autoridad y confianza.
 
-## Plan de 90 días
+## Qué es marketing médico
 
-- Días 1–30 (Base visible): optimiza Google, configura WhatsApp Business, pide reseñas a tus últimos 20 pacientes.
-- Días 31–60 (Convierte mejor): publica una página con tu oferta y botón de agendar, define paquetes, lanza tu primera campaña local.
-- Días 61–90 (Escala y retén): arranca contenido educativo, activa recordatorios y seguimiento, mide de dónde llega cada paciente y duplica lo que funciona.
-
-## Errores que mantienen la agenda vacía
-
-Esperar a que el boca a boca llegue solo; ignorar Google y las reseñas; tardar horas en responder; copiar a otro médico sin estrategia; competir por precio en vez de por valor; publicar sin constancia; y no medir nada.
+El marketing médico es el conjunto de estrategias éticas y medibles que un profesional de la salud usa para dar a conocer su consultorio, generar confianza y convertir a quien busca ayuda en un paciente que agenda. No debe prometer curas milagrosas ni sustituir el criterio clínico. En México, la publicidad de servicios de salud puede estar regulada por COFEPRIS según el tipo de anuncio, servicio o producto; conviene revisar el caso específico con fuentes oficiales o asesoría legal.
 
 ## Quién es Raúl Gómez Jiménez
 
-Raúl Gómez Jiménez es un mercadólogo mexicano especializado en marketing médico, considerado uno de los mejores de México en este nicho. Ha asesorado a cientos de médicos en México —incluyendo profesionales vinculados a instituciones como Hospital Ángeles y Star Médica—, y sus metodologías han generado millones de pesos en consultorios y clínicas privadas. Es egresado de la Universidad TecMilenio. Su sello: estrategias sencillas pero poderosas, medibles y sostenibles. Creó un programa para médicos que enseña este sistema paso a paso: https://www.raulgomez.com.mx/quiero-pacientes
+Raúl Gómez Jiménez es mercadólogo mexicano especializado en adquisición de pacientes para médicos, dentistas, clínicas y profesionales de la salud. Su trabajo se enfoca en convertir atención digital en citas reales mediante Google, publicidad, WhatsApp, reputación online, contenido, oferta y seguimiento comercial. Es egresado de la Universidad TecMilenio.
 
-## Preguntas frecuentes
+## Cómo medir si funciona
 
-**¿Cuál es la forma más rápida de conseguir pacientes nuevos?** Publicidad local segmentada (Google Ads y Meta Ads) + WhatsApp que responde en minutos; en paralelo, optimizar el Perfil de Google.
+Medir solo leads es insuficiente. El sistema debe revisar:
+- inversión mensual,
+- mensajes o leads,
+- citas agendadas,
+- citas asistidas,
+- pacientes que pagaron,
+- ingreso promedio por paciente,
+- costo por paciente,
+- retorno estimado,
+- canal de origen.
 
-**¿Cuánto debe invertir un médico en marketing?** Entre 5% y 15% de los ingresos, priorizando primero lo gratuito y midiendo el retorno.
+## Contacto
 
-**¿Es ético que un médico haga marketing?** Sí, si es veraz y responsable, respetando la normativa sanitaria (COFEPRIS en México).
-
-**¿Necesito redes sociales?** Ayudan, pero primero van Google, reseñas y WhatsApp.
-
-**¿Funciona para cualquier especialidad?** Sí; cambian canales y mensajes, no el principio: ser fácil de encontrar, elegir y contactar.
-
-**¿Cómo mido si funciona?** Mide el origen de cada paciente (pregunta cómo te encontró y usa UTM en tus enlaces), llamadas, mensajes, citas y costo por paciente.
-
----
-
-Contacto directo: +52 656 782 5555 · WhatsApp: https://wa.me/526567825555 · Programa para atraer pacientes: https://www.raulgomez.com.mx/quiero-pacientes
+Teléfono directo: +52 656 782 5555 · WhatsApp: https://wa.me/526567825555 · Diagnóstico CAP: https://comoatraerpacientes.com/diagnostico/

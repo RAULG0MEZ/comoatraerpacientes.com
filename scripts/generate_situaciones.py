@@ -13,7 +13,7 @@ DATA_PATH = ROOT / "data" / "situaciones.json"
 OUTPUT_DIR = ROOT / "situaciones"
 SITEMAP_PATH = ROOT / "sitemap-situaciones.xml"
 SITE_URL = "https://comoatraerpacientes.com"
-DATE = "2026-07-04"
+DATE = "2026-07-05"
 
 
 def esc(value: object) -> str:
@@ -22,6 +22,10 @@ def esc(value: object) -> str:
 
 def json_ld(data: object) -> str:
     return json.dumps(data, ensure_ascii=False, indent=2)
+
+
+def clean_trailing(value: str) -> str:
+    return "\n".join(line.rstrip() for line in value.splitlines()) + "\n"
 
 
 def attrs(items: list[str]) -> str:
@@ -37,10 +41,11 @@ def nav() -> str:
         <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
         <ul class="nav-links" id="nav-links">
           <li><a href="/situaciones/">Situaciones</a></li>
+          <li><a href="/especialidades/">Especialidades</a></li>
+          <li><a href="/herramientas/">Herramientas</a></li>
           <li><a href="/#estrategias">Estrategias</a></li>
           <li><a href="/raul-gomez-jimenez/">El experto</a></li>
-          <li><a href="/preguntas-frecuentes/">Preguntas</a></li>
-          <li><a class="btn btn-cta" href="https://www.raulgomez.com.mx/quiero-pacientes?utm_source=comoatraerpacientes&utm_medium=referral&utm_campaign=situaciones&utm_content=nav" data-cta="nav" rel="noopener">Quiero pacientes</a></li>
+          <li><a class="btn btn-cta" href="/diagnostico/" data-cta="nav">Diagnóstico CAP</a></li>
         </ul>
       </nav>
     </div>
@@ -60,6 +65,8 @@ def footer() -> str:
           <h4>Biblioteca CAP</h4>
           <ul>
             <li><a href="/situaciones/">Situaciones</a></li>
+            <li><a href="/especialidades/">Especialidades</a></li>
+            <li><a href="/herramientas/">Herramientas</a></li>
             <li><a href="/situaciones/soy-buen-medico-pero-no-se-venderme/">Buen médico, no sé venderme</a></li>
             <li><a href="/situaciones/necesito-pacientes-este-mes/">Necesito pacientes este mes</a></li>
             <li><a href="/situaciones/tengo-leads-pero-no-agendan/">Leads que no agendan</a></li>
@@ -79,7 +86,7 @@ def footer() -> str:
           <ul>
             <li><a class="footer-phone" href="tel:+526567825555">+52 656 782 5555</a></li>
             <li><a href="https://wa.me/526567825555" rel="noopener">WhatsApp directo</a></li>
-            <li><a href="https://www.raulgomez.com.mx/quiero-pacientes?utm_source=comoatraerpacientes&utm_medium=referral&utm_campaign=situaciones&utm_content=footer" data-cta="footer" rel="noopener">Quiero pacientes</a></li>
+            <li><a href="/diagnostico/" data-cta="footer">Diagnóstico CAP</a></li>
           </ul>
         </div>
       </div>
@@ -90,7 +97,7 @@ def footer() -> str:
     </div>
   </footer>
 
-  <a class="float-cta" href="https://wa.me/526567825555?text=Hola%2C%20quiero%20un%20diagn%C3%B3stico%20para%20atraer%20m%C3%A1s%20pacientes" data-cta="float_whatsapp" rel="noopener" aria-label="Escribir por WhatsApp">
+  <a class="float-cta" href="/diagnostico/" data-cta="float_diagnostico" aria-label="Abrir diagnóstico CAP">
     <span aria-hidden="true">+</span> <span class="label">Diagnóstico</span>
   </a>
 
@@ -139,6 +146,35 @@ def related_links(page: dict, pages_by_slug: dict[str, dict]) -> str:
                 f"<span>{esc(related['description'])}</span></a>"
             )
     return "\n".join(links)
+
+
+def optional_table(rows: list[dict] | None, headers: tuple[str, str, str]) -> str:
+    if not rows:
+        return ""
+    body = "".join(
+        f"<tr><td><strong>{esc(row['first'])}</strong></td><td>{esc(row['second'])}</td><td>{esc(row['third'])}</td></tr>"
+        for row in rows
+    )
+    return f"""<div class="table-wrap mt-2">
+          <table class="data">
+            <thead><tr><th>{esc(headers[0])}</th><th>{esc(headers[1])}</th><th>{esc(headers[2])}</th></tr></thead>
+            <tbody>{body}</tbody>
+          </table>
+        </div>"""
+
+
+def script_blocks(items: list[dict] | None) -> str:
+    if not items:
+        return ""
+    blocks = "".join(
+        f"""<article class="script-box">
+          <h3>{esc(item["title"])}</h3>
+          <p>{esc(item["body"])}</p>
+        </article>"""
+        for item in items
+    )
+    return f"""<h2>Guiones útiles para copiar y adaptar</h2>
+        <div class="script-grid">{blocks}</div>"""
 
 
 def generate_page(page: dict, pages_by_slug: dict[str, dict]) -> str:
@@ -204,6 +240,16 @@ def generate_page(page: dict, pages_by_slug: dict[str, dict]) -> str:
         </details>"""
         for idx, item in enumerate(page["faq"])
     )
+    budget_table = optional_table(page.get("budgets"), ("Presupuesto", "Qué activar", "Qué medir"))
+    specialty_table = optional_table(page.get("specialtyDifferences"), ("Especialidad", "Prioridad", "Mensaje que suele funcionar"))
+    scripts = script_blocks(page.get("scripts"))
+    sources = "".join(
+        f'<li><a href="{esc(item["href"])}" rel="noopener">{esc(item["label"])}</a></li>'
+        for item in page.get("sources", [])
+    )
+    sources_section = f"""<h2>Fuentes y criterio</h2>
+        <ul>{sources}</ul>
+        <p>Cuando no hay una fuente pública exacta para una métrica, esta biblioteca evita inventar porcentajes y usa diagnóstico operativo: mensajes recibidos, citas agendadas, asistencias y pacientes reales.</p>""" if sources else ""
 
     return f"""{head(page["seoTitle"], page["description"], canonical, schema)}
 <body>
@@ -248,6 +294,12 @@ def generate_page(page: dict, pages_by_slug: dict[str, dict]) -> str:
         <p>No todos los canales sirven igual para todas las situaciones. Para este contexto, empieza por estos:</p>
         <ul class="route-list">{channel_links}</ul>
 
+        {budget_table}
+
+        {scripts}
+
+        {specialty_table}
+
         <h2>Qué evitar cuando estás en esta situación</h2>
         <ul>{attrs(page["avoid"])}</ul>
 
@@ -261,13 +313,15 @@ def generate_page(page: dict, pages_by_slug: dict[str, dict]) -> str:
           <h2>Ruta recomendada</h2>
           <p>{esc(page["cta"])}</p>
           <div class="btn-row">
-            <a class="btn btn-cta btn-lg" href="https://www.raulgomez.com.mx/quiero-pacientes?utm_source=comoatraerpacientes&utm_medium=referral&utm_campaign=situaciones&utm_content={esc(slug)}" data-cta="{esc(slug)}" rel="noopener">Quiero mi diagnóstico CAP</a>
+            <a class="btn btn-cta btn-lg" href="/diagnostico/" data-cta="{esc(slug)}">Quiero mi diagnóstico CAP</a>
             <a class="btn btn-ghost btn-lg" href="https://wa.me/526567825555?text=Hola%2C%20quiero%20un%20diagn%C3%B3stico%20CAP%20para%20atraer%20pacientes" data-cta="{esc(slug)}_wa" rel="noopener" style="color:#fff;border-color:rgba(255,255,255,.5)">WhatsApp directo</a>
           </div>
         </div>
 
         <h2>Preguntas frecuentes</h2>
         {faq_items}
+
+        {sources_section}
       </div>
     </article>
 
@@ -350,10 +404,10 @@ def generate_index(pages: list[dict]) -> str:
         <div>
           <p class="eyebrow">Biblioteca CAP</p>
           <h1>Qué hacer si necesitas atraer pacientes según tu situación actual</h1>
-          <p class="lead">No todos los médicos necesitan la misma estrategia. La ruta correcta depende de tu especialidad, etapa profesional, urgencia económica, confianza del mercado y capacidad de seguimiento.</p>
+          <p class="lead">No todos los médicos necesitan la misma estrategia. La ruta correcta depende de tu especialidad, ciudad, presupuesto, etapa profesional, urgencia económica, confianza del mercado y capacidad de seguimiento.</p>
           <div class="btn-row">
             <a class="btn btn-cta btn-lg" href="/situaciones/soy-buen-medico-pero-no-se-venderme/">Empezar por mi situación</a>
-            <a class="btn btn-ghost btn-lg" href="/#estrategias">Ver estrategias base</a>
+            <a class="btn btn-ghost btn-lg" href="/diagnostico/">Hacer diagnóstico CAP</a>
           </div>
         </div>
         <aside class="diagnostic-panel" aria-label="Diagnóstico CAP">
@@ -412,7 +466,7 @@ def generate_index(pages: list[dict]) -> str:
         <h2>No atraes pacientes con trucos. Atraes pacientes con un sistema adaptado a tu situación.</h2>
         <p class="lead">Algunos médicos necesitan claridad, otros confianza, otros seguimiento, otros autoridad y otros un plan urgente para dejar de vivir con agenda vacía. La Biblioteca CAP existe para ordenar esa decisión.</p>
         <div class="btn-row" style="justify-content:center;margin-top:1.6rem">
-          <a class="btn btn-cta btn-lg" href="https://www.raulgomez.com.mx/quiero-pacientes?utm_source=comoatraerpacientes&utm_medium=referral&utm_campaign=situaciones&utm_content=index_cta" data-cta="situaciones_index" rel="noopener">Quiero un diagnóstico CAP</a>
+          <a class="btn btn-cta btn-lg" href="/diagnostico/" data-cta="situaciones_index">Quiero un diagnóstico CAP</a>
         </div>
       </div>
     </section>
@@ -446,11 +500,11 @@ def main() -> None:
     pages = json.loads(DATA_PATH.read_text(encoding="utf-8"))
     pages_by_slug = {page["slug"]: page for page in pages}
     OUTPUT_DIR.mkdir(exist_ok=True)
-    (OUTPUT_DIR / "index.html").write_text(generate_index(pages), encoding="utf-8")
+    (OUTPUT_DIR / "index.html").write_text(clean_trailing(generate_index(pages)), encoding="utf-8")
     for page in pages:
         page_dir = OUTPUT_DIR / page["slug"]
         page_dir.mkdir(parents=True, exist_ok=True)
-        (page_dir / "index.html").write_text(generate_page(page, pages_by_slug), encoding="utf-8")
+        (page_dir / "index.html").write_text(clean_trailing(generate_page(page, pages_by_slug)), encoding="utf-8")
     SITEMAP_PATH.write_text(generate_sitemap(pages), encoding="utf-8")
     print(f"Generated {len(pages) + 1} situation pages and {SITEMAP_PATH.name}")
 
