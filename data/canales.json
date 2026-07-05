@@ -1,27 +1,78 @@
 [
   {
     "slug": "google-business-profile",
-    "name": "Google Business Profile",
-    "seoTitle": "Google Business Profile para médicos: cómo atraer pacientes",
-    "description": "Cómo usar Google Business Profile para que médicos, dentistas y clínicas aparezcan mejor en búsquedas locales y conviertan visitas en citas.",
-    "quickAnswer": "Google Business Profile ayuda a atraer pacientes porque muestra ubicación, horarios, teléfono, servicios, fotos, reseñas y ruta de contacto justo cuando el paciente busca atención cerca. Es una de las primeras piezas a ordenar antes de pagar anuncios.",
-    "bestFor": ["Médicos con consultorio físico.", "Clínicas con varias especialidades.", "Dentistas, dermatólogos, ginecólogos, fisioterapeutas y pediatras.", "Profesionales que dependen de búsquedas por zona."],
-    "whenToUse": ["No apareces cuando buscan tu especialidad cerca.", "Tus datos están incompletos o desactualizados.", "Tienes pocas reseñas o fotos reales.", "La gente llama o escribe poco desde Google."],
-    "metrics": ["Búsquedas de marca y descubrimiento.", "Llamadas desde ficha.", "Clics a sitio o WhatsApp.", "Solicitudes de ruta.", "Reseñas nuevas por mes."],
-    "avoid": ["Cambiar categorías sin criterio.", "Usar fotos genéricas.", "Comprar reseñas.", "Poner horarios incorrectos.", "Ignorar preguntas y reseñas."],
-    "related": ["/estrategias/google-business-profile-medicos/", "/mexico/", "/situaciones/no-quiero-bailar-en-tiktok-para-atraer-pacientes/"]
+    "name": "Perfil de Empresa en Google",
+    "seoTitle": "Perfil de Empresa en Google para médicos: cómo atraer pacientes",
+    "description": "Cómo usar Perfil de Empresa en Google para que médicos, dentistas y clínicas aparezcan mejor en búsquedas locales y conviertan visitas en citas.",
+    "quickAnswer": "Perfil de Empresa en Google ayuda a atraer pacientes porque muestra ubicación, horarios, teléfono, servicios, fotos, reseñas y ruta de contacto justo cuando el paciente busca atención cerca. Es una de las primeras piezas a ordenar antes de pagar anuncios.",
+    "bestFor": [
+      "Médicos con consultorio físico.",
+      "Clínicas con varias especialidades.",
+      "Dentistas, dermatólogos, ginecólogos, fisioterapeutas y pediatras.",
+      "Profesionales que dependen de búsquedas por zona."
+    ],
+    "whenToUse": [
+      "No apareces cuando buscan tu especialidad cerca.",
+      "Tus datos están incompletos o desactualizados.",
+      "Tienes pocas reseñas o fotos reales.",
+      "La gente llama o escribe poco desde Google."
+    ],
+    "metrics": [
+      "Búsquedas de marca y descubrimiento.",
+      "Llamadas desde ficha.",
+      "Clics a sitio o WhatsApp.",
+      "Solicitudes de ruta.",
+      "Reseñas nuevas por mes."
+    ],
+    "avoid": [
+      "Cambiar categorías sin criterio.",
+      "Usar fotos genéricas.",
+      "Comprar reseñas.",
+      "Poner horarios incorrectos.",
+      "Ignorar preguntas y reseñas."
+    ],
+    "related": [
+      "/estrategias/google-business-profile-medicos/",
+      "/mexico/",
+      "/situaciones/no-quiero-bailar-en-tiktok-para-atraer-pacientes/"
+    ]
   },
   {
     "slug": "google-maps",
     "name": "Google Maps",
     "seoTitle": "Google Maps para médicos: cómo conseguir pacientes locales",
     "description": "Ruta para aparecer en Google Maps cuando pacientes buscan médicos, dentistas, clínicas y profesionales de salud cerca de su ubicación.",
-    "quickAnswer": "Google Maps funciona para médicos porque conecta búsqueda local con decisión inmediata. Si el paciente ve buena ubicación, reseñas, servicios, fotos y contacto claro, la ficha puede convertirse en llamada o WhatsApp.",
-    "bestFor": ["Consultorios físicos.", "Especialidades con búsqueda local.", "Clínicas dentales, estética, fisioterapia y pediatría.", "Médicos que quieren pacientes de su zona."],
-    "whenToUse": ["La agenda depende de pacientes cercanos.", "Competidores con menos experiencia aparecen arriba.", "La ficha no comunica servicios clave.", "Necesitas llamadas o rutas, no solo visitas web."],
-    "metrics": ["Ranking por búsquedas locales.", "Solicitudes de ruta.", "Llamadas.", "Clics a sitio.", "Conversaciones derivadas de la ficha."],
-    "avoid": ["Crear fichas falsas.", "Llenar el nombre de keywords.", "No responder reseñas.", "No medir citas que llegan desde Maps."],
-    "related": ["/estrategias/google-business-profile-medicos/", "/mexico/", "/paises/"]
+    "quickAnswer": "Google Maps funciona para médicos porque conecta búsqueda local con decisión inmediata. Si el paciente ve buena ubicación, reseñas, servicios, fotos y contacto claro, la ficha facilita una llamada o mensaje por WhatsApp.",
+    "bestFor": [
+      "Consultorios físicos.",
+      "Especialidades con búsqueda local.",
+      "Clínicas dentales, estética, fisioterapia y pediatría.",
+      "Médicos que quieren pacientes de su zona."
+    ],
+    "whenToUse": [
+      "La agenda depende de pacientes cercanos.",
+      "Competidores con menos experiencia aparecen arriba.",
+      "La ficha no comunica servicios clave.",
+      "Necesitas llamadas o rutas, no solo visitas web."
+    ],
+    "metrics": [
+      "Ranking por búsquedas locales.",
+      "Solicitudes de ruta.",
+      "Llamadas.",
+      "Clics a sitio.",
+      "Conversaciones derivadas de la ficha."
+    ],
+    "avoid": [
+      "Crear fichas falsas.",
+      "Llenar el nombre de keywords.",
+      "No responder reseñas.",
+      "No medir citas que llegan desde Maps."
+    ],
+    "related": [
+      "/estrategias/google-business-profile-medicos/",
+      "/mexico/",
+      "/paises/"
+    ]
   },
   {
     "slug": "seo-local",
@@ -29,47 +80,147 @@
     "seoTitle": "SEO local para médicos: aparecer cuando el paciente busca cerca",
     "description": "Cómo trabajar SEO local para consultorios y clínicas sin crear páginas basura por ciudad o colonia.",
     "quickAnswer": "El SEO local ayuda a médicos a aparecer en búsquedas por especialidad, ciudad, zona y problema. Sirve cuando la página explica servicios reales, ubicación, señales de confianza y cómo agendar.",
-    "bestFor": ["Especialistas con consulta privada.", "Clínicas con varias ubicaciones.", "Profesionales que quieren tráfico sostenible.", "Países donde la búsqueda local ya tiene demanda."],
-    "whenToUse": ["Hay búsquedas de tu especialidad en tu zona.", "Quieres depender menos de anuncios.", "Puedes crear contenido útil y específico.", "Tienes ubicación y servicios claros."],
-    "metrics": ["Impresiones orgánicas.", "Clics por consulta local.", "Llamadas o formularios.", "Citas por página.", "Palabras clave por servicio."],
-    "avoid": ["Publicar páginas idénticas por ciudad.", "Esconder texto para buscadores.", "Usar contenido genérico sin experiencia.", "No enlazar con WhatsApp o cita."],
-    "related": ["/estrategias/seo-medico-contenido/", "/paises/", "/biblioteca/"]
+    "bestFor": [
+      "Especialistas con consulta privada.",
+      "Clínicas con varias ubicaciones.",
+      "Profesionales que quieren visitas sostenibles.",
+      "Países donde la búsqueda local ya tiene demanda."
+    ],
+    "whenToUse": [
+      "Hay búsquedas de tu especialidad en tu zona.",
+      "Quieres depender menos de anuncios.",
+      "Puedes crear contenido útil y específico.",
+      "Tienes ubicación y servicios claros."
+    ],
+    "metrics": [
+      "Impresiones orgánicas.",
+      "Clics por consulta local.",
+      "Llamadas o formularios.",
+      "Citas por página.",
+      "Palabras clave por servicio."
+    ],
+    "avoid": [
+      "Publicar páginas idénticas por ciudad.",
+      "Esconder texto para buscadores.",
+      "Usar contenido genérico sin experiencia.",
+      "No enlazar con WhatsApp o cita."
+    ],
+    "related": [
+      "/estrategias/seo-medico-contenido/",
+      "/paises/",
+      "/biblioteca/"
+    ]
   },
   {
     "slug": "google-ads",
-    "name": "Google Ads",
-    "seoTitle": "Google Ads para médicos: cuándo conviene y cómo medirlo",
-    "description": "Cómo usar Google Ads para captar pacientes con intención alta sin quemar presupuesto ni hacer promesas médicas.",
-    "quickAnswer": "Google Ads conviene cuando alguien ya está buscando un servicio médico o tratamiento. Debe medirse por citas asistidas y pacientes reales, no solo por clics o mensajes.",
-    "bestFor": ["Agenda vacía con urgencia.", "Servicios con intención de búsqueda clara.", "Dentistas, dermatólogos, clínicas, fisioterapia y estética responsable.", "Campañas por ciudad o zona."],
-    "whenToUse": ["Necesitas demanda en corto plazo.", "Ya tienes WhatsApp y seguimiento listos.", "Puedes separar campañas por servicio.", "Tienes landing o página clara."],
-    "metrics": ["Costo por clic útil.", "Costo por lead.", "Costo por cita confirmada.", "Costo por paciente.", "Retorno por servicio."],
-    "avoid": ["Mandar tráfico a una página confusa.", "No grabar llamadas ni medir fuente.", "Prometer resultados.", "Usar palabras restringidas sin revisar políticas."],
-    "related": ["/estrategias/publicidad-google-meta-ads-medicos/", "/situaciones/necesito-pacientes-este-mes/", "/herramientas/calculadora-costo-paciente/"]
+    "name": "Anuncios en Google",
+    "seoTitle": "Anuncios en Google para médicos: cuándo convienen y cómo medirlos",
+    "description": "Cómo usar anuncios en Google para captar pacientes con intención alta sin quemar presupuesto ni hacer promesas médicas.",
+    "quickAnswer": "Anuncios en Google conviene cuando alguien ya está buscando un servicio médico o tratamiento. Debe medirse por citas asistidas y pacientes reales, no solo por clics o mensajes.",
+    "bestFor": [
+      "Agenda vacía con urgencia.",
+      "Servicios con intención de búsqueda clara.",
+      "Dentistas, dermatólogos, clínicas, fisioterapia y estética responsable.",
+      "Campañas por ciudad o zona."
+    ],
+    "whenToUse": [
+      "Necesitas demanda en corto plazo.",
+      "Ya tienes WhatsApp y seguimiento listos.",
+      "Puedes separar campañas por servicio.",
+      "Tienes página de servicio o página clara."
+    ],
+    "metrics": [
+      "Costo por clic útil.",
+      "Costo por solicitud de cita.",
+      "Costo por cita confirmada.",
+      "Costo por paciente.",
+      "Retorno por servicio."
+    ],
+    "avoid": [
+      "Mandar visitas a una página confusa.",
+      "No grabar llamadas ni medir fuente.",
+      "Prometer resultados.",
+      "Usar palabras restringidas sin revisar políticas."
+    ],
+    "related": [
+      "/estrategias/publicidad-google-meta-ads-medicos/",
+      "/situaciones/necesito-pacientes-este-mes/",
+      "/herramientas/calculadora-costo-paciente/"
+    ]
   },
   {
     "slug": "meta-ads",
-    "name": "Meta Ads",
-    "seoTitle": "Meta Ads para médicos: anuncios responsables en Facebook e Instagram",
-    "description": "Cómo usar Meta Ads para médicos, clínicas y tratamientos sin violar políticas de salud ni atraer solo curiosos por precio.",
-    "quickAnswer": "Meta Ads puede generar demanda para servicios médicos si el mensaje educa, no acusa atributos personales y lleva a una conversación clara. Funciona mejor con seguimiento y filtros.",
-    "bestFor": ["Servicios que requieren educación.", "Reactivación y remarketing.", "Tratamientos estéticos responsables.", "Clínicas con contenido y seguimiento."],
-    "whenToUse": ["El paciente no busca activamente, pero puede interesarse.", "Tienes una oferta clara.", "Puedes responder rápido.", "Quieres reactivar audiencia o visitantes."],
-    "metrics": ["Costo por conversación útil.", "Citas agendadas.", "Citas asistidas.", "Calidad del lead.", "Retorno por campaña."],
-    "avoid": ["Decir o insinuar que el usuario tiene una condición médica.", "Usar miedo o inseguridad corporal.", "Prometer resultados.", "Responder solo con precio."],
-    "related": ["/estrategias/publicidad-google-meta-ads-medicos/", "/situaciones/tengo-leads-pero-no-agendan/", "/mexico/"]
+    "name": "Anuncios en Facebook e Instagram",
+    "seoTitle": "Anuncios en Facebook e Instagram para médicos: comunicación responsable",
+    "description": "Cómo usar Anuncios en Facebook e Instagram para médicos, clínicas y tratamientos sin violar políticas de salud ni atraer solo curiosos por precio.",
+    "quickAnswer": "Anuncios en Facebook e Instagram puede generar demanda para servicios médicos si el mensaje educa, no acusa atributos personales y lleva a una conversación clara. Funciona mejor con seguimiento y filtros.",
+    "bestFor": [
+      "Servicios que requieren educación.",
+      "Reactivación y reatracción de pacientes.",
+      "Tratamientos estéticos responsables.",
+      "Clínicas con contenido y seguimiento."
+    ],
+    "whenToUse": [
+      "El paciente no busca activamente, pero puede interesarse.",
+      "Tienes una oferta clara.",
+      "Puedes responder rápido.",
+      "Quieres reactivar audiencia o visitantes."
+    ],
+    "metrics": [
+      "Costo por conversación útil.",
+      "Citas agendadas.",
+      "Citas asistidas.",
+      "Calidad de solicitudes.",
+      "Retorno por inversión."
+    ],
+    "avoid": [
+      "Decir o insinuar que el usuario tiene una condición médica.",
+      "Usar miedo o inseguridad corporal.",
+      "Prometer resultados.",
+      "Responder solo con precio."
+    ],
+    "related": [
+      "/estrategias/publicidad-google-meta-ads-medicos/",
+      "/situaciones/me-escriben-pero-no-agendan/",
+      "/mexico/"
+    ]
   },
   {
     "slug": "instagram",
     "name": "Instagram",
-    "seoTitle": "Instagram para médicos: confianza sin convertirte en influencer",
+    "seoTitle": "Instagram para médicos: confianza sin volverte influencer",
     "description": "Cómo usar Instagram para médicos con presencia profesional, contenido útil y rutas de cita sin depender de bailes o trends.",
     "quickAnswer": "Instagram ayuda a generar confianza, no debe ser el único sistema de pacientes. Funciona mejor cuando explica criterio, resuelve dudas, muestra proceso y conecta con WhatsApp o una página clara.",
-    "bestFor": ["Especialidades visuales o educativas.", "Médicos que quieren marca personal sobria.", "Clínicas estéticas, dermatología, nutrición, odontología y psicología.", "Profesionales que pueden publicar de forma constante."],
-    "whenToUse": ["El paciente necesita conocerte antes de escribir.", "Quieres educar sin verte vendedor.", "Tienes mensajes frecuentes para convertir en contenido.", "Ya tienes CTA y seguimiento."],
-    "metrics": ["Mensajes útiles.", "Clics a WhatsApp.", "Guardados.", "Respuestas a historias.", "Citas generadas."],
-    "avoid": ["Publicar solo por algoritmo.", "Copiar trends que no encajan.", "Confundir seguidores con pacientes.", "No responder mensajes."],
-    "related": ["/estrategias/redes-sociales-para-medicos/", "/situaciones/no-quiero-bailar-en-tiktok-para-atraer-pacientes/", "/situaciones/soy-buen-medico-pero-no-se-venderme/"]
+    "bestFor": [
+      "Especialidades visuales o educativas.",
+      "Médicos que quieren marca personal sobria.",
+      "Clínicas estéticas, dermatología, nutrición, odontología y psicología.",
+      "Profesionales que pueden publicar de forma constante."
+    ],
+    "whenToUse": [
+      "El paciente necesita conocerte antes de escribir.",
+      "Quieres educar sin verte vendedor.",
+      "Tienes mensajes frecuentes que pueden volverse educación para pacientes.",
+      "Ya tienes siguiente paso para agendar y seguimiento."
+    ],
+    "metrics": [
+      "Mensajes útiles.",
+      "Clics a WhatsApp.",
+      "Guardados.",
+      "Respuestas a historias.",
+      "Citas generadas."
+    ],
+    "avoid": [
+      "Publicar solo por algoritmo.",
+      "Copiar trends que no encajan.",
+      "Confundir seguidores con pacientes.",
+      "No responder mensajes."
+    ],
+    "related": [
+      "/estrategias/redes-sociales-para-medicos/",
+      "/situaciones/no-quiero-bailar-en-tiktok-para-atraer-pacientes/",
+      "/situaciones/soy-buen-medico-pero-no-se-venderme/"
+    ]
   },
   {
     "slug": "facebook",
@@ -77,23 +228,73 @@
     "seoTitle": "Facebook para médicos y clínicas: comunidad, confianza y anuncios",
     "description": "Cómo usar Facebook para médicos y clínicas cuando el público local todavía investiga, recomienda y pregunta en la plataforma.",
     "quickAnswer": "Facebook puede servir para confianza local, comunidad, recomendaciones y anuncios, especialmente en mercados donde los pacientes siguen usando grupos o páginas para pedir referencias.",
-    "bestFor": ["Clínicas locales.", "Servicios familiares.", "Públicos adultos.", "Campañas de educación y reactivación."],
-    "whenToUse": ["Tu audiencia usa Facebook para pedir recomendaciones.", "Quieres apoyar campañas de Meta Ads.", "Tienes contenido útil y local.", "Puedes responder mensajes y comentarios."],
-    "metrics": ["Mensajes útiles.", "Clics a WhatsApp.", "Comentarios con intención.", "Citas por campaña.", "Costo por cita."],
-    "avoid": ["Publicar promociones sin criterio.", "Permitir comentarios médicos sensibles sin moderación.", "No revisar políticas de anuncios.", "Medir solo likes."],
-    "related": ["/estrategias/redes-sociales-para-medicos/", "/canales/meta-ads/", "/situaciones/necesito-pacientes-este-mes/"]
+    "bestFor": [
+      "Clínicas locales.",
+      "Servicios familiares.",
+      "Públicos adultos.",
+      "Campañas de educación y reactivación."
+    ],
+    "whenToUse": [
+      "Tu audiencia usa Facebook para pedir recomendaciones.",
+      "Quieres apoyar campañas de Anuncios en Facebook e Instagram.",
+      "Tienes contenido útil y local.",
+      "Puedes responder mensajes y comentarios."
+    ],
+    "metrics": [
+      "Mensajes útiles.",
+      "Clics a WhatsApp.",
+      "Comentarios con intención.",
+      "Citas por campaña.",
+      "Costo por cita."
+    ],
+    "avoid": [
+      "Publicar promociones sin criterio.",
+      "Permitir comentarios médicos sensibles sin moderación.",
+      "No revisar políticas de anuncios.",
+      "Medir solo likes."
+    ],
+    "related": [
+      "/estrategias/redes-sociales-para-medicos/",
+      "/canales/meta-ads/",
+      "/situaciones/necesito-pacientes-este-mes/"
+    ]
   },
   {
     "slug": "tiktok",
     "name": "TikTok",
     "seoTitle": "TikTok para médicos: cuándo sirve y cuándo no hace falta",
-    "description": "Guía sobria para usar TikTok en marketing médico sin forzar exposición ni convertir la consulta en entretenimiento.",
+    "description": "Guía sobria para usar TikTok en atracción de pacientes sin forzar exposición ni volver la consulta entretenimiento.",
     "quickAnswer": "TikTok puede dar alcance y confianza si el médico educa con criterio. Pero no es obligatorio para atraer pacientes: Google, reseñas, WhatsApp, SEO y referidos pueden ser mejores si el médico no quiere exponerse.",
-    "bestFor": ["Educación simple y frecuente.", "Especialidades con dudas comunes.", "Médicos cómodos grabándose.", "Estrategias de awareness."],
-    "whenToUse": ["Puedes sostener contenido sin perder profesionalismo.", "Tu audiencia consume video corto.", "No dependes de TikTok como único canal.", "Tienes una ruta clara para convertir interés en cita."],
-    "metrics": ["Mensajes útiles.", "Clics al perfil.", "Citas originadas.", "Preguntas recurrentes.", "Retención de video."],
-    "avoid": ["Forzarte a actuar fuera de tu personalidad.", "Hacer claims médicos simplistas.", "Perseguir viralidad sin CTA.", "Confundir vistas con pacientes."],
-    "related": ["/situaciones/no-quiero-bailar-en-tiktok-para-atraer-pacientes/", "/estrategias/redes-sociales-para-medicos/", "/canales/contenido-organico/"]
+    "bestFor": [
+      "Educación simple y frecuente.",
+      "Especialidades con dudas comunes.",
+      "Médicos cómodos grabándose.",
+      "Estrategias de awareness."
+    ],
+    "whenToUse": [
+      "Puedes sostener contenido sin perder profesionalismo.",
+      "Tu audiencia consume video corto.",
+      "No dependes de TikTok como único canal.",
+      "Tienes una ruta clara para llevar interés inicial a cita."
+    ],
+    "metrics": [
+      "Mensajes útiles.",
+      "Clics al perfil.",
+      "Citas originadas.",
+      "Preguntas recurrentes.",
+      "Retención de video."
+    ],
+    "avoid": [
+      "Forzarte a actuar fuera de tu personalidad.",
+      "Hacer claims médicos simplistas.",
+      "Perseguir viralidad sin siguiente paso para agendar.",
+      "Confundir vistas con pacientes."
+    ],
+    "related": [
+      "/situaciones/no-quiero-bailar-en-tiktok-para-atraer-pacientes/",
+      "/estrategias/redes-sociales-para-medicos/",
+      "/canales/educacion-al-paciente/"
+    ]
   },
   {
     "slug": "youtube",
@@ -101,35 +302,111 @@
     "seoTitle": "YouTube para médicos: autoridad y pacientes informados",
     "description": "Cómo usar YouTube para explicar temas médicos, construir autoridad y atraer pacientes que necesitan confianza antes de agendar.",
     "quickAnswer": "YouTube sirve para autoridad profunda. Un video útil puede responder dudas complejas, mostrar criterio profesional y llevar a páginas o WhatsApp cuando el paciente necesita consulta.",
-    "bestFor": ["Especialidades con dudas largas.", "Cirugía, dermatología, psicología, nutrición y rehabilitación.", "Médicos con enfoque educativo.", "Estrategias de largo plazo."],
-    "whenToUse": ["El paciente necesita entender proceso, riesgos o alternativas.", "Puedes grabar explicaciones sobrias.", "Tienes páginas para acompañar videos.", "Buscas autoridad más que respuesta inmediata."],
-    "metrics": ["Retención.", "Clics a sitio.", "Consultas originadas.", "Temas que generan preguntas.", "Suscriptores cualificados."],
-    "avoid": ["Prometer resultados.", "No incluir siguiente paso.", "Publicar videos largos sin estructura.", "Usar casos sensibles sin consentimiento."],
-    "related": ["/estrategias/redes-sociales-para-medicos/", "/canales/contenido-organico/", "/biblioteca/"]
+    "bestFor": [
+      "Especialidades con dudas largas.",
+      "Cirugía, dermatología, psicología, nutrición y rehabilitación.",
+      "Médicos con enfoque educativo.",
+      "Estrategias de largo plazo."
+    ],
+    "whenToUse": [
+      "El paciente necesita entender proceso, riesgos o alternativas.",
+      "Puedes grabar explicaciones sobrias.",
+      "Tienes páginas para acompañar videos.",
+      "Buscas autoridad más que respuesta inmediata."
+    ],
+    "metrics": [
+      "Retención.",
+      "Clics a sitio.",
+      "Consultas originadas.",
+      "Temas que generan preguntas.",
+      "Suscriptores cualificados."
+    ],
+    "avoid": [
+      "Prometer resultados.",
+      "No incluir siguiente paso.",
+      "Publicar videos largos sin estructura.",
+      "Usar casos sensibles sin consentimiento."
+    ],
+    "related": [
+      "/estrategias/redes-sociales-para-medicos/",
+      "/canales/educacion-al-paciente/",
+      "/biblioteca/"
+    ]
   },
   {
     "slug": "whatsapp",
     "name": "WhatsApp",
-    "seoTitle": "WhatsApp para consultorios: convertir leads médicos en citas",
+    "seoTitle": "WhatsApp para consultorios: llevar mensajes a citas",
     "description": "Cómo usar WhatsApp para que médicos y clínicas conviertan mensajes en citas confirmadas con guiones, seguimiento y medición.",
-    "quickAnswer": "WhatsApp convierte pacientes cuando responde rápido, orienta sin diagnosticar por chat, explica precio con valor, ofrece horarios concretos y da seguimiento. Un lead perdido en WhatsApp no siempre era malo; muchas veces el proceso fue malo.",
-    "bestFor": ["Todos los consultorios que reciben mensajes.", "Clínicas con recepción.", "Campañas de Meta Ads.", "Pacientes que preguntan precio."],
-    "whenToUse": ["Llegan mensajes pero no citas.", "La recepción responde tarde.", "El paciente pregunta precio y desaparece.", "No hay seguimiento después del primer contacto."],
-    "metrics": ["Tiempo de primera respuesta.", "Mensajes recibidos.", "Citas agendadas.", "Citas confirmadas.", "Citas asistidas."],
-    "avoid": ["Diagnosticar por chat.", "Mandar solo precio.", "No pedir decisión concreta.", "No confirmar cita.", "No etiquetar prospectos."],
-    "related": ["/estrategias/whatsapp-business-consultorio/", "/situaciones/tengo-leads-pero-no-agendan/", "/situaciones/necesito-pacientes-este-mes/"]
+    "quickAnswer": "WhatsApp lleva pacientes a cita cuando responde rápido, orienta sin diagnosticar por chat, explica precio con valor, ofrece horarios concretos y da seguimiento. Una solicitud perdida en WhatsApp no siempre era mala; muchas veces el proceso fue malo.",
+    "bestFor": [
+      "Todos los consultorios que reciben mensajes.",
+      "Clínicas con recepción.",
+      "Campañas de Anuncios en Facebook e Instagram.",
+      "Pacientes que preguntan precio."
+    ],
+    "whenToUse": [
+      "Llegan mensajes pero no citas.",
+      "La recepción responde tarde.",
+      "El paciente pregunta precio y desaparece.",
+      "No hay seguimiento después del primer contacto."
+    ],
+    "metrics": [
+      "Tiempo de primera respuesta.",
+      "Mensajes recibidos.",
+      "Citas agendadas.",
+      "Citas confirmadas.",
+      "Citas asistidas."
+    ],
+    "avoid": [
+      "Diagnosticar por chat.",
+      "Mandar solo precio.",
+      "No pedir decisión concreta.",
+      "No confirmar cita.",
+      "No etiquetar pacientes interesados."
+    ],
+    "related": [
+      "/estrategias/whatsapp-business-consultorio/",
+      "/situaciones/me-escriben-pero-no-agendan/",
+      "/situaciones/necesito-pacientes-este-mes/"
+    ]
   },
   {
-    "slug": "crm",
-    "name": "CRM",
-    "seoTitle": "CRM para consultorios médicos: seguimiento que recupera pacientes",
-    "description": "Cómo usar CRM en consultorios y clínicas para no perder leads, confirmar citas, reactivar pacientes y medir adquisición.",
-    "quickAnswer": "Un CRM ayuda a que ningún interesado se pierda entre mensajes. Sirve para etiquetar fuente, etapa, servicio, seguimiento, cita confirmada, no show y paciente real.",
-    "bestFor": ["Clínicas con varios canales.", "Recepción o equipo comercial.", "Campañas pagadas.", "Tratamientos de alto valor."],
-    "whenToUse": ["Tienes muchos mensajes sin control.", "No sabes qué canal trae pacientes.", "Hay no shows.", "Necesitas reactivar pacientes."],
-    "metrics": ["Leads por fuente.", "Tiempo de respuesta.", "Tasa de cita.", "Tasa de asistencia.", "Pacientes por canal."],
-    "avoid": ["Implementar software sin proceso.", "No entrenar recepción.", "No actualizar etapas.", "Medir solo leads."],
-    "related": ["/estrategias/seguimiento-crm-consultorio/", "/situaciones/tengo-leads-pero-no-agendan/", "/herramientas/calculadora-costo-paciente/"]
+    "slug": "seguimiento-pacientes",
+    "name": "Seguimiento de pacientes",
+    "seoTitle": "Seguimiento de pacientes para consultorios médicos",
+    "description": "Cómo ordenar el seguimiento en consultorios y clínicas para no perder solicitudes de cita, confirmar pacientes, reactivar controles y medir de dónde llega cada cita.",
+    "quickAnswer": "Un sistema de seguimiento ayuda a que ninguna solicitud de cita se pierda entre mensajes. Sirve para registrar fuente, etapa, servicio, cita confirmada, no show y paciente atendido.",
+    "bestFor": [
+      "Clínicas con varios puntos de contacto.",
+      "Recepción o coordinación de pacientes.",
+      "Anuncios pagados.",
+      "Tratamientos de alto valor."
+    ],
+    "whenToUse": [
+      "Tienes muchos mensajes sin control.",
+      "No sabes qué canal trae pacientes.",
+      "Hay pacientes que no asisten.",
+      "Necesitas reactivar pacientes."
+    ],
+    "metrics": [
+      "Solicitudes por fuente.",
+      "Tiempo de respuesta.",
+      "Tasa de cita.",
+      "Tasa de asistencia.",
+      "Pacientes por canal."
+    ],
+    "avoid": [
+      "Implementar software sin proceso.",
+      "No entrenar recepción.",
+      "No actualizar etapas.",
+      "Medir solo mensajes."
+    ],
+    "related": [
+      "/estrategias/seguimiento-crm-consultorio/",
+      "/situaciones/me-escriben-pero-no-agendan/",
+      "/herramientas/calculadora-costo-paciente/"
+    ]
   },
   {
     "slug": "email",
@@ -137,23 +414,73 @@
     "seoTitle": "Email para consultorios médicos: reactivación y seguimiento",
     "description": "Cómo usar email en salud para educar, reactivar pacientes y dar seguimiento sin depender solo de redes sociales.",
     "quickAnswer": "El email funciona para seguimiento y reactivación cuando el paciente ya te conoce. No sustituye WhatsApp, pero ayuda a educar, recordar controles y mantener relación profesional.",
-    "bestFor": ["Pacientes existentes.", "Controles periódicos.", "Contenido educativo.", "Clínicas con base de datos ordenada."],
-    "whenToUse": ["Tienes pacientes anteriores sin seguimiento.", "Quieres enviar recordatorios educativos.", "Necesitas reactivar tratamientos.", "Cuentas con consentimiento y base limpia."],
-    "metrics": ["Aperturas.", "Clics.", "Citas reactivadas.", "Bajas.", "Ingresos por campaña."],
-    "avoid": ["Enviar spam.", "Usar datos sin consentimiento.", "Prometer resultados.", "Mandar promociones sin segmentación."],
-    "related": ["/estrategias/seguimiento-crm-consultorio/", "/canales/crm/", "/situaciones/quiero-dejar-depender-de-recomendaciones/"]
+    "bestFor": [
+      "Pacientes existentes.",
+      "Controles periódicos.",
+      "Contenido educativo.",
+      "Clínicas con base de datos ordenada."
+    ],
+    "whenToUse": [
+      "Tienes pacientes anteriores sin seguimiento.",
+      "Quieres enviar recordatorios educativos.",
+      "Necesitas reactivar tratamientos.",
+      "Cuentas con consentimiento y base limpia."
+    ],
+    "metrics": [
+      "Aperturas.",
+      "Clics.",
+      "Citas reactivadas.",
+      "Bajas.",
+      "Ingresos por campaña."
+    ],
+    "avoid": [
+      "Enviar spam.",
+      "Usar datos sin consentimiento.",
+      "Prometer resultados.",
+      "Mandar promociones sin segmentación."
+    ],
+    "related": [
+      "/estrategias/seguimiento-crm-consultorio/",
+      "/canales/seguimiento-pacientes/",
+      "/situaciones/quiero-dejar-depender-de-recomendaciones/"
+    ]
   },
   {
     "slug": "referidos",
     "name": "Referidos",
-    "seoTitle": "Referidos para médicos: convertir recomendaciones en sistema",
+    "seoTitle": "Referidos para médicos: ordenar recomendaciones como sistema",
     "description": "Cómo estructurar referidos de pacientes, colegas y aliados para atraer pacientes sin depender del azar.",
     "quickAnswer": "Los referidos funcionan mejor cuando el médico pide recomendaciones en el momento correcto, facilita el contacto y mantiene relación con pacientes, colegas y aliados.",
-    "bestFor": ["Médicos con buena experiencia del paciente.", "Especialidades que reciben derivaciones.", "Fisioterapia, pediatría, psicología, odontología y especialistas.", "Consultorios con pacientes satisfechos."],
-    "whenToUse": ["Te recomiendan, pero de forma irregular.", "Quieres pacientes de mejor calidad.", "Tienes colegas que podrían derivar.", "Necesitas crecimiento sin depender solo de ads."],
-    "metrics": ["Referidos solicitados.", "Referidos recibidos.", "Citas por referido.", "Pacientes recurrentes.", "Aliados activos."],
-    "avoid": ["Esperar referidos sin pedirlos.", "No agradecer.", "No facilitar WhatsApp o página.", "Pedir reseñas o referidos en momentos incómodos."],
-    "related": ["/estrategias/referencias-pacientes-medicos/", "/situaciones/quiero-dejar-depender-de-recomendaciones/", "/paises/"]
+    "bestFor": [
+      "Médicos con buena experiencia del paciente.",
+      "Especialidades que reciben derivaciones.",
+      "Fisioterapia, pediatría, psicología, odontología y especialistas.",
+      "Consultorios con pacientes satisfechos."
+    ],
+    "whenToUse": [
+      "Te recomiendan, pero de forma irregular.",
+      "Quieres pacientes de mejor calidad.",
+      "Tienes colegas que podrían derivar.",
+      "Necesitas crecimiento sin depender solo de ads."
+    ],
+    "metrics": [
+      "Referidos solicitados.",
+      "Referidos recibidos.",
+      "Citas por referido.",
+      "Pacientes recurrentes.",
+      "Aliados activos."
+    ],
+    "avoid": [
+      "Esperar referidos sin pedirlos.",
+      "No agradecer.",
+      "No facilitar WhatsApp o página.",
+      "Pedir reseñas o referidos en momentos incómodos."
+    ],
+    "related": [
+      "/estrategias/referencias-pacientes-medicos/",
+      "/situaciones/quiero-dejar-depender-de-recomendaciones/",
+      "/paises/"
+    ]
   },
   {
     "slug": "doctoralia-directorios",
@@ -161,47 +488,148 @@
     "seoTitle": "Doctoralia y directorios médicos: cuándo convienen",
     "description": "Cómo evaluar Doctoralia y otros directorios médicos como canal de visibilidad, confianza y citas sin depender completamente de ellos.",
     "quickAnswer": "Los directorios pueden dar visibilidad y confianza, pero no deben ser el único activo. Conviene usarlos como apoyo mientras construyes Google, sitio propio, reseñas y seguimiento.",
-    "bestFor": ["Especialistas en ciudades competitivas.", "Médicos nuevos que necesitan visibilidad inicial.", "Pacientes que comparan reseñas.", "Servicios con intención alta."],
-    "whenToUse": ["El directorio tiene demanda real en tu país o ciudad.", "Puedes responder rápido.", "El perfil está completo.", "No tienes todavía suficiente autoridad propia."],
-    "metrics": ["Vistas de perfil.", "Solicitudes de cita.", "Citas asistidas.", "Costo por paciente.", "Pacientes que regresan fuera del directorio."],
-    "avoid": ["Depender totalmente de una plataforma.", "No medir costo real.", "Tener perfil incompleto.", "Usar el directorio como sustituto de sitio propio."],
-    "related": ["/mexico/", "/canales/google-maps/", "/canales/reputacion-online/"]
+    "bestFor": [
+      "Especialistas en ciudades competitivas.",
+      "Médicos nuevos que necesitan visibilidad inicial.",
+      "Pacientes que comparan reseñas.",
+      "Servicios con intención alta."
+    ],
+    "whenToUse": [
+      "El directorio tiene demanda real en tu país o ciudad.",
+      "Puedes responder rápido.",
+      "El perfil está completo.",
+      "No tienes todavía suficiente autoridad propia."
+    ],
+    "metrics": [
+      "Vistas de perfil.",
+      "Solicitudes de cita.",
+      "Citas asistidas.",
+      "Costo por paciente.",
+      "Pacientes que regresan fuera del directorio."
+    ],
+    "avoid": [
+      "Depender totalmente de una plataforma.",
+      "No medir costo real.",
+      "Tener perfil incompleto.",
+      "Usar el directorio como sustituto de sitio propio."
+    ],
+    "related": [
+      "/mexico/",
+      "/canales/google-maps/",
+      "/canales/reputacion-online/"
+    ]
   },
   {
     "slug": "pagina-web",
     "name": "Página web",
-    "seoTitle": "Página web para médicos: cómo convertir visitas en pacientes",
+    "seoTitle": "Página web para médicos: cómo llevar visitas a cita",
     "description": "Qué debe tener una página web médica para generar confianza, explicar servicios y llevar al paciente a cita.",
-    "quickAnswer": "Una página web médica debe explicar para quién es el servicio, qué problema atiende, por qué confiar, cómo es el proceso, ubicación, precios cuando convenga y cómo agendar. No necesita gritar; necesita convertir.",
-    "bestFor": ["Médicos que quieren autoridad propia.", "Clínicas con varios servicios.", "Especialidades que requieren explicación.", "Campañas de Google Ads o SEO."],
-    "whenToUse": ["El paciente necesita comparar antes de escribir.", "Quieres depender menos de redes y directorios.", "Vas a correr anuncios.", "Necesitas páginas por especialidad, país o situación."],
-    "metrics": ["Visitas por fuente.", "Clics a WhatsApp.", "Formularios.", "Llamadas.", "Citas asistidas."],
-    "avoid": ["Hacer una página bonita pero sin CTA.", "Ocultar ubicación y contacto.", "Usar claims inflados.", "No medir conversiones."],
-    "related": ["/estrategias/sitio-web-medico-que-convierte/", "/biblioteca/", "/diagnostico/"]
+    "quickAnswer": "Una página web médica debe explicar para quién es el servicio, qué problema atiende, por qué confiar, cómo es el proceso, ubicación, precios cuando convenga y cómo agendar. No necesita gritar; necesita facilitar la cita.",
+    "bestFor": [
+      "Médicos que quieren autoridad propia.",
+      "Clínicas con varios servicios.",
+      "Especialidades que requieren explicación.",
+      "Campañas de Anuncios en Google o SEO."
+    ],
+    "whenToUse": [
+      "El paciente necesita comparar antes de escribir.",
+      "Quieres depender menos de redes y directorios.",
+      "Vas a correr anuncios.",
+      "Necesitas páginas por especialidad, país o situación."
+    ],
+    "metrics": [
+      "Visitas por fuente.",
+      "Clics a WhatsApp.",
+      "Formularios.",
+      "Llamadas.",
+      "Citas asistidas."
+    ],
+    "avoid": [
+      "Hacer una página bonita pero sin siguiente paso para agendar.",
+      "Ocultar ubicación y contacto.",
+      "Usar claims inflados.",
+      "No medir pasos a cita."
+    ],
+    "related": [
+      "/estrategias/sitio-web-medico-que-convierte/",
+      "/biblioteca/",
+      "/diagnostico/"
+    ]
   },
   {
-    "slug": "landing-pages",
-    "name": "Landing pages",
-    "seoTitle": "Landing pages médicas: páginas por servicio que sí convierten",
-    "description": "Cómo crear landing pages para campañas médicas por especialidad, tratamiento o situación sin prometer resultados ni confundir al paciente.",
-    "quickAnswer": "Una landing médica convierte cuando habla de un servicio específico, responde dudas, muestra confianza, explica proceso y ofrece un siguiente paso claro. Es ideal para anuncios y campañas por tratamiento.",
-    "bestFor": ["Google Ads.", "Meta Ads.", "Tratamientos específicos.", "Servicios de alto valor.", "Campañas por ciudad o especialidad."],
-    "whenToUse": ["El anuncio tiene un servicio concreto.", "La página general distrae.", "Necesitas medir conversiones.", "Hay objeciones frecuentes antes de agendar."],
-    "metrics": ["Tasa de clic a WhatsApp.", "Formularios.", "Costo por cita.", "Citas asistidas.", "Ingresos por landing."],
-    "avoid": ["Mandar todo a home.", "Prometer resultados.", "No explicar precio o valoración.", "No tener seguimiento."],
-    "related": ["/estrategias/sitio-web-medico-que-convierte/", "/canales/google-ads/", "/canales/meta-ads/"]
+    "slug": "paginas-servicios-medicos",
+    "name": "Páginas de servicios médicos",
+    "seoTitle": "Páginas de servicios médicos: explicar y llevar a cita",
+    "description": "Cómo crear páginas médicas por servicio, tratamiento o motivo de consulta sin prometer resultados ni confundir al paciente.",
+    "quickAnswer": "Una página de servicio médico funciona cuando habla de un problema específico, responde dudas, muestra confianza, explica el proceso y ofrece un siguiente paso claro para agendar. Es ideal para anuncios y búsquedas por tratamiento.",
+    "bestFor": [
+      "Anuncios en Google.",
+      "Anuncios en Facebook e Instagram.",
+      "Tratamientos específicos.",
+      "Servicios de alto valor.",
+      "Búsquedas por ciudad o especialidad."
+    ],
+    "whenToUse": [
+      "El anuncio tiene un servicio concreto.",
+      "La página general distrae.",
+      "Necesitas medir solicitudes de cita.",
+      "Hay objeciones frecuentes antes de agendar."
+    ],
+    "metrics": [
+      "Clics a WhatsApp.",
+      "Formularios.",
+      "Costo por cita.",
+      "Citas asistidas.",
+      "Ingresos por página."
+    ],
+    "avoid": [
+      "Mandar todo a home.",
+      "Prometer resultados.",
+      "No explicar precio o valoración.",
+      "No tener seguimiento."
+    ],
+    "related": [
+      "/estrategias/sitio-web-medico-que-convierte/",
+      "/canales/google-ads/",
+      "/canales/meta-ads/"
+    ]
   },
   {
-    "slug": "contenido-organico",
-    "name": "Contenido orgánico",
-    "seoTitle": "Contenido orgánico para médicos: autoridad que atrae pacientes",
-    "description": "Cómo crear contenido orgánico útil para médicos sin publicar por publicar ni depender del algoritmo.",
-    "quickAnswer": "El contenido orgánico atrae pacientes cuando responde preguntas reales, demuestra criterio y conecta con una ruta de cita. Debe salir de dudas frecuentes, objeciones y situaciones del paciente.",
-    "bestFor": ["Especialidades educativas.", "Médicos con criterio diferencial.", "SEO y redes.", "Pacientes que investigan antes de decidir."],
-    "whenToUse": ["El paciente necesita confianza antes de escribir.", "Tienes preguntas frecuentes repetidas.", "Quieres autoridad a largo plazo.", "Puedes sostener una cadencia realista."],
-    "metrics": ["Tráfico orgánico.", "Guardados.", "Mensajes útiles.", "Clics a cita.", "Temas que generan pacientes."],
-    "avoid": ["Publicar frases genéricas.", "No tener CTA.", "Medir solo likes.", "Hacer contenido médico sin contexto ni prudencia."],
-    "related": ["/estrategias/seo-medico-contenido/", "/canales/instagram/", "/canales/youtube/"]
+    "slug": "educacion-al-paciente",
+    "name": "Educación al paciente",
+    "seoTitle": "Educación al paciente: autoridad médica que atrae consultas",
+    "description": "Cómo crear contenido educativo útil para médicos sin publicar por publicar ni depender del algoritmo.",
+    "quickAnswer": "La educación al paciente atrae consultas cuando responde preguntas reales, demuestra criterio médico y conecta con una ruta de cita. Debe salir de dudas frecuentes, objeciones y situaciones del paciente.",
+    "bestFor": [
+      "Especialidades educativas.",
+      "Médicos con criterio diferencial.",
+      "SEO y redes.",
+      "Pacientes que investigan antes de decidir."
+    ],
+    "whenToUse": [
+      "El paciente necesita confianza antes de escribir.",
+      "Tienes preguntas frecuentes repetidas.",
+      "Quieres autoridad a largo plazo.",
+      "Puedes sostener una cadencia realista."
+    ],
+    "metrics": [
+      "Visitas orgánicas.",
+      "Guardados.",
+      "Mensajes útiles.",
+      "Clics a cita.",
+      "Temas que generan pacientes."
+    ],
+    "avoid": [
+      "Publicar frases genéricas.",
+      "No tener siguiente paso.",
+      "Medir solo likes.",
+      "Hacer contenido médico sin contexto ni prudencia."
+    ],
+    "related": [
+      "/estrategias/seo-medico-contenido/",
+      "/canales/instagram/",
+      "/canales/youtube/"
+    ]
   },
   {
     "slug": "reputacion-online",
@@ -209,11 +637,36 @@
     "seoTitle": "Reputación online médica: confianza antes de la cita",
     "description": "Cómo construir reputación online para médicos y clínicas con reseñas, respuestas, autoridad y señales de confianza.",
     "quickAnswer": "La reputación online reduce fricción antes de la cita. El paciente compara reseñas, trato, claridad, fotos, credenciales y consistencia antes de escribir.",
-    "bestFor": ["Todos los médicos con presencia digital.", "Clínicas privadas.", "Especialidades sensibles.", "Servicios de alto valor."],
-    "whenToUse": ["Tienes pocas reseñas.", "Los pacientes comparan por precio.", "Necesitas confianza visible.", "Hay comentarios sin respuesta."],
-    "metrics": ["Calificación promedio.", "Reseñas nuevas.", "Temas mencionados.", "Tasa de conversión.", "Citas desde perfiles."],
-    "avoid": ["Comprar reseñas.", "Responder defensivo.", "Ignorar quejas legítimas.", "No pedir reseñas a pacientes satisfechos."],
-    "related": ["/estrategias/resenas-y-reputacion-online/", "/canales/resenas/", "/mexico/"]
+    "bestFor": [
+      "Todos los médicos con presencia digital.",
+      "Clínicas privadas.",
+      "Especialidades sensibles.",
+      "Servicios de alto valor."
+    ],
+    "whenToUse": [
+      "Tienes pocas reseñas.",
+      "Los pacientes comparan por precio.",
+      "Necesitas confianza visible.",
+      "Hay comentarios sin respuesta."
+    ],
+    "metrics": [
+      "Calificación promedio.",
+      "Reseñas nuevas.",
+      "Temas mencionados.",
+      "Tasa de paso a cita.",
+      "Citas desde perfiles."
+    ],
+    "avoid": [
+      "Comprar reseñas.",
+      "Responder defensivo.",
+      "Ignorar quejas legítimas.",
+      "No pedir reseñas a pacientes satisfechos."
+    ],
+    "related": [
+      "/estrategias/resenas-y-reputacion-online/",
+      "/canales/resenas/",
+      "/mexico/"
+    ]
   },
   {
     "slug": "resenas",
@@ -221,10 +674,35 @@
     "seoTitle": "Reseñas para médicos: cómo pedirlas sin incomodar",
     "description": "Cómo pedir y usar reseñas médicas de forma ética para generar confianza y atraer pacientes.",
     "quickAnswer": "Las reseñas ayudan porque muestran confianza de pacientes reales. Deben pedirse con respeto, sin presión, sin comprar opiniones y cuidando privacidad.",
-    "bestFor": ["Google Maps.", "Clínicas y consultorios.", "Servicios locales.", "Especialidades donde el trato pesa mucho."],
-    "whenToUse": ["Tienes pacientes satisfechos.", "La ficha se ve vacía.", "El paciente compara opciones.", "Quieres mejorar confianza antes de precio."],
-    "metrics": ["Reseñas nuevas por mes.", "Promedio.", "Menciones de trato y claridad.", "Conversión desde Google.", "Respuestas publicadas."],
-    "avoid": ["Ofrecer descuentos por reseña.", "Pedir detalles clínicos sensibles.", "Copiar respuestas automáticas.", "Ignorar reseñas negativas."],
-    "related": ["/estrategias/resenas-y-reputacion-online/", "/canales/google-maps/", "/situaciones/soy-buen-medico-pero-no-se-venderme/"]
+    "bestFor": [
+      "Google Maps.",
+      "Clínicas y consultorios.",
+      "Servicios locales.",
+      "Especialidades donde el trato pesa mucho."
+    ],
+    "whenToUse": [
+      "Tienes pacientes satisfechos.",
+      "La ficha se ve vacía.",
+      "El paciente compara opciones.",
+      "Quieres mejorar confianza antes de precio."
+    ],
+    "metrics": [
+      "Reseñas nuevas por mes.",
+      "Promedio.",
+      "Menciones de trato y claridad.",
+      "Paso a cita desde Google.",
+      "Respuestas publicadas."
+    ],
+    "avoid": [
+      "Ofrecer descuentos por reseña.",
+      "Pedir detalles clínicos sensibles.",
+      "Copiar respuestas automáticas.",
+      "Ignorar reseñas negativas."
+    ],
+    "related": [
+      "/estrategias/resenas-y-reputacion-online/",
+      "/canales/google-maps/",
+      "/situaciones/soy-buen-medico-pero-no-se-venderme/"
+    ]
   }
 ]

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Calculadora de costo por paciente para médicos</title>
-  <meta name="description" content="Calcula costo por lead, costo por cita, costo por paciente y retorno estimado de tus campañas médicas en México.">
+  <meta name="description" content="Calcula costo por solicitud, costo por cita, costo por paciente y retorno estimado de tus campañas médicas en México.">
   <meta name="author" content="Raúl Gómez Jiménez">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
   <link rel="canonical" href="https://comoatraerpacientes.com/herramientas/calculadora-costo-paciente/">
@@ -29,7 +29,7 @@
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
         "inLanguage": "es-MX",
-        "description": "Calculadora para medir costo por lead, cita, paciente y retorno estimado en campañas médicas.",
+        "description": "Calculadora para medir costo por solicitud, cita, paciente y retorno estimado en campañas médicas.",
         "url": "https://comoatraerpacientes.com/herramientas/calculadora-costo-paciente/"
       },
       {
@@ -80,13 +80,13 @@
           <form class="tool-form" id="calc-paciente-form">
             <div class="form-grid">
               <div class="field">
-                <label for="inversion">Inversión mensual en marketing</label>
+                <label for="inversion">Inversión mensual en atracción de pacientes</label>
                 <input id="inversion" name="inversion" type="number" min="0" step="100" value="10000" inputmode="decimal">
                 <small>Incluye pauta, producción y gestión si aplica.</small>
               </div>
               <div class="field">
-                <label for="leads">Mensajes o leads recibidos</label>
-                <input id="leads" name="leads" type="number" min="0" step="1" value="80" inputmode="numeric">
+                <label for="solicitudes">Solicitudes de cita o mensajes recibidos</label>
+                <input id="solicitudes" name="solicitudes" type="number" min="0" step="1" value="80" inputmode="numeric">
               </div>
               <div class="field">
                 <label for="citas">Citas agendadas</label>
@@ -110,7 +110,7 @@
 
           <section id="calc-resultado" class="mt-2" aria-live="polite">
             <div class="metric-grid">
-              <div class="metric"><strong id="metric-lead">$0</strong><span>Costo por lead</span></div>
+              <div class="metric"><strong id="metric-solicitud">$0</strong><span>Costo por solicitud</span></div>
               <div class="metric"><strong id="metric-cita">$0</strong><span>Costo por cita</span></div>
               <div class="metric"><strong id="metric-paciente">$0</strong><span>Costo por paciente</span></div>
               <div class="metric"><strong id="metric-retorno">0x</strong><span>Retorno estimado</span></div>
@@ -120,7 +120,7 @@
               <p id="calc-texto">Completa los datos para ver el diagnóstico.</p>
               <div class="btn-row mt-2">
                 <a class="btn btn-cta" href="/diagnostico/">Hacer diagnóstico CAP</a>
-                <a class="btn btn-ghost" href="/situaciones/tengo-leads-pero-no-agendan/">Si los leads no agendan</a>
+                <a class="btn btn-ghost" href="/situaciones/me-escriben-pero-no-agendan/">Si escriben y no agendan</a>
               </div>
             </div>
           </section>
@@ -131,7 +131,7 @@
     <section class="section section-soft">
       <div class="container-narrow prose">
         <h2>Cómo leer estos números</h2>
-        <p>El costo por lead solo dice cuánto cuesta generar una conversación. El costo por cita muestra si WhatsApp y recepción convierten. El costo por paciente revela si el sistema completo trae negocio real. Si solo miras leads, te puedes emocionar con puro curioso y engañarte con una hoja de cálculo.</p>
+        <p>El costo por solicitud solo dice cuánto cuesta generar una conversación. El costo por cita muestra si WhatsApp y recepción están llevando esas solicitudes a consulta. El costo por paciente revela si el sistema completo trae negocio real. Si solo miras mensajes, te puedes emocionar con puro curioso y engañarte con una hoja de cálculo.</p>
       </div>
     </section>
   </main>

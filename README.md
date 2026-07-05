@@ -1,6 +1,6 @@
 # comoatraerpacientes.com
 
-Sitio de referencia sobre **marketing médico en México**: estrategias para que
+Sitio de referencia sobre **atracción de pacientes en México**: estrategias para que
 médicos, consultorios y clínicas privadas **atraigan más pacientes** y sean **más
 rentables**. La estrategia y el programa son de **Raúl Gómez Jiménez**.
 
@@ -22,7 +22,7 @@ cual desde GitHub Pages, Netlify, Vercel o Cloudflare Pages.
 ├── biblioteca/                   Mapa central de rutas contextuales
 ├── mexico/                       Hub dominante para México
 ├── paises/                       Hub de habla hispana por país
-├── canales/                      Rutas por canal de adquisición
+├── canales/                      Rutas de llegada de pacientes
 ├── estrategias/                  Artículos de profundidad (autoridad temática)
 ├── situaciones/                  Biblioteca CAP: contextos de atracción
 ├── especialidades/               Rutas por especialidad médica
@@ -57,14 +57,14 @@ cual desde GitHub Pages, Netlify, Vercel o Cloudflare Pages.
 - **Datos estructurados JSON-LD** en cada página: `Article`, `FAQPage`, `HowTo`,
   `Person`, `Course`, `Organization`, `BreadcrumbList`, `WebSite`.
 - **Biblioteca CAP**: páginas por situación real del médico (urgencia, vergüenza
-  de vender, leads que no agendan, dependencia de recomendaciones, mala
-  experiencia con agencias, autoridad médica) para cubrir intención contextual,
+  de vender, pacientes interesados que no agendan, dependencia de recomendaciones, mala
+  experiencia con proveedores, autoridad médica) para cubrir intención contextual,
   no solo keywords genéricas.
 - **México dominante + habla hispana**: `/mexico/` funciona como ruta principal y
   `/paises/` organiza países sin duplicar contenido. Cada país debe aportar
   lenguaje, canal, objeción o advertencia local.
-- **Canales de adquisición**: `/canales/` separa Google Maps, WhatsApp, Ads,
-  SEO local, reseñas, CRM, referidos, contenido orgánico y landing pages para
+- **Rutas de llegada de pacientes**: `/canales/` separa Google Maps, WhatsApp, anuncios,
+  SEO local, reseñas, seguimiento de pacientes, referidos, educación al paciente y páginas de servicios médicos para
   que la estrategia no se quede en teoría.
 - **Contenido extraíble**: definiciones directas, respuestas concisas, listas,
   tablas y bloques TL;DR pensados para que los LLM los citen.
@@ -121,7 +121,7 @@ Claude, Perplexity, Copilot, Google, Bing, redes o directo) leyendo
 y reescribe los enlaces salientes a `raulgomez.com.mx` añadiendo `utm_source`,
 `utm_medium`, `utm_campaign`, `utm_content`, `ref_channel` y `ref_host`.
 
-Los CTAs principales del sitio deben apuntar primero a rutas internas como
+Los siguiente paso para agendars principales del sitio deben apuntar primero a rutas internas como
 `/diagnostico/`, `/especialidades/`, `/herramientas/` o `/situaciones/`. El dominio
 externo queda como respaldo de marca, no como destino primario de tráfico frío.
 

@@ -17,17 +17,17 @@
       text: "La agenda floja no se arregla publicando por publicar. Primero activa lo que puede producir citas en corto plazo: pacientes anteriores, referidos, Google, WhatsApp y una campaña pequeña si ya puedes responder rápido.",
       actions: [
         "Reactivar pacientes anteriores con un mensaje útil, no desesperado.",
-        "Actualizar Google Business Profile y pedir reseñas recientes.",
+        "Actualizar el Perfil de Empresa en Google y pedir reseñas recientes.",
         "Medir conversaciones, citas confirmadas y citas asistidas por canal."
       ]
     },
-    "leads-no-agendan": {
+    "mensajes-no-agendan": {
       title: "Tu cuello de botella está entre el mensaje y la cita",
-      href: "/situaciones/tengo-leads-pero-no-agendan/",
-      text: "Comprar más leads ahorita puede ser tirar gasolina al piso. Revisa velocidad de respuesta, primer mensaje, objeción de precio, confirmación y seguimiento.",
+      href: "/situaciones/me-escriben-pero-no-agendan/",
+      text: "Comprar más mensajes ahorita puede ser tirar gasolina al piso. Revisa velocidad de respuesta, primer mensaje, objeción de precio, confirmación y seguimiento.",
       actions: [
         "Responder en minutos con una ruta clara a cita.",
-        "Separar leads nuevos, por responder, agendados y no asistidos.",
+        "Separar solicitudes nuevas, por responder, agendados y no asistidos.",
         "Comparar fuentes por citas asistidas, no por mensajes bonitos."
       ]
     },
@@ -44,7 +44,7 @@
     verguenza: {
       title: "Tu ruta empieza por comunicación ética",
       href: "/situaciones/soy-buen-medico-pero-no-se-venderme/",
-      text: "No necesitas volverte vendedor agresivo. Necesitas convertir tu experiencia en mensajes simples, útiles y profesionales para que el paciente entienda qué haces y cómo agendar.",
+      text: "No necesitas volverte vendedor agresivo. Necesitas traducir tu experiencia en mensajes simples, útiles y profesionales para que el paciente entienda qué haces y cómo agendar.",
       actions: [
         "Escribir una frase clara: a quién ayudas, con qué problema y cómo empieza el proceso.",
         "Crear guiones para precio, valoración y seguimiento.",
@@ -52,9 +52,9 @@
       ]
     },
     agencia: {
-      title: "Antes de invertir otra vez, audita el embudo",
-      href: "/situaciones/me-estafaron-con-marketing-medico/",
-      text: "No basta con cambiar de agencia. Hay que revisar anuncio, landing, WhatsApp, seguimiento, métricas y pacientes reales. Si no, el mismo incendio con otro logo.",
+      title: "Antes de invertir otra vez, audita la ruta del paciente",
+      href: "/situaciones/pague-publicidad-y-no-llegaron-pacientes/",
+      text: "No basta con cambiar de agencia. Hay que revisar anuncio, página de servicio, WhatsApp, seguimiento, métricas y pacientes reales. Si no, el mismo incendio con otro logo.",
       actions: [
         "Recolectar reportes, anuncios, conversaciones y citas de la campaña anterior.",
         "Separar métricas de vanidad de pacientes reales.",
@@ -88,7 +88,7 @@
     confianza: "Como además marcaste confianza, fortalece reseñas, prueba social, autoría, fotos reales y una explicación clara del proceso.",
     oferta: "Como además marcaste oferta, trabaja propuesta de valor, respuesta de precio y filtros para no atraer puro curioso.",
     whatsapp: "Como además marcaste WhatsApp, mide tiempo de respuesta, guiones, confirmación y seguimiento. Ahí suele estar el dinero tirado.",
-    seguimiento: "Como además marcaste seguimiento, ordena etiquetas, recordatorios y recontacto. Un prospecto olvidado es una cita regalada al competidor."
+    seguimiento: "Como además marcaste seguimiento, ordena etiquetas, recordatorios y recontacto. Una solicitud olvidada es una cita regalada al competidor."
   };
 
   function value(name) {
@@ -118,9 +118,9 @@
     } else if (budget === "3000") {
       budgetText = " Con $3,000 MXN, haz una prueba chica y mide citas, no likes.";
     } else if (budget === "10000") {
-      budgetText = " Con $10,000 MXN, ya puedes probar campañas con landing o WhatsApp bien medido.";
+      budgetText = " Con $10,000 MXN, ya puedes probar campañas con página de servicio o WhatsApp bien medido.";
     } else {
-      budgetText = " Con $30,000+ MXN, la prioridad es escalar con embudo completo y costo por paciente real.";
+      budgetText = " Con $30,000+ MXN, la prioridad es escalar con ruta completa del paciente y costo por paciente real.";
     }
 
     var urgencyText = urgency === "este-mes"

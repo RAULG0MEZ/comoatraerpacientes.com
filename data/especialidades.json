@@ -4,40 +4,111 @@
     "name": "dermatólogos",
     "singular": "dermatólogo",
     "seoTitle": "Cómo atraer pacientes para dermatólogos en México",
-    "description": "Ruta de marketing médico para dermatólogos que quieren atraer pacientes de acné, manchas, caída de cabello, piel sensible y dermatología estética sin depender solo de redes.",
-    "lead": "Un dermatólogo atrae pacientes cuando aparece en búsquedas locales, transmite confianza clínica y convierte dudas sensibles en citas con WhatsApp rápido.",
-    "quickAnswer": "Para atraer pacientes como dermatólogo, prioriza Google Business Profile, reseñas, páginas por padecimiento, fotos profesionales del consultorio, mensajes claros para acné/manchas/caída de cabello y una ruta de WhatsApp que explique valoración antes de precio.",
-    "patientMindset": ["Me salió algo en la piel y no sé si es grave.", "Ya probé cremas y no se me quita.", "Quiero mejorar mi piel, pero no quiero que me vendan cualquier cosa.", "Necesito confianza antes de mostrar mi problema."],
-    "priorityChannels": [
-      {"label": "Google local y reseñas", "why": "La gente busca dermatólogo cerca cuando tiene una molestia visible o recurrente."},
-      {"label": "SEO por padecimiento", "why": "Acné, manchas, dermatitis, rosácea y caída de cabello tienen intención educativa y de consulta."},
-      {"label": "WhatsApp con filtro clínico", "why": "Ayuda a explicar que primero va valoración, no promesa ni tratamiento a ciegas."}
+    "description": "Ruta de atracción de pacientes para dermatólogos que quieren atraer pacientes de acné, manchas, caída de cabello, piel sensible y dermatología estética sin depender solo de redes.",
+    "lead": "Un dermatólogo atrae pacientes cuando aparece en búsquedas locales, transmite confianza clínica y ayuda a que dudas sensibles avancen hacia una cita con WhatsApp rápido.",
+    "quickAnswer": "Para atraer pacientes como dermatólogo, prioriza Perfil de Empresa en Google, reseñas, páginas por padecimiento, fotos profesionales del consultorio, mensajes claros para acné/manchas/caída de cabello y una ruta de WhatsApp que explique valoración antes de precio.",
+    "patientMindset": [
+      "Me salió algo en la piel y no sé si es grave.",
+      "Ya probé cremas y no se me quita.",
+      "Quiero mejorar mi piel, pero no quiero que me vendan cualquier cosa.",
+      "Necesito confianza antes de mostrar mi problema."
     ],
-    "offers": ["Valoración dermatológica", "Tratamiento de acné", "Manchas y melasma", "Caída de cabello", "Dermatología estética con evaluación"],
-    "thirtyDayPlan": ["Completa Google con servicios, zonas, fotos y horarios reales.", "Publica páginas o respuestas sobre acné, manchas y caída de cabello.", "Pide reseñas que mencionen claridad, trato y seguimiento.", "Crea respuestas rápidas para precio, valoración y disponibilidad.", "Prueba una campaña pequeña para una condición concreta, no para 'dermatología' genérica."],
+    "priorityChannels": [
+      {
+        "label": "Google local y reseñas",
+        "why": "La gente busca dermatólogo cerca cuando tiene una molestia visible o recurrente."
+      },
+      {
+        "label": "SEO por padecimiento",
+        "why": "Acné, manchas, dermatitis, rosácea y caída de cabello tienen intención educativa y de consulta."
+      },
+      {
+        "label": "WhatsApp con filtro clínico",
+        "why": "Ayuda a explicar que primero va valoración, no promesa ni tratamiento a ciegas."
+      }
+    ],
+    "offers": [
+      "Valoración dermatológica",
+      "Tratamiento de acné",
+      "Manchas y melasma",
+      "Caída de cabello",
+      "Dermatología estética con evaluación"
+    ],
+    "thirtyDayPlan": [
+      "Completa Google con servicios, zonas, fotos y horarios reales.",
+      "Publica páginas o respuestas sobre acné, manchas y caída de cabello.",
+      "Pide reseñas que mencionen claridad, trato y seguimiento.",
+      "Crea respuestas rápidas para precio, valoración y disponibilidad.",
+      "Prueba una campaña pequeña para una condición concreta, no para 'dermatología' genérica."
+    ],
     "whatsappScript": "Hola, gracias por escribir. Para saber qué tratamiento tiene sentido primero necesitamos valorar tu piel y antecedentes. La consulta incluye revisión, diagnóstico probable y opciones de manejo. Tengo espacios [día/hora]. ¿Quieres que te comparta horarios?",
-    "avoid": ["Prometer piel perfecta o resultados garantizados.", "Usar antes/después sin revisar regulación y consentimiento.", "Competir solo por promociones de procedimientos.", "Responder con precio sin explicar valoración."],
-    "relatedSituations": ["necesito-pacientes-este-mes", "solo-me-llegan-pacientes-que-piden-descuento", "no-quiero-bailar-en-tiktok-para-atraer-pacientes"]
+    "avoid": [
+      "Prometer piel perfecta o resultados garantizados.",
+      "Usar antes/después sin revisar regulación y consentimiento.",
+      "Competir solo por promociones de procedimientos.",
+      "Responder con precio sin explicar valoración."
+    ],
+    "relatedSituations": [
+      "necesito-pacientes-este-mes",
+      "solo-me-llegan-pacientes-que-piden-descuento",
+      "no-quiero-bailar-en-tiktok-para-atraer-pacientes"
+    ]
   },
   {
     "slug": "dentistas",
     "name": "dentistas",
     "singular": "dentista",
     "seoTitle": "Cómo atraer pacientes para dentistas en México",
-    "description": "Marketing para dentistas y clínicas dentales: cómo atraer pacientes de limpieza, dolor, implantes, ortodoncia, estética y urgencias sin competir solo por precio.",
-    "lead": "Un dentista no necesita más promociones al azar; necesita aparecer cuando hay intención, explicar valor y convertir WhatsApp en citas confirmadas.",
+    "description": "Atracción de pacientes para dentistas y clínicas dentales: cómo atraer pacientes de limpieza, dolor, implantes, ortodoncia, estética y urgencias sin competir solo por precio.",
+    "lead": "Un dentista no necesita más promociones al azar; necesita aparecer cuando hay intención, explicar valor y llevar conversaciones de WhatsApp a citas confirmadas.",
     "quickAnswer": "Para atraer pacientes como dentista, trabaja Google Maps, reseñas, campañas por servicio, seguimiento de WhatsApp y ofertas de valoración bien explicadas. El objetivo es dejar de competir como 'limpieza barata' y posicionar diagnóstico, confianza y plan de tratamiento.",
-    "patientMindset": ["Me duele una muela y quiero cita rápido.", "Quiero saber cuánto cuesta, pero me da miedo que me salga carísimo.", "Busco alguien confiable cerca de mi casa.", "No quiero que me regañen por descuidarme."],
-    "priorityChannels": [
-      {"label": "Google Maps", "why": "Dolor, urgencia, limpieza y consulta dental se buscan por zona."},
-      {"label": "Campañas por servicio", "why": "Implantes, ortodoncia, blanqueamiento y diseño de sonrisa requieren mensajes separados."},
-      {"label": "Seguimiento de presupuestos", "why": "Muchos pacientes piden cotización y desaparecen si no hay proceso."}
+    "patientMindset": [
+      "Me duele una muela y quiero cita rápido.",
+      "Quiero saber cuánto cuesta, pero me da miedo que me salga carísimo.",
+      "Busco alguien confiable cerca de mi casa.",
+      "No quiero que me regañen por descuidarme."
     ],
-    "offers": ["Valoración dental", "Limpieza", "Urgencia dental", "Implantes", "Ortodoncia", "Diseño de sonrisa"],
-    "thirtyDayPlan": ["Separa campañas por servicio y urgencia.", "Crea guiones para dolor, precio y valoración.", "Pide reseñas después de limpieza o cierre de tratamiento.", "Etiqueta prospectos por tratamiento y da seguimiento.", "Mide cuántas valoraciones terminan en tratamiento."],
+    "priorityChannels": [
+      {
+        "label": "Google Maps",
+        "why": "Dolor, urgencia, limpieza y consulta dental se buscan por zona."
+      },
+      {
+        "label": "Campañas por servicio",
+        "why": "Implantes, ortodoncia, blanqueamiento y diseño de sonrisa requieren mensajes separados."
+      },
+      {
+        "label": "Seguimiento de presupuestos",
+        "why": "Muchos pacientes piden cotización y desaparecen si no hay proceso."
+      }
+    ],
+    "offers": [
+      "Valoración dental",
+      "Limpieza",
+      "Urgencia dental",
+      "Implantes",
+      "Ortodoncia",
+      "Diseño de sonrisa"
+    ],
+    "thirtyDayPlan": [
+      "Separa campañas por servicio y urgencia.",
+      "Crea guiones para dolor, precio y valoración.",
+      "Pide reseñas después de limpieza o cierre de tratamiento.",
+      "Etiqueta pacientes interesados por tratamiento y da seguimiento.",
+      "Mide cuántas valoraciones terminan en tratamiento."
+    ],
     "whatsappScript": "Claro. Para darte una opción responsable necesitamos revisarte y tomar los datos necesarios. La valoración nos permite saber si basta con [servicio] o si hay algo más. Tengo espacio [día/hora]. ¿Quieres agendar?",
-    "avoid": ["Atraer solo pacientes de descuento.", "Dar diagnósticos por WhatsApp sin revisar.", "Meter todos los servicios en un mismo anuncio.", "No dar seguimiento a presupuestos abiertos."],
-    "relatedSituations": ["solo-me-llegan-pacientes-que-piden-descuento", "tengo-leads-pero-no-agendan", "necesito-pacientes-este-mes"]
+    "avoid": [
+      "Atraer solo pacientes de descuento.",
+      "Dar diagnósticos por WhatsApp sin revisar.",
+      "Meter todos los servicios en un mismo anuncio.",
+      "No dar seguimiento a presupuestos abiertos."
+    ],
+    "relatedSituations": [
+      "solo-me-llegan-pacientes-que-piden-descuento",
+      "me-escriben-pero-no-agendan",
+      "necesito-pacientes-este-mes"
+    ]
   },
   {
     "slug": "psicologos",
@@ -45,39 +116,111 @@
     "singular": "psicólogo",
     "seoTitle": "Cómo atraer pacientes para psicólogos en México",
     "description": "Guía para psicólogos que quieren atraer pacientes privados con confianza, privacidad, claridad de enfoque y seguimiento ético.",
-    "lead": "En psicología, la conversión depende de confianza, privacidad, claridad del enfoque terapéutico y baja fricción para tomar la primera sesión.",
+    "lead": "En psicología, el paso a cita depende de confianza, privacidad, claridad del enfoque terapéutico y baja fricción para tomar la primera sesión.",
     "quickAnswer": "Para atraer pacientes como psicólogo, crea páginas por motivo de consulta, explica tu enfoque sin tecnicismos, facilita horarios, responde con calidez por WhatsApp y evita prometer curas rápidas. La persona necesita sentirse segura antes de agendar.",
-    "patientMindset": ["No sé si necesito terapia, pero ya no puedo seguir igual.", "Me da pena contar lo que me pasa.", "Quiero saber si esta persona me va a entender.", "Necesito privacidad y un primer paso claro."],
-    "priorityChannels": [
-      {"label": "SEO por problema", "why": "Ansiedad, pareja, duelo, autoestima y estrés se investigan antes de pedir ayuda."},
-      {"label": "Contenido educativo sobrio", "why": "La persona necesita reconocer su situación sin sentirse juzgada."},
-      {"label": "WhatsApp cálido", "why": "La primera respuesta puede bajar miedo y facilitar la sesión inicial."}
+    "patientMindset": [
+      "No sé si necesito terapia, pero ya no puedo seguir igual.",
+      "Me da pena contar lo que me pasa.",
+      "Quiero saber si esta persona me va a entender.",
+      "Necesito privacidad y un primer paso claro."
     ],
-    "offers": ["Primera sesión", "Terapia para ansiedad", "Terapia de pareja", "Duelo", "Estrés laboral", "Terapia en línea"],
-    "thirtyDayPlan": ["Define enfoque, modalidad, duración y horarios.", "Crea respuestas para dudas sobre primera sesión y confidencialidad.", "Publica contenido para un motivo de consulta prioritario.", "Pide testimonios solo si cumplen ética, privacidad y consentimiento.", "Mide sesiones agendadas y continuidad después de la primera cita."],
+    "priorityChannels": [
+      {
+        "label": "SEO por problema",
+        "why": "Ansiedad, pareja, duelo, autoestima y estrés se investigan antes de pedir ayuda."
+      },
+      {
+        "label": "Contenido educativo sobrio",
+        "why": "La persona necesita reconocer su situación sin sentirse juzgada."
+      },
+      {
+        "label": "WhatsApp cálido",
+        "why": "La primera respuesta puede bajar miedo y facilitar la sesión inicial."
+      }
+    ],
+    "offers": [
+      "Primera sesión",
+      "Terapia para ansiedad",
+      "Terapia de pareja",
+      "Duelo",
+      "Estrés laboral",
+      "Terapia en línea"
+    ],
+    "thirtyDayPlan": [
+      "Define enfoque, modalidad, duración y horarios.",
+      "Crea respuestas para dudas sobre primera sesión y confidencialidad.",
+      "Publica contenido para un motivo de consulta prioritario.",
+      "Pide testimonios solo si cumplen ética, privacidad y consentimiento.",
+      "Mide sesiones agendadas y continuidad después de la primera cita."
+    ],
     "whatsappScript": "Hola. Gracias por escribirme. La primera sesión nos sirve para entender qué estás viviendo, qué necesitas y si mi enfoque puede ayudarte. Todo se maneja con privacidad. Tengo horarios [opciones]. ¿Te gustaría iniciar con una primera sesión?",
-    "avoid": ["Prometer resultados rápidos.", "Usar testimonios sensibles sin cuidado.", "Responder frío o robótico.", "Vender paquetes antes de escuchar el motivo de consulta."],
-    "relatedSituations": ["me-da-verguenza-vender-tratamientos", "soy-buen-medico-pero-no-se-venderme", "no-quiero-bailar-en-tiktok-para-atraer-pacientes"]
+    "avoid": [
+      "Prometer resultados rápidos.",
+      "Usar testimonios sensibles sin cuidado.",
+      "Responder frío o robótico.",
+      "Vender paquetes antes de escuchar el motivo de consulta."
+    ],
+    "relatedSituations": [
+      "me-da-verguenza-vender-tratamientos",
+      "soy-buen-medico-pero-no-se-venderme",
+      "no-quiero-bailar-en-tiktok-para-atraer-pacientes"
+    ]
   },
   {
     "slug": "ginecologos",
     "name": "ginecólogos",
     "singular": "ginecólogo",
     "seoTitle": "Cómo atraer pacientes para ginecólogos en México",
-    "description": "Marketing médico para ginecólogos: confianza, privacidad, búsquedas locales, seguimiento y mensajes para chequeo, embarazo, anticoncepción y síntomas.",
+    "description": "Atracción de pacientes para ginecólogos: confianza, privacidad, búsquedas locales, seguimiento y mensajes para chequeo, embarazo, anticoncepción y síntomas.",
     "lead": "Una paciente elige ginecólogo por confianza, cercanía, claridad y privacidad; no solo por disponibilidad.",
     "quickAnswer": "Para atraer pacientes como ginecólogo, fortalece Google local, reseñas de trato y claridad, páginas por chequeo y síntomas frecuentes, WhatsApp privado y mensajes que expliquen proceso sin alarmar ni minimizar.",
-    "patientMindset": ["Necesito revisar algo, pero me da pena.", "Quiero una doctora o doctor confiable.", "Busco cita rápida y trato respetuoso.", "No quiero sentirme juzgada."],
-    "priorityChannels": [
-      {"label": "Google y reseñas", "why": "La elección suele pasar por zona, confianza y trato reportado por otras pacientes."},
-      {"label": "Páginas por motivo", "why": "Chequeo, embarazo, anticoncepción, dolor o flujo requieren lenguaje distinto."},
-      {"label": "WhatsApp discreto", "why": "La paciente valora privacidad, horarios claros y respuesta profesional."}
+    "patientMindset": [
+      "Necesito revisar algo, pero me da pena.",
+      "Quiero una doctora o doctor confiable.",
+      "Busco cita rápida y trato respetuoso.",
+      "No quiero sentirme juzgada."
     ],
-    "offers": ["Consulta ginecológica", "Chequeo anual", "Control prenatal", "Anticoncepción", "Ultrasonido", "Atención de síntomas"],
-    "thirtyDayPlan": ["Actualiza Google con servicios y fotos profesionales.", "Crea mensajes de confianza para primera consulta.", "Publica contenido de chequeo preventivo y dudas frecuentes.", "Pide reseñas enfocadas en trato y explicación.", "Mide qué motivos generan más citas reales."],
+    "priorityChannels": [
+      {
+        "label": "Google y reseñas",
+        "why": "La elección suele pasar por zona, confianza y trato reportado por otras pacientes."
+      },
+      {
+        "label": "Páginas por motivo",
+        "why": "Chequeo, embarazo, anticoncepción, dolor o flujo requieren lenguaje distinto."
+      },
+      {
+        "label": "WhatsApp discreto",
+        "why": "La paciente valora privacidad, horarios claros y respuesta profesional."
+      }
+    ],
+    "offers": [
+      "Consulta ginecológica",
+      "Chequeo anual",
+      "Control prenatal",
+      "Anticoncepción",
+      "Ultrasonido",
+      "Atención de síntomas"
+    ],
+    "thirtyDayPlan": [
+      "Actualiza Google con servicios y fotos profesionales.",
+      "Crea mensajes de confianza para primera consulta.",
+      "Publica contenido de chequeo preventivo y dudas frecuentes.",
+      "Pide reseñas enfocadas en trato y explicación.",
+      "Mide qué motivos generan más citas reales."
+    ],
     "whatsappScript": "Hola. Con gusto te ayudo. Para orientarte bien necesitamos una consulta y revisar tu caso con privacidad. La cita incluye valoración y explicación de siguientes pasos. Tengo espacio [día/hora]. ¿Te queda bien?",
-    "avoid": ["Usar miedo como herramienta de venta.", "Publicar mensajes invasivos o poco sensibles.", "No cuidar privacidad en recepción.", "Responder síntomas con diagnósticos por chat."],
-    "relatedSituations": ["soy-buen-medico-pero-no-se-venderme", "tengo-leads-pero-no-agendan", "como-construir-autoridad-medica-online"]
+    "avoid": [
+      "Usar miedo como herramienta de venta.",
+      "Publicar mensajes invasivos o poco sensibles.",
+      "No cuidar privacidad en recepción.",
+      "Responder síntomas con diagnósticos por chat."
+    ],
+    "relatedSituations": [
+      "soy-buen-medico-pero-no-se-venderme",
+      "me-escriben-pero-no-agendan",
+      "como-construir-autoridad-medica-online"
+    ]
   },
   {
     "slug": "nutriologos",
@@ -87,37 +230,109 @@
     "description": "Estrategia para nutriólogos que quieren atraer pacientes privados, vender acompañamiento y dejar de competir contra dietas gratis de internet.",
     "lead": "Un nutriólogo vende acompañamiento, claridad y cambio sostenible; si se comunica como dieta genérica, compite contra contenido gratis.",
     "quickAnswer": "Para atraer pacientes como nutriólogo, define nicho, objetivo y método: pérdida de grasa, control metabólico, deporte, embarazo o hábitos. Usa contenido educativo, casos anónimos, WhatsApp con expectativas claras y seguimiento para aumentar continuidad.",
-    "patientMindset": ["Ya probé dietas y no sostengo nada.", "Quiero bajar grasa, pero no quiero sufrir.", "No sé si necesito nutriólogo o solo disciplina.", "Me da miedo pagar y abandonar."],
-    "priorityChannels": [
-      {"label": "Contenido por objetivo", "why": "El paciente busca bajar grasa, mejorar salud o rendimiento, no 'nutriología' en abstracto."},
-      {"label": "WhatsApp con proceso claro", "why": "Explicar seguimiento reduce miedo a pagar por una dieta más."},
-      {"label": "Reactivación", "why": "Muchos pacientes abandonan y pueden volver con un plan realista."}
+    "patientMindset": [
+      "Ya probé dietas y no sostengo nada.",
+      "Quiero bajar grasa, pero no quiero sufrir.",
+      "No sé si necesito nutriólogo o solo disciplina.",
+      "Me da miedo pagar y abandonar."
     ],
-    "offers": ["Plan de alimentación", "Seguimiento mensual", "Nutrición deportiva", "Control de peso", "Nutrición clínica", "Hábitos sostenibles"],
-    "thirtyDayPlan": ["Elige un nicho o resultado prioritario.", "Crea una página que explique tu método y seguimiento.", "Prepara guiones para precio y continuidad.", "Publica contenido que desmonte dietas extremas.", "Mide retención, no solo primeras consultas."],
+    "priorityChannels": [
+      {
+        "label": "Contenido por objetivo",
+        "why": "El paciente busca bajar grasa, mejorar salud o rendimiento, no 'nutriología' en abstracto."
+      },
+      {
+        "label": "WhatsApp con proceso claro",
+        "why": "Explicar seguimiento reduce miedo a pagar por una dieta más."
+      },
+      {
+        "label": "Reactivación",
+        "why": "Muchos pacientes abandonan y pueden volver con un plan realista."
+      }
+    ],
+    "offers": [
+      "Plan de alimentación",
+      "Seguimiento mensual",
+      "Nutrición deportiva",
+      "Control de peso",
+      "Nutrición clínica",
+      "Hábitos sostenibles"
+    ],
+    "thirtyDayPlan": [
+      "Elige un nicho o resultado prioritario.",
+      "Crea una página que explique tu método y seguimiento.",
+      "Prepara guiones para precio y continuidad.",
+      "Publica contenido que desmonte dietas extremas.",
+      "Mide retención, no solo primeras consultas."
+    ],
     "whatsappScript": "Hola. Mi trabajo no es darte una dieta genérica, sino armar un plan que puedas sostener según tus horarios, salud y objetivo. La primera consulta incluye evaluación y plan inicial. Tengo espacio [día/hora]. ¿Quieres iniciar?",
-    "avoid": ["Prometer kilos exactos.", "Competir contra dietas gratis.", "Vender solo una consulta aislada.", "Hablar de disciplina sin mostrar método."],
-    "relatedSituations": ["solo-me-llegan-pacientes-que-piden-descuento", "me-da-verguenza-vender-tratamientos", "quiero-dejar-depender-de-recomendaciones"]
+    "avoid": [
+      "Prometer kilos exactos.",
+      "Competir contra dietas gratis.",
+      "Vender solo una consulta aislada.",
+      "Hablar de disciplina sin mostrar método."
+    ],
+    "relatedSituations": [
+      "solo-me-llegan-pacientes-que-piden-descuento",
+      "me-da-verguenza-vender-tratamientos",
+      "quiero-dejar-depender-de-recomendaciones"
+    ]
   },
   {
     "slug": "fisioterapeutas",
     "name": "fisioterapeutas",
     "singular": "fisioterapeuta",
     "seoTitle": "Cómo atraer pacientes para fisioterapeutas en México",
-    "description": "Marketing para fisioterapeutas: pacientes de dolor, lesión, rehabilitación, deportistas y seguimiento sin depender solo de recomendaciones.",
+    "description": "Atracción de pacientes para fisioterapeutas: pacientes de dolor, lesión, rehabilitación, deportistas y seguimiento sin depender solo de recomendaciones.",
     "lead": "La fisioterapia necesita explicar proceso, sesiones y progreso esperado sin prometer curas mágicas.",
     "quickAnswer": "Para atraer pacientes como fisioterapeuta, trabaja búsquedas locales por dolor o lesión, alianzas con médicos y gimnasios, contenido educativo, reseñas de recuperación y WhatsApp que explique valoración, plan y frecuencia probable.",
-    "patientMindset": ["Me duele y no sé si necesito fisio o doctor.", "Quiero volver a entrenar.", "No quiero pagar sesiones eternas sin avance.", "Busco alguien que me explique qué tengo."],
-    "priorityChannels": [
-      {"label": "Google por dolor o lesión", "why": "Dolor lumbar, rodilla, hombro y rehabilitación tienen búsqueda local."},
-      {"label": "Referidos profesionales", "why": "Traumatólogos, ortopedistas, gimnasios y entrenadores pueden derivar."},
-      {"label": "Contenido de educación", "why": "Ayuda a diferenciar valoración seria de masaje genérico."}
+    "patientMindset": [
+      "Me duele y no sé si necesito fisio o doctor.",
+      "Quiero volver a entrenar.",
+      "No quiero pagar sesiones eternas sin avance.",
+      "Busco alguien que me explique qué tengo."
     ],
-    "offers": ["Valoración fisioterapéutica", "Dolor lumbar", "Lesiones deportivas", "Rehabilitación postoperatoria", "Terapia manual", "Plan de ejercicios"],
-    "thirtyDayPlan": ["Define 3 dolores o lesiones prioritarias.", "Actualiza Google con servicios y ubicación.", "Crea alianzas locales con médicos y gimnasios.", "Publica contenido que explique proceso de rehabilitación.", "Mide pacientes por referido, Google y campañas."],
+    "priorityChannels": [
+      {
+        "label": "Google por dolor o lesión",
+        "why": "Dolor lumbar, rodilla, hombro y rehabilitación tienen búsqueda local."
+      },
+      {
+        "label": "Referidos profesionales",
+        "why": "Traumatólogos, ortopedistas, gimnasios y entrenadores pueden derivar."
+      },
+      {
+        "label": "Contenido de educación",
+        "why": "Ayuda a diferenciar valoración seria de masaje genérico."
+      }
+    ],
+    "offers": [
+      "Valoración fisioterapéutica",
+      "Dolor lumbar",
+      "Lesiones deportivas",
+      "Rehabilitación postoperatoria",
+      "Terapia manual",
+      "Plan de ejercicios"
+    ],
+    "thirtyDayPlan": [
+      "Define 3 dolores o lesiones prioritarias.",
+      "Actualiza Google con servicios y ubicación.",
+      "Crea alianzas locales con médicos y gimnasios.",
+      "Publica contenido que explique proceso de rehabilitación.",
+      "Mide pacientes por referido, Google y campañas."
+    ],
     "whatsappScript": "Hola. Para saber qué necesitas primero hacemos una valoración: revisamos dolor, movilidad y objetivo. Con eso te propongo un plan de trabajo y frecuencia. Tengo espacio [día/hora]. ¿Te aparto cita?",
-    "avoid": ["Vender sesiones sin valoración.", "Prometer recuperación exacta.", "Competir como masaje barato.", "No medir evolución del paciente."],
-    "relatedSituations": ["quiero-dejar-depender-de-recomendaciones", "soy-buen-medico-pero-no-se-venderme", "necesito-pacientes-este-mes"]
+    "avoid": [
+      "Vender sesiones sin valoración.",
+      "Prometer recuperación exacta.",
+      "Competir como masaje barato.",
+      "No medir evolución del paciente."
+    ],
+    "relatedSituations": [
+      "quiero-dejar-depender-de-recomendaciones",
+      "soy-buen-medico-pero-no-se-venderme",
+      "necesito-pacientes-este-mes"
+    ]
   },
   {
     "slug": "cirujanos-plasticos",
@@ -127,37 +342,109 @@
     "description": "Estrategia de adquisición para cirujanos plásticos: autoridad, confianza, filtros, educación, consultas de valoración y publicidad responsable.",
     "lead": "En cirugía plástica, la confianza pesa más que el alcance: el paciente necesita seguridad, criterio médico y filtros antes de hablar de precio.",
     "quickAnswer": "Para atraer pacientes como cirujano plástico, construye autoridad visible, contenido educativo, proceso de valoración, reseñas responsables, filtros de candidatas y campañas que no prometan resultados garantizados ni trivialicen procedimientos.",
-    "patientMindset": ["Quiero mejorar algo, pero me da miedo elegir mal.", "Necesito ver seguridad y experiencia.", "Quiero saber precio, pero también riesgos.", "No quiero sentirme presionada."],
-    "priorityChannels": [
-      {"label": "Autoridad y sitio web", "why": "Procedimientos de alto valor requieren confianza profunda antes de la valoración."},
-      {"label": "Contenido educativo", "why": "Riesgos, recuperación y candidaturas deben explicarse con claridad."},
-      {"label": "Filtro de WhatsApp", "why": "No todo prospecto es candidato ni tiene expectativa realista."}
+    "patientMindset": [
+      "Quiero mejorar algo, pero me da miedo elegir mal.",
+      "Necesito ver seguridad y experiencia.",
+      "Quiero saber precio, pero también riesgos.",
+      "No quiero sentirme presionada."
     ],
-    "offers": ["Valoración quirúrgica", "Rinoplastia", "Lipoescultura", "Mamoplastia", "Blefaroplastia", "Cirugía reconstructiva"],
-    "thirtyDayPlan": ["Ordena páginas por procedimiento con límites y recuperación.", "Crea filtros de candidatura y expectativas.", "Revisa regulación de testimonios y antes/después.", "Entrena WhatsApp para orientar sin presionar.", "Mide valoraciones calificadas, no solo leads."],
+    "priorityChannels": [
+      {
+        "label": "Autoridad y sitio web",
+        "why": "Procedimientos de alto valor requieren confianza profunda antes de la valoración."
+      },
+      {
+        "label": "Contenido educativo",
+        "why": "Riesgos, recuperación y candidaturas deben explicarse con claridad."
+      },
+      {
+        "label": "Filtro de WhatsApp",
+        "why": "No todo paciente interesado es candidato ni tiene expectativa realista."
+      }
+    ],
+    "offers": [
+      "Valoración quirúrgica",
+      "Rinoplastia",
+      "Lipoescultura",
+      "Mamoplastia",
+      "Blefaroplastia",
+      "Cirugía reconstructiva"
+    ],
+    "thirtyDayPlan": [
+      "Ordena páginas por procedimiento con límites y recuperación.",
+      "Crea filtros de candidatura y expectativas.",
+      "Revisa regulación de testimonios y antes/después.",
+      "Entrena WhatsApp para orientar sin presionar.",
+      "Mide valoraciones calificadas, no solo paciente interesados."
+    ],
     "whatsappScript": "Hola. Para hablar de un procedimiento responsablemente necesitamos valoración médica, antecedentes y expectativas. Ahí se revisa si eres candidata/o, opciones, riesgos y recuperación. Tengo espacios [día/hora]. ¿Quieres agendar valoración?",
-    "avoid": ["Prometer resultados idénticos a fotos.", "Usar urgencia falsa.", "Vender precio antes de valorar.", "Aceptar prospectos sin filtro médico y financiero."],
-    "relatedSituations": ["solo-me-llegan-pacientes-que-piden-descuento", "me-estafaron-con-marketing-medico", "tengo-leads-pero-no-agendan"]
+    "avoid": [
+      "Prometer resultados idénticos a fotos.",
+      "Usar urgencia falsa.",
+      "Vender precio antes de valorar.",
+      "Aceptar pacientes interesados sin filtro médico y financiero."
+    ],
+    "relatedSituations": [
+      "solo-me-llegan-pacientes-que-piden-descuento",
+      "pague-publicidad-y-no-llegaron-pacientes",
+      "me-escriben-pero-no-agendan"
+    ]
   },
   {
     "slug": "medicos-esteticos",
     "name": "médicos estéticos",
     "singular": "médico estético",
     "seoTitle": "Cómo atraer pacientes para médicos estéticos en México",
-    "description": "Marketing para medicina estética: atraer pacientes de toxina, rellenos, bioestimulación, láser y tratamientos faciales con confianza y seguimiento.",
-    "lead": "La medicina estética atrae mucho lead curioso; el reto es filtrar, educar y convertir sin competir solo por promociones.",
+    "description": "Atracción de pacientes para medicina estética: atraer pacientes de toxina, rellenos, bioestimulación, láser y tratamientos faciales con confianza y seguimiento.",
+    "lead": "La medicina estética atrae mucho paciente curioso; el reto es filtrar, educar y llevar a cita sin competir solo por promociones.",
     "quickAnswer": "Para atraer pacientes como médico estético, separa tratamientos, explica indicaciones y límites, muestra autoridad médica, usa reseñas y WhatsApp consultivo. No vendas solo 'promo de relleno'; vende valoración, seguridad y plan estético.",
-    "patientMindset": ["Quiero verme mejor, pero natural.", "Me da miedo quedar mal.", "Pregunto precio porque no sé qué necesito.", "Busco alguien que no exagere."],
-    "priorityChannels": [
-      {"label": "Redes con criterio médico", "why": "El paciente quiere ver estilo, explicación y naturalidad."},
-      {"label": "Google por tratamiento", "why": "Toxina, rellenos, láser y manchas tienen intención específica."},
-      {"label": "WhatsApp con valoración", "why": "El precio depende de evaluación y objetivo, no de vender producto suelto."}
+    "patientMindset": [
+      "Quiero verme mejor, pero natural.",
+      "Me da miedo quedar mal.",
+      "Pregunto precio porque no sé qué necesito.",
+      "Busco alguien que no exagere."
     ],
-    "offers": ["Valoración estética", "Toxina botulínica", "Rellenos", "Bioestimulación", "Tratamientos faciales", "Láser"],
-    "thirtyDayPlan": ["Crea páginas por tratamiento prioritario.", "Arma respuestas para precio y valoración.", "Publica criterios para resultados naturales.", "Pide reseñas sobre trato y explicación.", "Mide prospectos calificados contra curiosos por precio."],
+    "priorityChannels": [
+      {
+        "label": "Redes con criterio médico",
+        "why": "El paciente quiere ver estilo, explicación y naturalidad."
+      },
+      {
+        "label": "Google por tratamiento",
+        "why": "Toxina, rellenos, láser y manchas tienen intención específica."
+      },
+      {
+        "label": "WhatsApp con valoración",
+        "why": "El precio depende de evaluación y objetivo, no de vender producto suelto."
+      }
+    ],
+    "offers": [
+      "Valoración estética",
+      "Toxina botulínica",
+      "Rellenos",
+      "Bioestimulación",
+      "Tratamientos faciales",
+      "Láser"
+    ],
+    "thirtyDayPlan": [
+      "Crea páginas por tratamiento prioritario.",
+      "Arma respuestas para precio y valoración.",
+      "Publica criterios para resultados naturales.",
+      "Pide reseñas sobre trato y explicación.",
+      "Mide pacientes interesados calificados contra curiosos por precio."
+    ],
     "whatsappScript": "Hola. Para recomendar un tratamiento estético primero valoramos tu rostro/piel y el resultado que buscas. Así evitamos vender algo que no necesitas. La valoración tiene costo de [precio] y tengo espacio [día/hora]. ¿Te interesa?",
-    "avoid": ["Promociones agresivas sin valoración.", "Antes/después sin consentimiento y revisión legal.", "Usar lenguaje de garantía estética.", "Responder solo con lista de precios."],
-    "relatedSituations": ["tengo-leads-pero-no-agendan", "solo-me-llegan-pacientes-que-piden-descuento", "me-da-verguenza-vender-tratamientos"]
+    "avoid": [
+      "Promociones agresivas sin valoración.",
+      "Antes/después sin consentimiento y revisión legal.",
+      "Usar lenguaje de garantía estética.",
+      "Responder solo con lista de precios."
+    ],
+    "relatedSituations": [
+      "me-escriben-pero-no-agendan",
+      "solo-me-llegan-pacientes-que-piden-descuento",
+      "me-da-verguenza-vender-tratamientos"
+    ]
   },
   {
     "slug": "ortodoncistas",
@@ -166,37 +453,109 @@
     "seoTitle": "Cómo atraer pacientes para ortodoncistas en México",
     "description": "Estrategia para ortodoncistas: atraer pacientes de brackets, alineadores, valoración, financiamiento y seguimiento sin competir solo por mensualidades bajas.",
     "lead": "La ortodoncia se decide por confianza, plan, mensualidad clara y seguimiento; no solo por el precio de los brackets.",
-    "quickAnswer": "Para atraer pacientes como ortodoncista, trabaja Google local, campañas por valoración, contenido comparando brackets y alineadores, WhatsApp con financiamiento claro y seguimiento a prospectos que pidieron cotización.",
-    "patientMindset": ["Quiero saber cuánto me va a costar todo.", "No sé si necesito brackets o alineadores.", "Busco un plan que pueda pagar.", "Me preocupa que me abandonen a medio tratamiento."],
-    "priorityChannels": [
-      {"label": "Google y campañas locales", "why": "La valoración de ortodoncia se busca por zona y precio total aproximado."},
-      {"label": "Contenido comparativo", "why": "Brackets, alineadores, tiempos y mantenimiento generan dudas reales."},
-      {"label": "CRM y seguimiento", "why": "La decisión puede tardar días o semanas; hay que dar seguimiento profesional."}
+    "quickAnswer": "Para atraer pacientes como ortodoncista, trabaja Google local, campañas por valoración, contenido comparando brackets y alineadores, WhatsApp con financiamiento claro y seguimiento a pacientes interesados que pidieron cotización.",
+    "patientMindset": [
+      "Quiero saber cuánto me va a costar todo.",
+      "No sé si necesito brackets o alineadores.",
+      "Busco un plan que pueda pagar.",
+      "Me preocupa que me abandonen a medio tratamiento."
     ],
-    "offers": ["Valoración de ortodoncia", "Brackets", "Alineadores", "Ortodoncia infantil", "Plan de financiamiento", "Seguimiento mensual"],
-    "thirtyDayPlan": ["Define valoraciones y condiciones claras.", "Crea respuestas para precio inicial, mensualidad y duración.", "Publica comparativas de brackets y alineadores.", "Etiqueta prospectos por etapa de decisión.", "Mide valoraciones asistidas y cierres de tratamiento."],
+    "priorityChannels": [
+      {
+        "label": "Google y campañas locales",
+        "why": "La valoración de ortodoncia se busca por zona y precio total aproximado."
+      },
+      {
+        "label": "Contenido comparativo",
+        "why": "Brackets, alineadores, tiempos y mantenimiento generan dudas reales."
+      },
+      {
+        "label": "seguimiento de pacientes",
+        "why": "La decisión puede tardar días o semanas; hay que dar seguimiento profesional."
+      }
+    ],
+    "offers": [
+      "Valoración de ortodoncia",
+      "Brackets",
+      "Alineadores",
+      "Ortodoncia infantil",
+      "Plan de financiamiento",
+      "Seguimiento mensual"
+    ],
+    "thirtyDayPlan": [
+      "Define valoraciones y condiciones claras.",
+      "Crea respuestas para precio inicial, mensualidad y duración.",
+      "Publica comparativas de brackets y alineadores.",
+      "Etiqueta pacientes interesados por etapa de decisión.",
+      "Mide valoraciones asistidas y cierres de tratamiento."
+    ],
     "whatsappScript": "Hola. Para darte un costo responsable necesitamos valoración, revisar mordida y definir si conviene brackets, alineadores u otra ruta. Te puedo compartir requisitos y horarios para valoración. ¿Qué día te queda mejor?",
-    "avoid": ["Competir solo por mensualidad baja.", "Prometer duración exacta sin revisar.", "No seguir prospectos que piden cotización.", "Mezclar ortodoncia infantil y adultos en el mismo mensaje."],
-    "relatedSituations": ["tengo-leads-pero-no-agendan", "solo-me-llegan-pacientes-que-piden-descuento", "necesito-pacientes-este-mes"]
+    "avoid": [
+      "Competir solo por mensualidad baja.",
+      "Prometer duración exacta sin revisar.",
+      "No seguir pacientes interesados que piden cotización.",
+      "Mezclar ortodoncia infantil y adultos en el mismo mensaje."
+    ],
+    "relatedSituations": [
+      "me-escriben-pero-no-agendan",
+      "solo-me-llegan-pacientes-que-piden-descuento",
+      "necesito-pacientes-este-mes"
+    ]
   },
   {
     "slug": "pediatras",
     "name": "pediatras",
     "singular": "pediatra",
     "seoTitle": "Cómo atraer pacientes para pediatras en México",
-    "description": "Marketing para pediatras: confianza de mamás y papás, búsquedas locales, urgencias no graves, control del niño sano y seguimiento familiar.",
+    "description": "Atracción de pacientes para pediatras: confianza de mamás y papás, búsquedas locales, urgencias no graves, control del niño sano y seguimiento familiar.",
     "lead": "Un pediatra atrae familias cuando transmite confianza, disponibilidad razonable, explicación clara y continuidad.",
     "quickAnswer": "Para atraer pacientes como pediatra, optimiza Google local, publica contenido para dudas frecuentes de mamás y papás, pide reseñas sobre trato, explica control del niño sano y usa WhatsApp para orientar sin sustituir consulta.",
-    "patientMindset": ["Mi hijo se siente mal y quiero saber si lo revisan pronto.", "Busco pediatra confiable cerca.", "Quiero que me expliquen sin regañarme.", "Necesito continuidad, no solo consulta aislada."],
-    "priorityChannels": [
-      {"label": "Google local", "why": "Las familias buscan pediatra cerca y con disponibilidad."},
-      {"label": "Contenido para padres", "why": "Fiebre, tos, vacunas, alimentación y desarrollo generan preguntas constantes."},
-      {"label": "Seguimiento familiar", "why": "La relación pediátrica crece con controles, recordatorios y confianza."}
+    "patientMindset": [
+      "Mi hijo se siente mal y quiero saber si lo revisan pronto.",
+      "Busco pediatra confiable cerca.",
+      "Quiero que me expliquen sin regañarme.",
+      "Necesito continuidad, no solo consulta aislada."
     ],
-    "offers": ["Consulta pediátrica", "Control del niño sano", "Vacunas", "Fiebre y síntomas", "Recién nacido", "Seguimiento de crecimiento"],
-    "thirtyDayPlan": ["Actualiza Google con horarios, ubicación y servicios.", "Publica respuestas sobre fiebre, tos, vacunas y desarrollo.", "Pide reseñas enfocadas en trato y explicación.", "Crea recordatorios de control y seguimiento.", "Mide familias nuevas y controles recurrentes."],
+    "priorityChannels": [
+      {
+        "label": "Google local",
+        "why": "Las familias buscan pediatra cerca y con disponibilidad."
+      },
+      {
+        "label": "Contenido para padres",
+        "why": "Fiebre, tos, vacunas, alimentación y desarrollo generan preguntas constantes."
+      },
+      {
+        "label": "Seguimiento familiar",
+        "why": "La relación pediátrica crece con controles, recordatorios y confianza."
+      }
+    ],
+    "offers": [
+      "Consulta pediátrica",
+      "Control del niño sano",
+      "Vacunas",
+      "Fiebre y síntomas",
+      "Recién nacido",
+      "Seguimiento de crecimiento"
+    ],
+    "thirtyDayPlan": [
+      "Actualiza Google con horarios, ubicación y servicios.",
+      "Publica respuestas sobre fiebre, tos, vacunas y desarrollo.",
+      "Pide reseñas enfocadas en trato y explicación.",
+      "Crea recordatorios de control y seguimiento.",
+      "Mide familias nuevas y controles recurrentes."
+    ],
     "whatsappScript": "Hola. Con gusto revisamos a tu peque. Para cuidar bien el caso necesitamos consulta y exploración; por WhatsApp puedo ayudarte a ubicar horarios y qué datos llevar. Tengo espacio [día/hora]. ¿Te sirve?",
-    "avoid": ["Diagnosticar por chat.", "Usar miedo para vender consulta.", "No separar urgencias reales de orientación.", "Descuidar seguimiento después de la primera consulta."],
-    "relatedSituations": ["quiero-dejar-depender-de-recomendaciones", "como-construir-autoridad-medica-online", "soy-buen-medico-pero-no-se-venderme"]
+    "avoid": [
+      "Diagnosticar por chat.",
+      "Usar miedo para vender consulta.",
+      "No separar urgencias reales de orientación.",
+      "Descuidar seguimiento después de la primera consulta."
+    ],
+    "relatedSituations": [
+      "quiero-dejar-depender-de-recomendaciones",
+      "como-construir-autoridad-medica-online",
+      "soy-buen-medico-pero-no-se-venderme"
+    ]
   }
 ]

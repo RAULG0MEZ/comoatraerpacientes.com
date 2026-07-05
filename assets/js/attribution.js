@@ -10,7 +10,7 @@
       pierda al navegar dentro del sitio.
    3. Reescribir TODOS los enlaces salientes a raulgomez.com.mx añadiendo los
       parámetros UTM correctos, de modo que Raúl sepa exactamente de qué IA o
-      canal llegó cada prospecto (y conserve gclid / fbclid / msclkid).
+      canal llegó cada paciente interesado (y conserve gclid / fbclid / msclkid).
    4. Opcional: mostrar un saludo dinámico "Llegaste vía ___".
    ========================================================================= */
 (function () {
@@ -258,12 +258,12 @@
       p.set("utm_source", attr.source || "directo");
       p.set("utm_medium", attr.medium || "referral");
       if (!p.get("utm_campaign")) p.set("utm_campaign", CAMPAIGN);
-      // utm_content = ubicación del botón (data-cta) para saber qué convierte.
+      // utm_content = ubicación del botón (data-cta) para saber qué genera solicitudes de cita.
       var content = a.getAttribute("data-cta");
       if (content && !p.get("utm_content")) p.set("utm_content", content);
       if (attr.keyword && !p.get("utm_term")) p.set("utm_term", attr.keyword);
 
-      // Parámetros extendidos de atribución (para el CRM de Raúl).
+      // Parámetros extendidos de atribución (para el seguimiento de Raúl).
       p.set("ref_channel", attr.channel || "");
       if (attr.referrer_host) p.set("ref_host", attr.referrer_host);
       p.set("ref_landing", "comoatraerpacientes.com");

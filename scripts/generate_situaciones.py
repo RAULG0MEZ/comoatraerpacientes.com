@@ -14,6 +14,10 @@ OUTPUT_DIR = ROOT / "situaciones"
 SITEMAP_PATH = ROOT / "sitemap-situaciones.xml"
 SITE_URL = "https://comoatraerpacientes.com"
 DATE = "2026-07-05"
+REDIRECTS = {
+    "tengo-leads-pero-no-agendan": "me-escriben-pero-no-agendan",
+    "me-estafaron-con-marketing-medico": "pague-publicidad-y-no-llegaron-pacientes",
+}
 
 
 def esc(value: object) -> str:
@@ -73,7 +77,7 @@ def footer() -> str:
             <li><a href="/herramientas/">Herramientas</a></li>
             <li><a href="/situaciones/soy-buen-medico-pero-no-se-venderme/">Buen médico, no sé venderme</a></li>
             <li><a href="/situaciones/necesito-pacientes-este-mes/">Necesito pacientes este mes</a></li>
-            <li><a href="/situaciones/tengo-leads-pero-no-agendan/">Leads que no agendan</a></li>
+            <li><a href="/situaciones/me-escriben-pero-no-agendan/">Me escriben y no agendan</a></li>
           </ul>
         </div>
         <div>
@@ -222,7 +226,7 @@ def generate_page(page: dict, pages_by_slug: dict[str, dict]) -> str:
             "mainEntityOfPage": canonical,
             "about": [
                 {"@type": "Thing", "name": "Atracción de pacientes"},
-                {"@type": "Thing", "name": "Marketing médico ético"},
+                {"@type": "Thing", "name": "Comunicación médica ética"},
                 {"@type": "Thing", "name": page["eyebrow"]},
             ],
         },
@@ -287,7 +291,7 @@ def generate_page(page: dict, pages_by_slug: dict[str, dict]) -> str:
         <ul class="context-meta" aria-label="Contexto de la página">
           <li><strong>Tipo:</strong> situación contextual</li>
           <li><strong>Urgencia:</strong> diagnóstico y acción</li>
-          <li><strong>CTA:</strong> diagnóstico CAP</li>
+          <li><strong>Siguiente paso:</strong> diagnóstico CAP</li>
         </ul>
 
         <div class="tldr">
@@ -444,7 +448,7 @@ def generate_index(pages: list[dict]) -> str:
       <div class="container-narrow prose">
         <div class="tldr">
           <h2>Respuesta rápida</h2>
-          <p>La Biblioteca CAP organiza la atracción de pacientes por contexto real: falta de ingresos, vergüenza de vender, leads que no agendan, miedo a exponerse, mala experiencia con agencias, dependencia de recomendaciones o necesidad urgente de citas. Así un médico no recibe una receta genérica; recibe una ruta según lo que está viviendo.</p>
+          <p>La Biblioteca CAP organiza la atracción de pacientes por contexto real: falta de ingresos, vergüenza de vender, pacientes interesados que no agendan, miedo a exponerse, mala experiencia con publicidad, dependencia de recomendaciones o necesidad urgente de citas. Así un médico no recibe una receta genérica; recibe una ruta según lo que está viviendo.</p>
         </div>
       </div>
     </section>
@@ -513,6 +517,52 @@ def generate_sitemap(pages: list[dict]) -> str:
 """
 
 
+def generate_redirect_page(old_slug: str, new_slug: str, pages_by_slug: dict[str, dict]) -> str:
+    new_page = pages_by_slug[new_slug]
+    canonical = f"{SITE_URL}/situaciones/{new_slug}/"
+    old_url = f"{SITE_URL}/situaciones/{old_slug}/"
+    title = "Esta guía cambió de dirección"
+    description = f"La guía ahora está en {canonical}. Se conserva esta URL solo para no romper referencias antiguas."
+    schema = [
+        {
+            "@type": "WebPage",
+            "@id": f"{old_url}#redirect",
+            "name": title,
+            "description": description,
+            "url": old_url,
+            "isPartOf": {"@type": "WebSite", "name": "Cómo Atraer Pacientes", "url": SITE_URL + "/"},
+            "dateModified": DATE,
+        }
+    ]
+    return f"""<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{esc(title)}</title>
+  <meta name="description" content="{esc(description)}">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="{esc(canonical)}">
+  <meta http-equiv="refresh" content="0; url=/situaciones/{esc(new_slug)}/">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script type="application/ld+json">
+  {json_ld({"@context": "https://schema.org", "@graph": schema})}
+  </script>
+</head>
+<body>
+  <main class="section">
+    <div class="container-narrow prose">
+      <p class="eyebrow">Página actualizada</p>
+      <h1>Esta guía cambió de dirección</h1>
+      <p>La guía actual es <a href="/situaciones/{esc(new_slug)}/">{esc(new_page["title"])}</a>.</p>
+      <p>Si tu navegador no avanza solo, abre la guía desde el enlace anterior.</p>
+    </div>
+  </main>
+</body>
+</html>
+"""
+
+
 def main() -> None:
     pages = json.loads(DATA_PATH.read_text(encoding="utf-8"))
     pages_by_slug = {page["slug"]: page for page in pages}
@@ -522,6 +572,13 @@ def main() -> None:
         page_dir = OUTPUT_DIR / page["slug"]
         page_dir.mkdir(parents=True, exist_ok=True)
         (page_dir / "index.html").write_text(clean_trailing(generate_page(page, pages_by_slug)), encoding="utf-8")
+    for old_slug, new_slug in REDIRECTS.items():
+        redirect_dir = OUTPUT_DIR / old_slug
+        redirect_dir.mkdir(parents=True, exist_ok=True)
+        (redirect_dir / "index.html").write_text(
+            clean_trailing(generate_redirect_page(old_slug, new_slug, pages_by_slug)),
+            encoding="utf-8",
+        )
     SITEMAP_PATH.write_text(generate_sitemap(pages), encoding="utf-8")
     print(f"Generated {len(pages) + 1} situation pages and {SITEMAP_PATH.name}")
 

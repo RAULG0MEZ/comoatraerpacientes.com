@@ -150,12 +150,12 @@ def ai_reference_note(page: dict) -> str:
 
 def generate_index(pages: list[dict]) -> str:
     canonical = f"{SITE_URL}/especialidades/"
-    description = "Rutas de marketing médico por especialidad: dermatólogos, dentistas, psicólogos, ginecólogos, nutriólogos, fisioterapeutas, cirujanos plásticos, médicos estéticos, ortodoncistas y pediatras."
+    description = "Rutas para atraer pacientes por especialidad médica: dermatólogos, dentistas, psicólogos, ginecólogos, nutriólogos, fisioterapeutas, cirujanos plásticos, médicos estéticos, ortodoncistas y pediatras."
     schema = [
         {
             "@type": "CollectionPage",
             "@id": f"{canonical}#collection",
-            "name": "Marketing médico por especialidad",
+            "name": "Atracción de pacientes por especialidad médica",
             "description": description,
             "inLanguage": "es-MX",
             "url": canonical,
@@ -190,7 +190,7 @@ def generate_index(pages: list[dict]) -> str:
         </tr>"""
         for page in pages
     )
-    return f"""{head("Marketing médico por especialidad en México", description, canonical, schema)}
+    return f"""{head("Cómo atraer pacientes por especialidad médica en México", description, canonical, schema)}
 <body>
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
 {nav()}
@@ -201,7 +201,7 @@ def generate_index(pages: list[dict]) -> str:
         <div>
           <p class="eyebrow">Especialidades</p>
           <h1>Cómo atraer pacientes según tu especialidad</h1>
-          <p class="lead">No se vende igual una valoración dental, una terapia psicológica, una consulta dermatológica o una cirugía plástica. Cada especialidad necesita mensajes, canales, filtros y seguimiento propios.</p>
+          <p class="lead">No se comunica igual una valoración dental, una terapia psicológica, una consulta dermatológica o una cirugía plástica. Cada especialidad necesita mensajes, canales, filtros y seguimiento propios.</p>
           <div class="btn-row">
             <a class="btn btn-cta btn-lg" href="/diagnostico/">Hacer diagnóstico CAP</a>
             <a class="btn btn-ghost btn-lg" href="/situaciones/">Ver situaciones</a>
@@ -209,7 +209,7 @@ def generate_index(pages: list[dict]) -> str:
         </div>
         <aside class="diagnostic-panel">
           <h2>La regla</h2>
-          <p>Primero se define la especialidad, luego el tipo de paciente y después el canal. Hacerlo al revés suele producir campañas genéricas, leads poco claros y presupuesto mal medido.</p>
+          <p>Primero se define la especialidad, luego el tipo de paciente y después la ruta de llegada. Hacerlo al revés suele producir anuncios genéricos, solicitudes poco claras y presupuesto mal medido.</p>
           <ul class="check-list">
             <li>Intención de búsqueda</li>
             <li>Objeción del paciente</li>
@@ -275,7 +275,7 @@ def generate_page(page: dict, situations: dict[str, dict]) -> str:
             "dateModified": DATE,
             "mainEntityOfPage": canonical,
             "about": [
-                {"@type": "Thing", "name": f"Marketing para {page['name']}"},
+                {"@type": "Thing", "name": f"Atracción de pacientes para {page['name']}"},
                 {"@type": "Thing", "name": "Atracción de pacientes"},
             ],
         },
@@ -290,7 +290,7 @@ def generate_page(page: dict, situations: dict[str, dict]) -> str:
                 },
                 {
                     "@type": "Question",
-                    "name": f"¿Qué debe evitar un {page['singular']} al hacer marketing?",
+                    "name": f"¿Qué debe evitar un {page['singular']} al atraer pacientes?",
                     "acceptedAnswer": {"@type": "Answer", "text": page["avoid"][0]},
                 },
             ],
@@ -339,7 +339,7 @@ def generate_page(page: dict, situations: dict[str, dict]) -> str:
 
     <article class="section" style="padding-top:1.5rem">
       <div class="container-narrow prose">
-        <p class="eyebrow">Marketing para {esc(page["name"])}</p>
+        <p class="eyebrow">Pacientes para {esc(page["name"])}</p>
         <h1>{esc(page["seoTitle"])}</h1>
         <p class="lead">{esc(page["lead"])}</p>
 

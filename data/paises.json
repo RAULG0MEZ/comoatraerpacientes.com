@@ -8,23 +8,84 @@
     "description": "Hub de México para médicos, dentistas, clínicas y profesionales de la salud que quieren atraer pacientes con Google Maps, WhatsApp, reseñas, publicidad responsable y seguimiento.",
     "h1": "Cómo atraer pacientes en México si eres médico, dentista o profesional de la salud",
     "lead": "En México, atraer pacientes no se resuelve con publicar más por publicar. La mayoría de los cuellos de botella están en Google Maps, reseñas, WhatsApp, seguimiento, claridad de oferta y confianza visible.",
-    "quickAnswer": "En México, atraer pacientes suele depender de una combinación de Google Maps, reseñas, WhatsApp, publicidad bien segmentada, reputación profesional y seguimiento rápido. Si tienes agenda floja, leads que no agendan o pacientes que solo preguntan precio, el problema puede estar en visibilidad, confianza, oferta, seguimiento o medición.",
-    "localLanguage": ["No me cae gente.", "Tengo la agenda floja.", "Me escriben y no se concreta.", "Puro curioso.", "Me dejan en visto.", "Preguntan precio y desaparecen.", "No sale ni la renta del consultorio.", "No quiero verme urgido.", "No quiero andar bailando en TikTok."],
-    "localSignals": ["Google Business Profile y Google Maps por zona.", "WhatsApp como canal principal de contacto.", "Reseñas visibles antes de pedir precio.", "Doctoralia y directorios como apoyo, no como única estrategia.", "Pacientes particulares y consulta privada como prioridad comercial.", "Cuidado con COFEPRIS y políticas de anuncios en salud."],
-    "priorityChannels": [
-      {"label": "Google Maps", "href": "/canales/google-maps/", "why": "La búsqueda local captura pacientes con intención real: especialidad, zona, horario y reseñas."},
-      {"label": "WhatsApp", "href": "/canales/whatsapp/", "why": "En México muchas citas se ganan o se pierden en la primera respuesta."},
-      {"label": "Reseñas", "href": "/canales/resenas/", "why": "La confianza visible reduce la fricción cuando el paciente compara médicos."},
-      {"label": "Google Ads", "href": "/canales/google-ads/", "why": "Sirve para demanda activa cuando alguien ya busca solución."},
-      {"label": "Meta Ads", "href": "/canales/meta-ads/", "why": "Funciona para demanda latente, reactivación y tratamientos que requieren educación."}
+    "quickAnswer": "En México, atraer pacientes suele depender de una combinación de Google Maps, reseñas, WhatsApp, publicidad bien segmentada, reputación profesional y seguimiento rápido. Si tienes agenda floja, pacientes interesados que no agendan o pacientes que solo preguntan precio, el problema puede estar en visibilidad, confianza, oferta, seguimiento o medición.",
+    "localLanguage": [
+      "No me cae gente.",
+      "Tengo la agenda floja.",
+      "Me escriben y no se concreta.",
+      "Puro curioso.",
+      "Me dejan en visto.",
+      "Preguntan precio y desaparecen.",
+      "No sale ni la renta del consultorio.",
+      "No quiero verme urgido.",
+      "No quiero andar bailando en TikTok."
     ],
-    "firstSteps": ["Completa Google Business Profile con servicios, horarios, fotos reales y zona de atención.", "Pide reseñas nuevas a pacientes satisfechos con un proceso constante.", "Crea respuestas rápidas de WhatsApp para precio, ubicación, disponibilidad y siguiente paso.", "Separa campañas por servicio o situación, no por 'médico' genérico.", "Mide mensajes, citas agendadas, citas asistidas y pacientes reales por canal."],
-    "avoid": ["Copiar anuncios agresivos que prometen resultados médicos.", "Poner todo el presupuesto en redes si Google y WhatsApp están mal.", "Hacer páginas por ciudad sin contenido real.", "Responder solo con precio y esperar que el paciente entienda el valor.", "Hablar de regulación como asesoría legal sin revisar fuente oficial."],
+    "localSignals": [
+      "Perfil de Empresa en Google y Google Maps por zona.",
+      "WhatsApp como canal principal de contacto.",
+      "Reseñas visibles antes de pedir precio.",
+      "Doctoralia y directorios como apoyo, no como única estrategia.",
+      "Pacientes particulares y consulta privada como prioridad comercial.",
+      "Cuidado con COFEPRIS y políticas de anuncios en salud."
+    ],
+    "priorityChannels": [
+      {
+        "label": "Google Maps",
+        "href": "/canales/google-maps/",
+        "why": "La búsqueda local captura pacientes con intención real: especialidad, zona, horario y reseñas."
+      },
+      {
+        "label": "WhatsApp",
+        "href": "/canales/whatsapp/",
+        "why": "En México muchas citas se ganan o se pierden en la primera respuesta."
+      },
+      {
+        "label": "Reseñas",
+        "href": "/canales/resenas/",
+        "why": "La confianza visible reduce la fricción cuando el paciente compara médicos."
+      },
+      {
+        "label": "Anuncios en Google",
+        "href": "/canales/google-ads/",
+        "why": "Sirve para demanda activa cuando alguien ya busca solución."
+      },
+      {
+        "label": "Anuncios en Facebook e Instagram",
+        "href": "/canales/meta-ads/",
+        "why": "Funciona para demanda latente, reactivación y tratamientos que requieren educación."
+      }
+    ],
+    "firstSteps": [
+      "Completa Perfil de Empresa en Google con servicios, horarios, fotos reales y zona de atención.",
+      "Pide reseñas nuevas a pacientes satisfechos con un proceso constante.",
+      "Crea respuestas rápidas de WhatsApp para precio, ubicación, disponibilidad y siguiente paso.",
+      "Separa campañas por servicio o situación, no por 'médico' genérico.",
+      "Mide mensajes, citas agendadas, citas asistidas y pacientes reales por canal."
+    ],
+    "avoid": [
+      "Copiar anuncios agresivos que prometen resultados médicos.",
+      "Poner todo el presupuesto en redes si Google y WhatsApp están mal.",
+      "Hacer páginas por ciudad sin contenido real.",
+      "Responder solo con precio y esperar que el paciente entienda el valor.",
+      "Hablar de regulación como asesoría legal sin revisar fuente oficial."
+    ],
     "sources": [
-      {"label": "COFEPRIS: Autorización Publicitaria", "href": "https://www.gob.mx/cofepris/acciones-y-programas/autorizacion-publicitaria"},
-      {"label": "COFEPRIS: Aviso de Publicidad", "href": "https://www.gob.mx/cofepris/acciones-y-programas/aviso-publicitario"},
-      {"label": "Meta: atributos personales en anuncios", "href": "https://transparency.meta.com/policies/ad-standards/objectionable-content/privacy-violations-personal-attributes/"},
-      {"label": "Google Ads: salud y medicamentos", "href": "https://support.google.com/adspolicy/answer/176031?hl=en"}
+      {
+        "label": "COFEPRIS: Autorización Publicitaria",
+        "href": "https://www.gob.mx/cofepris/acciones-y-programas/autorizacion-publicitaria"
+      },
+      {
+        "label": "COFEPRIS: Aviso de Publicidad",
+        "href": "https://www.gob.mx/cofepris/acciones-y-programas/aviso-publicitario"
+      },
+      {
+        "label": "Meta: atributos personales en anuncios",
+        "href": "https://transparency.meta.com/policies/ad-standards/objectionable-content/privacy-violations-personal-attributes/"
+      },
+      {
+        "label": "Anuncios en Google: salud y medicamentos",
+        "href": "https://support.google.com/adspolicy/answer/176031?hl=en"
+      }
     ]
   },
   {
@@ -33,19 +94,53 @@
     "country": "Colombia",
     "marketLabel": "Latinoamérica",
     "seoTitle": "Cómo atraer pacientes en Colombia para médicos y clínicas",
-    "description": "Ruta para médicos y clínicas en Colombia que quieren atraer pacientes particulares con búsqueda local, WhatsApp, reputación y seguimiento comercial.",
+    "description": "Ruta para médicos y clínicas en Colombia que quieren atraer pacientes particulares con búsqueda local, WhatsApp, reputación y seguimiento de pacientes.",
     "h1": "Cómo atraer pacientes en Colombia si eres médico, dentista o profesional de la salud",
     "lead": "En Colombia, la estrategia debe distinguir entre pacientes particulares, citas por recomendación, búsqueda local y conversaciones por WhatsApp que necesitan seguimiento serio.",
     "quickAnswer": "Para atraer pacientes en Colombia, empieza por visibilidad local, reseñas, WhatsApp claro, una oferta por servicio y seguimiento de citas. No copies una página mexicana cambiando el país: usa lenguaje local, ciudades reales, objeciones propias y reglas publicitarias revisadas.",
-    "localLanguage": ["Necesito más citas particulares.", "Me escriben y no separan cita.", "Quieren saber precio antes de entender el proceso.", "Quiero pacientes privados sin depender solo de recomendados."],
-    "localSignals": ["Búsqueda local por ciudad y barrio.", "WhatsApp como canal de contacto frecuente.", "Confianza por reseñas y referencias.", "Diferenciar consulta particular de rutas por aseguramiento o convenios.", "Cuidado con regulación local y políticas de plataforma."],
-    "priorityChannels": [
-      {"label": "Google Maps", "href": "/canales/google-maps/", "why": "Ayuda a aparecer cuando el paciente busca especialista cerca."},
-      {"label": "WhatsApp", "href": "/canales/whatsapp/", "why": "Permite convertir preguntas en citas si el proceso está claro."},
-      {"label": "Referidos", "href": "/canales/referidos/", "why": "Funciona bien si se vuelve sistema, no solo esperanza."}
+    "localLanguage": [
+      "Necesito más citas particulares.",
+      "Me escriben y no separan cita.",
+      "Quieren saber precio antes de entender el proceso.",
+      "Quiero pacientes privados sin depender solo de recomendados."
     ],
-    "firstSteps": ["Define ciudad, zona y tipo de paciente particular.", "Crea mensajes para precio, disponibilidad y primera cita.", "Pide reseñas que expliquen claridad, trato y seguimiento.", "Publica una página por servicio prioritario con lenguaje local.", "Mide citas separadas y asistidas, no solo mensajes."],
-    "avoid": ["Traducir literalmente expresiones mexicanas.", "Hablar de regulación colombiana sin fuente.", "Mezclar pacientes particulares con todos los modelos de atención sin aclarar.", "Pagar anuncios sin seguimiento."],
+    "localSignals": [
+      "Búsqueda local por ciudad y barrio.",
+      "WhatsApp como canal de contacto frecuente.",
+      "Confianza por reseñas y referencias.",
+      "Diferenciar consulta particular de rutas por aseguramiento o convenios.",
+      "Cuidado con regulación local y políticas de plataforma."
+    ],
+    "priorityChannels": [
+      {
+        "label": "Google Maps",
+        "href": "/canales/google-maps/",
+        "why": "Ayuda a aparecer cuando el paciente busca especialista cerca."
+      },
+      {
+        "label": "WhatsApp",
+        "href": "/canales/whatsapp/",
+        "why": "Permite llevar preguntas a citas si el proceso está claro."
+      },
+      {
+        "label": "Referidos",
+        "href": "/canales/referidos/",
+        "why": "Funciona bien si se vuelve sistema, no solo esperanza."
+      }
+    ],
+    "firstSteps": [
+      "Define ciudad, zona y tipo de paciente particular.",
+      "Crea mensajes para precio, disponibilidad y primera cita.",
+      "Pide reseñas que expliquen claridad, trato y seguimiento.",
+      "Publica una página por servicio prioritario con lenguaje local.",
+      "Mide citas separadas y asistidas, no solo mensajes."
+    ],
+    "avoid": [
+      "Traducir literalmente expresiones mexicanas.",
+      "Hablar de regulación colombiana sin fuente.",
+      "Mezclar pacientes particulares con todos los modelos de atención sin aclarar.",
+      "Pagar anuncios sin seguimiento."
+    ],
     "sources": []
   },
   {
@@ -58,15 +153,49 @@
     "h1": "Cómo atraer pacientes en Argentina si tenés consultorio privado",
     "lead": "En Argentina conviene hablar de turnos, consultorio particular, obras sociales o prepagas con cuidado y una ruta clara para pacientes privados.",
     "quickAnswer": "Para atraer pacientes en Argentina, trabajá visibilidad local, reseñas, turnos fáciles de pedir, contenido por motivo de consulta y seguimiento. La página debe usar lenguaje local y distinguir consultorio particular, prepagas u otros modelos sin prometer resultados.",
-    "localLanguage": ["No tengo suficientes turnos particulares.", "Me consultan precio y no reservan.", "Quiero vivir más de consulta privada.", "No quiero depender solo de recomendaciones."],
-    "localSignals": ["Uso de la palabra turnos.", "Diferencia entre particular, obra social y prepaga.", "Búsqueda local por barrio o ciudad.", "WhatsApp o formulario simple para reservar.", "Contenido educativo para generar confianza."],
-    "priorityChannels": [
-      {"label": "SEO local", "href": "/canales/seo-local/", "why": "Ayuda a captar búsquedas por especialidad, zona y motivo de consulta."},
-      {"label": "Página web", "href": "/canales/pagina-web/", "why": "Sirve para explicar modalidad, honorarios, turnos y enfoque."},
-      {"label": "WhatsApp", "href": "/canales/whatsapp/", "why": "Reduce fricción si responde horarios, precio y pasos con claridad."}
+    "localLanguage": [
+      "No tengo suficientes turnos particulares.",
+      "Me consultan precio y no reservan.",
+      "Quiero vivir más de consulta privada.",
+      "No quiero depender solo de recomendaciones."
     ],
-    "firstSteps": ["Aclará si atendés particular, prepaga u otra modalidad.", "Crea una página por especialidad o motivo frecuente.", "Pide reseñas donde sea permitido y ético.", "Optimiza Google con ubicación y horarios.", "Mide turnos pedidos, confirmados y asistidos."],
-    "avoid": ["Usar copy mexicano en Argentina.", "Prometer agenda llena sin datos.", "No explicar modalidad de atención.", "Dejar consultas sin seguimiento."],
+    "localSignals": [
+      "Uso de la palabra turnos.",
+      "Diferencia entre particular, obra social y prepaga.",
+      "Búsqueda local por barrio o ciudad.",
+      "WhatsApp o formulario simple para reservar.",
+      "Contenido educativo para generar confianza."
+    ],
+    "priorityChannels": [
+      {
+        "label": "SEO local",
+        "href": "/canales/seo-local/",
+        "why": "Ayuda a captar búsquedas por especialidad, zona y motivo de consulta."
+      },
+      {
+        "label": "Página web",
+        "href": "/canales/pagina-web/",
+        "why": "Sirve para explicar modalidad, honorarios, turnos y enfoque."
+      },
+      {
+        "label": "WhatsApp",
+        "href": "/canales/whatsapp/",
+        "why": "Reduce fricción si responde horarios, precio y pasos con claridad."
+      }
+    ],
+    "firstSteps": [
+      "Aclará si atendés particular, prepaga u otra modalidad.",
+      "Crea una página por especialidad o motivo frecuente.",
+      "Pide reseñas donde sea permitido y ético.",
+      "Optimiza Google con ubicación y horarios.",
+      "Mide turnos pedidos, confirmados y asistidos."
+    ],
+    "avoid": [
+      "Usar copy mexicano en Argentina.",
+      "Prometer agenda llena sin datos.",
+      "No explicar modalidad de atención.",
+      "Dejar consultas sin seguimiento."
+    ],
     "sources": []
   },
   {
@@ -79,15 +208,49 @@
     "h1": "Cómo atraer pacientes en Chile si tienes consulta o clínica privada",
     "lead": "En Chile conviene hablar de horas, consulta particular, ubicación, confianza y seguimiento, sin copiar lenguaje de otros países ni inventar reglas sanitarias.",
     "quickAnswer": "Para atraer pacientes en Chile, prioriza búsqueda local, reseñas, página por servicio, reserva de horas fácil y seguimiento. Si usas anuncios, revisa políticas de salud y evita mensajes que impliquen atributos personales o prometan resultados.",
-    "localLanguage": ["Necesito más horas tomadas.", "Me piden información y no reservan.", "Quiero pacientes particulares.", "No quiero depender solo de recomendaciones."],
-    "localSignals": ["Uso de la palabra horas para citas.", "Ubicación y accesibilidad.", "Consulta particular y clínicas privadas.", "Búsqueda local por comuna o ciudad.", "Confianza antes de precio."],
-    "priorityChannels": [
-      {"label": "Google Maps", "href": "/canales/google-maps/", "why": "La ubicación y reseñas pesan mucho en la elección."},
-      {"label": "Landing pages", "href": "/canales/landing-pages/", "why": "Explican servicio, horario, ubicación y reserva de hora sin ruido."},
-      {"label": "Meta Ads", "href": "/canales/meta-ads/", "why": "Puede educar demanda si el copy respeta políticas de salud."}
+    "localLanguage": [
+      "Necesito más horas tomadas.",
+      "Me piden información y no reservan.",
+      "Quiero pacientes particulares.",
+      "No quiero depender solo de recomendaciones."
     ],
-    "firstSteps": ["Define servicios prioritarios y comunas objetivo.", "Crea una ruta clara para tomar hora.", "Actualiza Google con fotos y horarios.", "Prepara respuestas para precio, ubicación y disponibilidad.", "Mide horas tomadas y asistidas por fuente."],
-    "avoid": ["Usar páginas por comuna sin valor real.", "Prometer resultados clínicos.", "Hacer anuncios que digan o impliquen 'tú tienes X problema'.", "No confirmar horas."],
+    "localSignals": [
+      "Uso de la palabra horas para citas.",
+      "Ubicación y accesibilidad.",
+      "Consulta particular y clínicas privadas.",
+      "Búsqueda local por comuna o ciudad.",
+      "Confianza antes de precio."
+    ],
+    "priorityChannels": [
+      {
+        "label": "Google Maps",
+        "href": "/canales/google-maps/",
+        "why": "La ubicación y reseñas pesan mucho en la elección."
+      },
+      {
+        "label": "Páginas de servicios médicos",
+        "href": "/canales/paginas-servicios-medicos/",
+        "why": "Explican servicio, horario, ubicación y reserva de hora sin ruido."
+      },
+      {
+        "label": "Anuncios en Facebook e Instagram",
+        "href": "/canales/meta-ads/",
+        "why": "Puede educar demanda si el copy respeta políticas de salud."
+      }
+    ],
+    "firstSteps": [
+      "Define servicios prioritarios y comunas objetivo.",
+      "Crea una ruta clara para tomar hora.",
+      "Actualiza Google con fotos y horarios.",
+      "Prepara respuestas para precio, ubicación y disponibilidad.",
+      "Mide horas tomadas y asistidas por fuente."
+    ],
+    "avoid": [
+      "Usar páginas por comuna sin valor real.",
+      "Prometer resultados clínicos.",
+      "Hacer anuncios que digan o impliquen 'tú tienes X problema'.",
+      "No confirmar horas."
+    ],
     "sources": []
   },
   {
@@ -100,15 +263,49 @@
     "h1": "Cómo atraer pacientes en Perú si eres médico, dentista o profesional de la salud",
     "lead": "En Perú la estrategia debe combinar confianza local, claridad de consulta, WhatsApp rápido y páginas que respondan dudas reales por especialidad.",
     "quickAnswer": "Para atraer pacientes en Perú, empieza por Google local, reseñas, WhatsApp y páginas por servicio. Separa pacientes particulares de otros modelos de atención y evita copiar contenido de otro país sin lenguaje, moneda, canales y objeciones locales.",
-    "localLanguage": ["Necesito más citas particulares.", "Me preguntan precio y desaparecen.", "Quiero posicionarme en mi zona.", "No sé si debo hacer anuncios o contenido."],
-    "localSignals": ["Búsqueda por distrito o ciudad.", "WhatsApp como contacto principal.", "Confianza por reseñas y recomendación.", "Páginas por tratamiento o motivo de consulta.", "Seguimiento después del primer mensaje."],
-    "priorityChannels": [
-      {"label": "Google Maps", "href": "/canales/google-maps/", "why": "Activa demanda local por especialidad y distrito."},
-      {"label": "WhatsApp", "href": "/canales/whatsapp/", "why": "Convierte si hay respuesta rápida y proceso claro."},
-      {"label": "Contenido orgánico", "href": "/canales/contenido-organico/", "why": "Construye confianza antes de la primera cita."}
+    "localLanguage": [
+      "Necesito más citas particulares.",
+      "Me preguntan precio y desaparecen.",
+      "Quiero posicionarme en mi zona.",
+      "No sé si debo hacer anuncios o contenido."
     ],
-    "firstSteps": ["Completa Google con servicios y zona.", "Crea guiones de WhatsApp para precio y agenda.", "Publica respuestas a dudas frecuentes.", "Pide reseñas de trato y claridad.", "Mide citas reales por fuente."],
-    "avoid": ["Hacer una copia mexicana con soles cambiados.", "No diferenciar especialidades y tratamientos.", "Correr anuncios sin revisar políticas de salud.", "No dar seguimiento a interesados."],
+    "localSignals": [
+      "Búsqueda por distrito o ciudad.",
+      "WhatsApp como contacto principal.",
+      "Confianza por reseñas y recomendación.",
+      "Páginas por tratamiento o motivo de consulta.",
+      "Seguimiento después del primer mensaje."
+    ],
+    "priorityChannels": [
+      {
+        "label": "Google Maps",
+        "href": "/canales/google-maps/",
+        "why": "Activa demanda local por especialidad y distrito."
+      },
+      {
+        "label": "WhatsApp",
+        "href": "/canales/whatsapp/",
+        "why": "Lleva a cita si hay respuesta rápida y proceso claro."
+      },
+      {
+        "label": "Contenido orgánico",
+        "href": "/canales/educacion-al-paciente/",
+        "why": "Construye confianza antes de la primera cita."
+      }
+    ],
+    "firstSteps": [
+      "Completa Google con servicios y zona.",
+      "Crea guiones de WhatsApp para precio y agenda.",
+      "Publica respuestas a dudas frecuentes.",
+      "Pide reseñas de trato y claridad.",
+      "Mide citas reales por fuente."
+    ],
+    "avoid": [
+      "Hacer una copia mexicana con soles cambiados.",
+      "No diferenciar especialidades y tratamientos.",
+      "Correr anuncios sin revisar políticas de salud.",
+      "No dar seguimiento a interesados."
+    ],
     "sources": []
   },
   {
@@ -121,15 +318,49 @@
     "h1": "Cómo captar pacientes en España si tienes clínica o consulta privada",
     "lead": "En España conviene hablar de captar pacientes, clínica privada, reputación online, SEO local y cuidado regulatorio. No es el mismo lenguaje ni el mismo marco que México.",
     "quickAnswer": "Para captar pacientes en España, trabaja SEO local, reputación online, páginas por servicio, agenda privada y seguimiento. Cuida RGPD, comunicación sanitaria y claims: esta biblioteca es guía comercial, no asesoría legal.",
-    "localLanguage": ["Necesito captar pacientes privados.", "Quiero mejorar la agenda de la clínica.", "Me comparan por precio.", "Quiero visibilidad local sin parecer agresivo."],
-    "localSignals": ["Uso de captar pacientes.", "Clínica privada y consulta privada.", "SEO local por ciudad o barrio.", "Reputación online y reseñas.", "Cuidado con privacidad, RGPD y comunicación sanitaria."],
-    "priorityChannels": [
-      {"label": "SEO local", "href": "/canales/seo-local/", "why": "Captura búsquedas por especialidad, ciudad y problema."},
-      {"label": "Reputación online", "href": "/canales/reputacion-online/", "why": "La elección de clínica privada depende mucho de confianza visible."},
-      {"label": "Página web", "href": "/canales/pagina-web/", "why": "Permite explicar equipo, servicios, ubicación y proceso de cita."}
+    "localLanguage": [
+      "Necesito captar pacientes privados.",
+      "Quiero mejorar la agenda de la clínica.",
+      "Me comparan por precio.",
+      "Quiero visibilidad local sin parecer agresivo."
     ],
-    "firstSteps": ["Define servicios privados prioritarios.", "Revisa fichas locales y reseñas.", "Crea páginas por tratamiento con lenguaje prudente.", "Simplifica reserva de cita.", "Mide llamadas, formularios, citas y asistencia."],
-    "avoid": ["Usar claims sanitarios sin revisión.", "Copiar expresiones latinoamericanas.", "Ignorar privacidad y consentimiento.", "Crear páginas locales sin contenido útil."],
+    "localSignals": [
+      "Uso de captar pacientes.",
+      "Clínica privada y consulta privada.",
+      "SEO local por ciudad o barrio.",
+      "Reputación online y reseñas.",
+      "Cuidado con privacidad, RGPD y comunicación sanitaria."
+    ],
+    "priorityChannels": [
+      {
+        "label": "SEO local",
+        "href": "/canales/seo-local/",
+        "why": "Captura búsquedas por especialidad, ciudad y problema."
+      },
+      {
+        "label": "Reputación online",
+        "href": "/canales/reputacion-online/",
+        "why": "La elección de clínica privada depende mucho de confianza visible."
+      },
+      {
+        "label": "Página web",
+        "href": "/canales/pagina-web/",
+        "why": "Permite explicar equipo, servicios, ubicación y proceso de cita."
+      }
+    ],
+    "firstSteps": [
+      "Define servicios privados prioritarios.",
+      "Revisa fichas locales y reseñas.",
+      "Crea páginas por tratamiento con lenguaje prudente.",
+      "Simplifica reserva de cita.",
+      "Mide llamadas, formularios, citas y asistencia."
+    ],
+    "avoid": [
+      "Usar claims sanitarios sin revisión.",
+      "Copiar expresiones latinoamericanas.",
+      "Ignorar privacidad y consentimiento.",
+      "Crear páginas locales sin contenido útil."
+    ],
     "sources": []
   },
   {
@@ -140,17 +371,51 @@
     "seoTitle": "Cómo atraer pacientes en Ecuador para médicos y clínicas",
     "description": "Ruta para profesionales de salud en Ecuador: visibilidad local, WhatsApp, reseñas, páginas por servicio y seguimiento de pacientes particulares.",
     "h1": "Cómo atraer pacientes en Ecuador si tienes consulta o clínica privada",
-    "lead": "En Ecuador, la adquisición de pacientes debe apoyarse en confianza local, WhatsApp, búsqueda por ciudad y páginas que expliquen servicios sin exagerar.",
+    "lead": "En Ecuador, la atracción de pacientes debe apoyarse en confianza local, WhatsApp, búsqueda por ciudad y páginas que expliquen servicios sin exagerar.",
     "quickAnswer": "Para atraer pacientes en Ecuador, prioriza Google local, reseñas, WhatsApp, claridad de servicio y seguimiento. Adapta lenguaje, ciudades y objeciones locales antes de escalar páginas o anuncios.",
-    "localLanguage": ["Necesito más pacientes particulares.", "Me escriben pero no agendan.", "Quiero que me encuentren en mi ciudad.", "No quiero depender solo de referidos."],
-    "localSignals": ["Búsqueda por ciudad y zona.", "WhatsApp como primer contacto.", "Reputación local.", "Referidos profesionales.", "Claridad de precio y proceso."],
-    "priorityChannels": [
-      {"label": "Google Maps", "href": "/canales/google-maps/", "why": "Ayuda a competir en búsquedas locales por especialidad."},
-      {"label": "WhatsApp", "href": "/canales/whatsapp/", "why": "Ordena la conversación y reduce mensajes perdidos."},
-      {"label": "Referidos", "href": "/canales/referidos/", "why": "Convierte recomendaciones en proceso repetible."}
+    "localLanguage": [
+      "Necesito más pacientes particulares.",
+      "Me escriben pero no agendan.",
+      "Quiero que me encuentren en mi ciudad.",
+      "No quiero depender solo de referidos."
     ],
-    "firstSteps": ["Optimiza ficha local y datos de contacto.", "Prepara guiones para primera cita.", "Pide reseñas éticas.", "Publica servicios prioritarios.", "Mide de dónde llegan los pacientes."],
-    "avoid": ["Usar contenido de otro país sin adaptación.", "Prometer resultados.", "No confirmar citas.", "No registrar fuente de paciente."],
+    "localSignals": [
+      "Búsqueda por ciudad y zona.",
+      "WhatsApp como primer contacto.",
+      "Reputación local.",
+      "Referidos profesionales.",
+      "Claridad de precio y proceso."
+    ],
+    "priorityChannels": [
+      {
+        "label": "Google Maps",
+        "href": "/canales/google-maps/",
+        "why": "Ayuda a competir en búsquedas locales por especialidad."
+      },
+      {
+        "label": "WhatsApp",
+        "href": "/canales/whatsapp/",
+        "why": "Ordena la conversación y reduce mensajes perdidos."
+      },
+      {
+        "label": "Referidos",
+        "href": "/canales/referidos/",
+        "why": "Lleva a cita recomendaciones en proceso repetible."
+      }
+    ],
+    "firstSteps": [
+      "Optimiza ficha local y datos de contacto.",
+      "Prepara guiones para primera cita.",
+      "Pide reseñas éticas.",
+      "Publica servicios prioritarios.",
+      "Mide de dónde llegan los pacientes."
+    ],
+    "avoid": [
+      "Usar contenido de otro país sin adaptación.",
+      "Prometer resultados.",
+      "No confirmar citas.",
+      "No registrar fuente de paciente."
+    ],
     "sources": []
   },
   {
@@ -163,15 +428,49 @@
     "h1": "Cómo atraer pacientes en Guatemala si eres médico o profesional de la salud",
     "lead": "En Guatemala, la confianza local y la recomendación siguen pesando mucho, pero pueden amplificarse con Google, WhatsApp y una página clara por servicio.",
     "quickAnswer": "Para atraer pacientes en Guatemala, combina referidos, Google local, WhatsApp y reseñas. Empieza por servicios prioritarios y mide citas reales antes de gastar fuerte en campañas.",
-    "localLanguage": ["Necesito más pacientes en mi consulta.", "Me recomiendan, pero no es suficiente.", "Me escriben y no llegan.", "Quiero pacientes particulares."],
-    "localSignals": ["Confianza por recomendación.", "Búsqueda local en ciudad y zona.", "WhatsApp para coordinar cita.", "Reseñas como prueba social.", "Páginas simples por servicio."],
-    "priorityChannels": [
-      {"label": "Referidos", "href": "/canales/referidos/", "why": "La recomendación local puede volverse sistema."},
-      {"label": "Google Maps", "href": "/canales/google-maps/", "why": "Permite aparecer cuando buscan cerca."},
-      {"label": "WhatsApp", "href": "/canales/whatsapp/", "why": "Facilita horarios, ubicación y confirmación."}
+    "localLanguage": [
+      "Necesito más pacientes en mi consulta.",
+      "Me recomiendan, pero no es suficiente.",
+      "Me escriben y no llegan.",
+      "Quiero pacientes particulares."
     ],
-    "firstSteps": ["Ordena tu ficha de Google.", "Pide reseñas a pacientes satisfechos.", "Crea mensajes para disponibilidad y precio.", "Define servicios prioritarios.", "Mide citas asistidas."],
-    "avoid": ["Depender solo de boca a boca.", "No adaptar lenguaje local.", "Responder tarde.", "Hacer anuncios sin seguimiento."],
+    "localSignals": [
+      "Confianza por recomendación.",
+      "Búsqueda local en ciudad y zona.",
+      "WhatsApp para coordinar cita.",
+      "Reseñas como prueba social.",
+      "Páginas simples por servicio."
+    ],
+    "priorityChannels": [
+      {
+        "label": "Referidos",
+        "href": "/canales/referidos/",
+        "why": "La recomendación local puede volverse sistema."
+      },
+      {
+        "label": "Google Maps",
+        "href": "/canales/google-maps/",
+        "why": "Permite aparecer cuando buscan cerca."
+      },
+      {
+        "label": "WhatsApp",
+        "href": "/canales/whatsapp/",
+        "why": "Facilita horarios, ubicación y confirmación."
+      }
+    ],
+    "firstSteps": [
+      "Ordena tu ficha de Google.",
+      "Pide reseñas a pacientes satisfechos.",
+      "Crea mensajes para disponibilidad y precio.",
+      "Define servicios prioritarios.",
+      "Mide citas asistidas."
+    ],
+    "avoid": [
+      "Depender solo de boca a boca.",
+      "No adaptar lenguaje local.",
+      "Responder tarde.",
+      "Hacer anuncios sin seguimiento."
+    ],
     "sources": []
   },
   {
@@ -184,15 +483,49 @@
     "h1": "Cómo atraer pacientes en Costa Rica si tienes consulta o clínica privada",
     "lead": "En Costa Rica, la elección de un profesional privado pasa por confianza, ubicación, reseñas, claridad de servicio y facilidad para agendar.",
     "quickAnswer": "Para atraer pacientes en Costa Rica, usa Google local, reputación online, WhatsApp, páginas por servicio y seguimiento de citas. Evita copiar contenido de otros países sin adaptar lenguaje, moneda y expectativas del paciente local.",
-    "localLanguage": ["Quiero más pacientes privados.", "Me comparan por precio.", "Quiero que me encuentren cerca.", "Necesito que los interesados agenden."],
-    "localSignals": ["Consulta privada.", "Ubicación y accesibilidad.", "Reseñas y reputación.", "WhatsApp para cita.", "Claridad de honorarios y proceso."],
-    "priorityChannels": [
-      {"label": "Reputación online", "href": "/canales/reputacion-online/", "why": "La confianza visible pesa mucho en consulta privada."},
-      {"label": "Google Maps", "href": "/canales/google-maps/", "why": "Activa demanda por zona."},
-      {"label": "Página web", "href": "/canales/pagina-web/", "why": "Explica servicios y reduce dudas antes de agendar."}
+    "localLanguage": [
+      "Quiero más pacientes privados.",
+      "Me comparan por precio.",
+      "Quiero que me encuentren cerca.",
+      "Necesito que los interesados agenden."
     ],
-    "firstSteps": ["Actualiza datos locales.", "Simplifica la reserva de cita.", "Publica servicios prioritarios.", "Pide reseñas éticas.", "Mide fuente de pacientes."],
-    "avoid": ["Prometer resultados.", "No dar seguimiento.", "Usar copy ajeno al país.", "Depender solo de redes."],
+    "localSignals": [
+      "Consulta privada.",
+      "Ubicación y accesibilidad.",
+      "Reseñas y reputación.",
+      "WhatsApp para cita.",
+      "Claridad de honorarios y proceso."
+    ],
+    "priorityChannels": [
+      {
+        "label": "Reputación online",
+        "href": "/canales/reputacion-online/",
+        "why": "La confianza visible pesa mucho en consulta privada."
+      },
+      {
+        "label": "Google Maps",
+        "href": "/canales/google-maps/",
+        "why": "Activa demanda por zona."
+      },
+      {
+        "label": "Página web",
+        "href": "/canales/pagina-web/",
+        "why": "Explica servicios y reduce dudas antes de agendar."
+      }
+    ],
+    "firstSteps": [
+      "Actualiza datos locales.",
+      "Simplifica la reserva de cita.",
+      "Publica servicios prioritarios.",
+      "Pide reseñas éticas.",
+      "Mide fuente de pacientes."
+    ],
+    "avoid": [
+      "Prometer resultados.",
+      "No dar seguimiento.",
+      "Usar copy ajeno al país.",
+      "Depender solo de redes."
+    ],
     "sources": []
   },
   {
@@ -205,15 +538,49 @@
     "h1": "Cómo atraer pacientes en Panamá si tienes consulta o clínica privada",
     "lead": "En Panamá, ubicación, reputación, disponibilidad y una ruta simple de contacto pueden marcar la diferencia entre mensaje perdido y cita asistida.",
     "quickAnswer": "Para atraer pacientes en Panamá, trabaja Google local, reseñas, WhatsApp, páginas por servicio y seguimiento. Si activas anuncios, separa intención alta de demanda educativa y mide citas reales.",
-    "localLanguage": ["Necesito más pacientes privados.", "Me escriben y no agendan.", "Quiero aparecer en búsquedas locales.", "No quiero depender de recomendaciones."],
-    "localSignals": ["Búsqueda por zona.", "Consulta privada.", "WhatsApp como contacto frecuente.", "Reputación visible.", "Seguimiento de interesados."],
-    "priorityChannels": [
-      {"label": "Google Maps", "href": "/canales/google-maps/", "why": "Captura búsquedas por zona y especialidad."},
-      {"label": "Google Ads", "href": "/canales/google-ads/", "why": "Acelera demanda de intención alta."},
-      {"label": "WhatsApp", "href": "/canales/whatsapp/", "why": "Convierte si el equipo responde con claridad."}
+    "localLanguage": [
+      "Necesito más pacientes privados.",
+      "Me escriben y no agendan.",
+      "Quiero aparecer en búsquedas locales.",
+      "No quiero depender de recomendaciones."
     ],
-    "firstSteps": ["Actualiza Google y ubicación.", "Define servicio prioritario.", "Crea guiones de WhatsApp.", "Pide reseñas.", "Mide mensajes, citas y asistencia."],
-    "avoid": ["Pagar anuncios sin medición.", "Responder solo con precio.", "Copiar páginas de otro país.", "No confirmar citas."],
+    "localSignals": [
+      "Búsqueda por zona.",
+      "Consulta privada.",
+      "WhatsApp como contacto frecuente.",
+      "Reputación visible.",
+      "Seguimiento de interesados."
+    ],
+    "priorityChannels": [
+      {
+        "label": "Google Maps",
+        "href": "/canales/google-maps/",
+        "why": "Captura búsquedas por zona y especialidad."
+      },
+      {
+        "label": "Anuncios en Google",
+        "href": "/canales/google-ads/",
+        "why": "Acelera demanda de intención alta."
+      },
+      {
+        "label": "WhatsApp",
+        "href": "/canales/whatsapp/",
+        "why": "Lleva a cita si el equipo responde con claridad."
+      }
+    ],
+    "firstSteps": [
+      "Actualiza Google y ubicación.",
+      "Define servicio prioritario.",
+      "Crea guiones de WhatsApp.",
+      "Pide reseñas.",
+      "Mide mensajes, citas y asistencia."
+    ],
+    "avoid": [
+      "Pagar anuncios sin medición.",
+      "Responder solo con precio.",
+      "Copiar páginas de otro país.",
+      "No confirmar citas."
+    ],
     "sources": []
   },
   {
@@ -226,15 +593,49 @@
     "h1": "Cómo atraer pacientes en Uruguay si tienes consulta particular",
     "lead": "En Uruguay conviene trabajar con lenguaje local, confianza, turnos claros, reputación y páginas que expliquen servicios sin exagerar.",
     "quickAnswer": "Para atraer pacientes en Uruguay, prioriza SEO local, reseñas, claridad de turnos, página por servicio y seguimiento. Adapta el contenido a consulta particular y evita publicar páginas genéricas sin contexto local.",
-    "localLanguage": ["Necesito más turnos particulares.", "Me consultan y no reservan.", "Quiero mejorar mi reputación local.", "No quiero depender solo de recomendación."],
-    "localSignals": ["Turnos y consulta particular.", "Búsqueda local por ciudad.", "Reseñas y confianza.", "WhatsApp o contacto simple.", "Contenido por motivo de consulta."],
-    "priorityChannels": [
-      {"label": "SEO local", "href": "/canales/seo-local/", "why": "Ayuda a posicionar por ciudad, barrio y especialidad."},
-      {"label": "Reputación online", "href": "/canales/reputacion-online/", "why": "Reduce comparación por precio."},
-      {"label": "Página web", "href": "/canales/pagina-web/", "why": "Da contexto antes de reservar turno."}
+    "localLanguage": [
+      "Necesito más turnos particulares.",
+      "Me consultan y no reservan.",
+      "Quiero mejorar mi reputación local.",
+      "No quiero depender solo de recomendación."
     ],
-    "firstSteps": ["Define servicios privados prioritarios.", "Actualiza ficha local.", "Crea una página clara de turnos.", "Pide reseñas cuando corresponda.", "Mide turnos confirmados."],
-    "avoid": ["Copiar lenguaje mexicano.", "Prometer resultados.", "No explicar modalidad.", "No hacer seguimiento."],
+    "localSignals": [
+      "Turnos y consulta particular.",
+      "Búsqueda local por ciudad.",
+      "Reseñas y confianza.",
+      "WhatsApp o contacto simple.",
+      "Contenido por motivo de consulta."
+    ],
+    "priorityChannels": [
+      {
+        "label": "SEO local",
+        "href": "/canales/seo-local/",
+        "why": "Ayuda a posicionar por ciudad, barrio y especialidad."
+      },
+      {
+        "label": "Reputación online",
+        "href": "/canales/reputacion-online/",
+        "why": "Reduce comparación por precio."
+      },
+      {
+        "label": "Página web",
+        "href": "/canales/pagina-web/",
+        "why": "Da contexto antes de reservar turno."
+      }
+    ],
+    "firstSteps": [
+      "Define servicios privados prioritarios.",
+      "Actualiza ficha local.",
+      "Crea una página clara de turnos.",
+      "Pide reseñas cuando corresponda.",
+      "Mide turnos confirmados."
+    ],
+    "avoid": [
+      "Copiar lenguaje mexicano.",
+      "Prometer resultados.",
+      "No explicar modalidad.",
+      "No hacer seguimiento."
+    ],
     "sources": []
   },
   {
@@ -247,15 +648,49 @@
     "h1": "Cómo atraer pacientes en Paraguay si tienes consulta o clínica",
     "lead": "En Paraguay, la confianza local, los referidos y la facilidad de contacto pueden amplificarse con una presencia digital bien ordenada.",
     "quickAnswer": "Para atraer pacientes en Paraguay, empieza con Google local, WhatsApp, reseñas, referidos y una página clara por servicio. Mide citas reales antes de escalar anuncios.",
-    "localLanguage": ["Necesito más pacientes.", "Me llegan recomendaciones, pero no alcanza.", "Me preguntan precio y se enfría.", "Quiero posicionarme en mi zona."],
-    "localSignals": ["Búsqueda local.", "WhatsApp como contacto principal.", "Recomendación y reputación.", "Páginas por servicio.", "Seguimiento de interesados."],
-    "priorityChannels": [
-      {"label": "Google Maps", "href": "/canales/google-maps/", "why": "Ayuda a competir por búsquedas locales."},
-      {"label": "Referidos", "href": "/canales/referidos/", "why": "Convierte la confianza existente en flujo repetible."},
-      {"label": "WhatsApp", "href": "/canales/whatsapp/", "why": "Permite ordenar la conversación y confirmar cita."}
+    "localLanguage": [
+      "Necesito más pacientes.",
+      "Me llegan recomendaciones, pero no alcanza.",
+      "Me preguntan precio y se enfría.",
+      "Quiero posicionarme en mi zona."
     ],
-    "firstSteps": ["Completa ficha local.", "Prepara guiones de WhatsApp.", "Pide reseñas.", "Define servicio prioritario.", "Registra fuente de pacientes."],
-    "avoid": ["No adaptar el contenido al mercado.", "No medir citas asistidas.", "Prometer resultados.", "Responder tarde."],
+    "localSignals": [
+      "Búsqueda local.",
+      "WhatsApp como contacto principal.",
+      "Recomendación y reputación.",
+      "Páginas por servicio.",
+      "Seguimiento de interesados."
+    ],
+    "priorityChannels": [
+      {
+        "label": "Google Maps",
+        "href": "/canales/google-maps/",
+        "why": "Ayuda a competir por búsquedas locales."
+      },
+      {
+        "label": "Referidos",
+        "href": "/canales/referidos/",
+        "why": "Lleva a cita la confianza existente en flujo repetible."
+      },
+      {
+        "label": "WhatsApp",
+        "href": "/canales/whatsapp/",
+        "why": "Permite ordenar la conversación y confirmar cita."
+      }
+    ],
+    "firstSteps": [
+      "Completa ficha local.",
+      "Prepara guiones de WhatsApp.",
+      "Pide reseñas.",
+      "Define servicio prioritario.",
+      "Registra fuente de pacientes."
+    ],
+    "avoid": [
+      "No adaptar el contenido al mercado.",
+      "No medir citas asistidas.",
+      "Prometer resultados.",
+      "Responder tarde."
+    ],
     "sources": []
   },
   {
@@ -268,15 +703,49 @@
     "h1": "Cómo atraer pacientes en Bolivia si eres médico o profesional de la salud",
     "lead": "En Bolivia, un sistema simple de visibilidad local, confianza y contacto rápido puede ordenar la llegada de pacientes particulares.",
     "quickAnswer": "Para atraer pacientes en Bolivia, trabaja Google local, WhatsApp, reseñas, referidos y páginas por servicio. Evita páginas copiadas y construye contenido con ciudad, especialidad y objeciones locales.",
-    "localLanguage": ["Necesito más pacientes particulares.", "No me encuentran en mi ciudad.", "Me escriben y no llegan.", "Quiero dejar de depender solo de conocidos."],
-    "localSignals": ["Búsqueda por ciudad.", "WhatsApp para cita.", "Confianza por recomendación.", "Reseñas y prueba social.", "Seguimiento de mensajes."],
-    "priorityChannels": [
-      {"label": "Google Maps", "href": "/canales/google-maps/", "why": "Activa presencia local por especialidad."},
-      {"label": "WhatsApp", "href": "/canales/whatsapp/", "why": "Ordena precio, horario y confirmación."},
-      {"label": "Referidos", "href": "/canales/referidos/", "why": "Aprovecha confianza existente de forma medible."}
+    "localLanguage": [
+      "Necesito más pacientes particulares.",
+      "No me encuentran en mi ciudad.",
+      "Me escriben y no llegan.",
+      "Quiero dejar de depender solo de conocidos."
     ],
-    "firstSteps": ["Actualiza datos locales.", "Crea guiones de contacto.", "Pide reseñas éticas.", "Publica una página por servicio.", "Mide citas por canal."],
-    "avoid": ["Usar contenido genérico.", "No dar seguimiento.", "Prometer resultados.", "No confirmar citas."],
+    "localSignals": [
+      "Búsqueda por ciudad.",
+      "WhatsApp para cita.",
+      "Confianza por recomendación.",
+      "Reseñas y prueba social.",
+      "Seguimiento de mensajes."
+    ],
+    "priorityChannels": [
+      {
+        "label": "Google Maps",
+        "href": "/canales/google-maps/",
+        "why": "Activa presencia local por especialidad."
+      },
+      {
+        "label": "WhatsApp",
+        "href": "/canales/whatsapp/",
+        "why": "Ordena precio, horario y confirmación."
+      },
+      {
+        "label": "Referidos",
+        "href": "/canales/referidos/",
+        "why": "Aprovecha confianza existente de forma medible."
+      }
+    ],
+    "firstSteps": [
+      "Actualiza datos locales.",
+      "Crea guiones de contacto.",
+      "Pide reseñas éticas.",
+      "Publica una página por servicio.",
+      "Mide citas por canal."
+    ],
+    "avoid": [
+      "Usar contenido genérico.",
+      "No dar seguimiento.",
+      "Prometer resultados.",
+      "No confirmar citas."
+    ],
     "sources": []
   },
   {
@@ -289,15 +758,49 @@
     "h1": "Cómo atraer pacientes en República Dominicana si tienes consulta o clínica privada",
     "lead": "En República Dominicana, la ruta debe combinar confianza local, contacto fácil, reseñas, WhatsApp y una oferta médica clara.",
     "quickAnswer": "Para atraer pacientes en República Dominicana, usa Google local, WhatsApp, reseñas, páginas por servicio y seguimiento. Evita depender solo de redes si no hay proceso para agendar y confirmar citas.",
-    "localLanguage": ["Necesito más pacientes privados.", "Me escriben y no concretan.", "Quiero posicionarme mejor.", "No quiero competir solo por precio."],
-    "localSignals": ["Búsqueda local por ciudad.", "WhatsApp y llamada directa.", "Reputación visible.", "Páginas por especialidad o tratamiento.", "Seguimiento después del primer contacto."],
-    "priorityChannels": [
-      {"label": "Google Maps", "href": "/canales/google-maps/", "why": "Hace visible la clínica por zona."},
-      {"label": "Meta Ads", "href": "/canales/meta-ads/", "why": "Puede generar demanda si el mensaje es responsable."},
-      {"label": "WhatsApp", "href": "/canales/whatsapp/", "why": "Convierte atención en cita con rapidez."}
+    "localLanguage": [
+      "Necesito más pacientes privados.",
+      "Me escriben y no concretan.",
+      "Quiero posicionarme mejor.",
+      "No quiero competir solo por precio."
     ],
-    "firstSteps": ["Optimiza ficha local.", "Define tratamientos prioritarios.", "Crea respuestas rápidas.", "Pide reseñas.", "Mide citas asistidas."],
-    "avoid": ["No separar campañas por servicio.", "Responder tarde.", "Prometer resultados.", "Crear páginas sin contexto local."],
+    "localSignals": [
+      "Búsqueda local por ciudad.",
+      "WhatsApp y llamada directa.",
+      "Reputación visible.",
+      "Páginas por especialidad o tratamiento.",
+      "Seguimiento después del primer contacto."
+    ],
+    "priorityChannels": [
+      {
+        "label": "Google Maps",
+        "href": "/canales/google-maps/",
+        "why": "Hace visible la clínica por zona."
+      },
+      {
+        "label": "Anuncios en Facebook e Instagram",
+        "href": "/canales/meta-ads/",
+        "why": "Puede generar demanda si el mensaje es responsable."
+      },
+      {
+        "label": "WhatsApp",
+        "href": "/canales/whatsapp/",
+        "why": "Lleva a cita atención en cita con rapidez."
+      }
+    ],
+    "firstSteps": [
+      "Optimiza ficha local.",
+      "Define tratamientos prioritarios.",
+      "Crea respuestas rápidas.",
+      "Pide reseñas.",
+      "Mide citas asistidas."
+    ],
+    "avoid": [
+      "No separar campañas por servicio.",
+      "Responder tarde.",
+      "Prometer resultados.",
+      "Crear páginas sin contexto local."
+    ],
     "sources": []
   },
   {
@@ -310,15 +813,49 @@
     "h1": "Cómo atraer pacientes hispanos en Estados Unidos si tienes clínica o consulta",
     "lead": "En el mercado hispano de Estados Unidos, el idioma, la confianza cultural, insurance, self-pay, ubicación y seguimiento bilingüe cambian la estrategia.",
     "quickAnswer": "Para atraer pacientes hispanos en Estados Unidos, crea rutas bilingües, aclara si aceptas insurance o self-pay, optimiza Google local, usa reseñas, explica costos y responde rápido por teléfono o WhatsApp cuando aplique.",
-    "localLanguage": ["Quiero pacientes hispanos.", "Necesito explicar insurance y self-pay.", "Me encuentran, pero no agendan.", "Quiero que la comunidad latina confíe en la clínica."],
-    "localSignals": ["Contenido bilingüe o en español claro.", "Insurance, self-pay y costos explicados.", "Búsqueda local por ciudad o vecindario.", "Reseñas en inglés y español.", "Teléfono, SMS o WhatsApp según operación real."],
-    "priorityChannels": [
-      {"label": "Google Maps", "href": "/canales/google-maps/", "why": "La búsqueda local captura intención por servicio y zona."},
-      {"label": "Página web", "href": "/canales/pagina-web/", "why": "Permite explicar idioma, seguros, precios y proceso."},
-      {"label": "Reputación online", "href": "/canales/reputacion-online/", "why": "Las reseñas bilingües construyen confianza cultural."}
+    "localLanguage": [
+      "Quiero pacientes hispanos.",
+      "Necesito explicar insurance y self-pay.",
+      "Me encuentran, pero no agendan.",
+      "Quiero que la comunidad latina confíe en la clínica."
     ],
-    "firstSteps": ["Aclara idioma, seguros y self-pay.", "Optimiza Google por ubicación.", "Crea páginas bilingües por servicio prioritario.", "Pide reseñas en el idioma del paciente.", "Mide llamadas, citas y asistencia."],
-    "avoid": ["Tratar al mercado hispano como un solo bloque genérico.", "No explicar insurance o costos.", "Usar promesas médicas.", "No responder en el idioma del paciente."],
+    "localSignals": [
+      "Contenido bilingüe o en español claro.",
+      "Insurance, self-pay y costos explicados.",
+      "Búsqueda local por ciudad o vecindario.",
+      "Reseñas en inglés y español.",
+      "Teléfono, SMS o WhatsApp según operación real."
+    ],
+    "priorityChannels": [
+      {
+        "label": "Google Maps",
+        "href": "/canales/google-maps/",
+        "why": "La búsqueda local captura intención por servicio y zona."
+      },
+      {
+        "label": "Página web",
+        "href": "/canales/pagina-web/",
+        "why": "Permite explicar idioma, seguros, precios y proceso."
+      },
+      {
+        "label": "Reputación online",
+        "href": "/canales/reputacion-online/",
+        "why": "Las reseñas bilingües construyen confianza cultural."
+      }
+    ],
+    "firstSteps": [
+      "Aclara idioma, seguros y self-pay.",
+      "Optimiza Google por ubicación.",
+      "Crea páginas bilingües por servicio prioritario.",
+      "Pide reseñas en el idioma del paciente.",
+      "Mide llamadas, citas y asistencia."
+    ],
+    "avoid": [
+      "Tratar al mercado hispano como un solo bloque genérico.",
+      "No explicar insurance o costos.",
+      "Usar promesas médicas.",
+      "No responder en el idioma del paciente."
+    ],
     "sources": []
   }
 ]
