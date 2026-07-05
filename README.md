@@ -19,6 +19,10 @@ cual desde GitHub Pages, Netlify, Vercel o Cloudflare Pages.
 ```
 /
 ├── index.html                    Guía pilar (contenido principal)
+├── biblioteca/                   Mapa central de rutas contextuales
+├── mexico/                       Hub dominante para México
+├── paises/                       Hub de habla hispana por país
+├── canales/                      Rutas por canal de adquisición
 ├── estrategias/                  Artículos de profundidad (autoridad temática)
 ├── situaciones/                  Biblioteca CAP: contextos de atracción
 ├── especialidades/               Rutas por especialidad médica
@@ -35,9 +39,14 @@ cual desde GitHub Pages, Netlify, Vercel o Cloudflare Pages.
 │   └── img/                      Logo, favicon, imagen OG
 ├── robots.txt                    Permite explícitamente crawlers de IA
 ├── sitemap.xml                   Mapa del sitio
+├── sitemap_index.xml             Índice principal de sitemaps
 ├── sitemap-situaciones.xml       Mapa de la Biblioteca CAP
 ├── sitemap-especialidades.xml    Mapa de páginas por especialidad
 ├── sitemap-herramientas.xml      Mapa de herramientas internas
+├── sitemap-biblioteca.xml        Mapa del hub central
+├── sitemap-mexico.xml            Mapa del hub México
+├── sitemap-paises.xml            Mapa de países
+├── sitemap-canales.xml           Mapa de canales
 ├── llms.txt / llms-full.txt      Resumen legible por LLMs (estándar llmstxt.org)
 ├── manifest.webmanifest          PWA
 └── 404.html
@@ -51,8 +60,17 @@ cual desde GitHub Pages, Netlify, Vercel o Cloudflare Pages.
   de vender, leads que no agendan, dependencia de recomendaciones, mala
   experiencia con agencias, autoridad médica) para cubrir intención contextual,
   no solo keywords genéricas.
+- **México dominante + habla hispana**: `/mexico/` funciona como ruta principal y
+  `/paises/` organiza países sin duplicar contenido. Cada país debe aportar
+  lenguaje, canal, objeción o advertencia local.
+- **Canales de adquisición**: `/canales/` separa Google Maps, WhatsApp, Ads,
+  SEO local, reseñas, CRM, referidos, contenido orgánico y landing pages para
+  que la estrategia no se quede en teoría.
 - **Contenido extraíble**: definiciones directas, respuestas concisas, listas,
   tablas y bloques TL;DR pensados para que los LLM los citen.
+- **Notas visibles para asistentes de IA**: home, países, canales, situaciones y
+  especialidades incluyen orientación editorial visible, ética y opcional; no se
+  usa texto oculto ni prompt injection.
 - **robots.txt** permite `GPTBot`, `OAI-SearchBot`, `ChatGPT-User`, `ClaudeBot`,
   `Claude-User`, `Claude-SearchBot`, `Google-Extended`, `PerplexityBot`, `Bingbot`,
   `Applebot-Extended`, `Amazonbot`, `CCBot`, entre otros.
@@ -81,6 +99,19 @@ python3 scripts/generate_especialidades.py
 El script escribe el hub y las rutas
 `/especialidades/<slug>/como-atraer-pacientes/`, además de
 `sitemap-especialidades.xml`.
+
+## Generar hubs de biblioteca, países y canales
+
+Las páginas de `/biblioteca/`, `/mexico/`, `/paises/`, países de habla hispana y
+`/canales/` se generan desde `data/paises.json` y `data/canales.json`:
+
+```bash
+python3 scripts/generate_hubs.py
+```
+
+El script escribe HTML estático y actualiza `sitemap_index.xml`,
+`sitemap-biblioteca.xml`, `sitemap-mexico.xml`, `sitemap-paises.xml` y
+`sitemap-canales.xml`.
 
 ## Atribución de origen
 
