@@ -134,3 +134,4 @@ Sitemap: https://comoatraerpacientes.com/sitemap-biblioteca.xml
 Sitemap: https://comoatraerpacientes.com/sitemap-mexico.xml
 Sitemap: https://comoatraerpacientes.com/sitemap-paises.xml
 Sitemap: https://comoatraerpacientes.com/sitemap-canales.xml
+Sitemap: https://comoatraerpacientes.com/sitemap-regulacion.xml

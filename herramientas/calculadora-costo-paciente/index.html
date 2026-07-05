@@ -114,13 +114,22 @@
               <div class="metric"><strong id="metric-cita">$0</strong><span>Costo por cita</span></div>
               <div class="metric"><strong id="metric-paciente">$0</strong><span>Costo por paciente</span></div>
               <div class="metric"><strong id="metric-retorno">0x</strong><span>Retorno estimado</span></div>
+              <div class="metric"><strong id="metric-solicitud-cita">0%</strong><span>Solicitudes que agendan</span></div>
+              <div class="metric"><strong id="metric-asistencia">0%</strong><span>Citas que asisten</span></div>
+              <div class="metric"><strong id="metric-cierre">0%</strong><span>Asistidas que pagan</span></div>
+              <div class="metric"><strong id="metric-estado">Sin datos</strong><span>Lectura rápida</span></div>
             </div>
             <div class="result-panel" id="calc-diagnostico">
               <h2>Lectura del resultado</h2>
               <p id="calc-texto">Completa los datos para ver el diagnóstico.</p>
+              <h3>Recomendación inmediata</h3>
+              <p id="calc-recomendacion">Agrega tus números reales para saber qué revisar primero.</p>
               <div class="btn-row mt-2">
                 <a class="btn btn-cta" href="/diagnostico/">Hacer diagnóstico CAP</a>
                 <a class="btn btn-ghost" href="/situaciones/me-escriben-pero-no-agendan/">Si escriben y no agendan</a>
+                <a class="btn btn-ghost" id="calc-whatsapp" href="https://wa.me/526567825555?text=Hola%2C%20quiero%20revisar%20mi%20costo%20por%20paciente" rel="noopener">Enviar por WhatsApp</a>
+                <a class="btn btn-ghost" id="calc-email" href="mailto:?subject=Mi%20costo%20por%20paciente">Enviar por email</a>
+                <button class="btn btn-ghost" id="calc-guardar" type="button">Guardar resultado</button>
               </div>
             </div>
           </section>
@@ -132,6 +141,19 @@
       <div class="container-narrow prose">
         <h2>Cómo leer estos números</h2>
         <p>El costo por solicitud solo dice cuánto cuesta generar una conversación. El costo por cita muestra si WhatsApp y recepción están llevando esas solicitudes a consulta. El costo por paciente revela si el sistema completo trae negocio real. Si solo miras mensajes, te puedes emocionar con puro curioso y engañarte con una hoja de cálculo.</p>
+        <div class="table-wrap mt-2">
+          <table class="data">
+            <thead>
+              <tr><th>Señal</th><th>Qué puede significar</th><th>Qué revisar primero</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Muchas solicitudes, pocas citas</td><td>El problema no está en visibilidad, sino en WhatsApp, recepción u objeción de precio.</td><td>Primer mensaje, velocidad de respuesta, guion de valoración y seguimiento.</td></tr>
+              <tr><td>Citas agendadas, poca asistencia</td><td>La agenda se llena, pero el paciente no llega.</td><td>Confirmación, recordatorios, ubicación, anticipo o política de reagendado.</td></tr>
+              <tr><td>Asisten, pero no pagan</td><td>La consulta no está conectando con una decisión clara.</td><td>Explicación del plan, valor percibido, financiamiento y seguimiento post-consulta.</td></tr>
+              <tr><td>Retorno sano</td><td>La ruta del paciente ya funciona y puede escalarse con cuidado.</td><td>Separar canales, especialidades y servicios para subir presupuesto donde hay margen.</td></tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
   </main>

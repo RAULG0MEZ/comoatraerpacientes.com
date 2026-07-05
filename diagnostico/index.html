@@ -152,11 +152,22 @@
             <p class="eyebrow" style="color:var(--teal-500)">Resultado</p>
             <h2 id="resultado-titulo">Tu ruta CAP</h2>
             <p id="resultado-texto"></p>
+            <div class="metric-grid" aria-label="Resumen del diagnóstico">
+              <div class="metric"><strong id="resultado-cuello">-</strong><span>Cuello principal</span></div>
+              <div class="metric"><strong id="resultado-secundario">-</strong><span>Problema secundario</span></div>
+              <div class="metric"><strong id="resultado-prioridad">-</strong><span>Prioridad</span></div>
+              <div class="metric"><strong id="resultado-siguiente">-</strong><span>Siguiente paso</span></div>
+            </div>
+            <h3>Ruta recomendada</h3>
+            <ol class="route-list" id="resultado-ruta"></ol>
+            <h3>Acciones inmediatas</h3>
             <ul class="check-list" id="resultado-acciones"></ul>
             <div class="btn-row mt-2">
               <a class="btn btn-cta" id="resultado-link" href="/situaciones/">Ver guía recomendada</a>
               <a class="btn btn-ghost" href="/herramientas/calculadora-costo-paciente/">Calcular costo por paciente</a>
-              <a class="btn btn-ghost" href="https://wa.me/526567825555?text=Hola%2C%20hice%20el%20diagn%C3%B3stico%20CAP%20y%20quiero%20revisar%20mi%20ruta%20para%20atraer%20pacientes" rel="noopener">Revisarlo por WhatsApp</a>
+              <a class="btn btn-ghost" id="resultado-whatsapp" href="https://wa.me/526567825555?text=Hola%2C%20hice%20el%20diagn%C3%B3stico%20CAP%20y%20quiero%20revisar%20mi%20ruta%20para%20atraer%20pacientes" rel="noopener">Enviar por WhatsApp</a>
+              <a class="btn btn-ghost" id="resultado-email" href="mailto:?subject=Mi%20Diagn%C3%B3stico%20CAP">Enviar por email</a>
+              <button class="btn btn-ghost" id="resultado-guardar" type="button">Guardar diagnóstico</button>
             </div>
           </section>
         </div>

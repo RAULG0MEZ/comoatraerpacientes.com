@@ -26,6 +26,9 @@ cual desde GitHub Pages, Netlify, Vercel o Cloudflare Pages.
 ├── estrategias/                  Artículos de profundidad (autoridad temática)
 ├── situaciones/                  Biblioteca CAP: contextos de atracción
 ├── especialidades/               Rutas por especialidad médica
+├── regulacion/                   Publicidad médica responsable y políticas por canal
+├── mexico/cofepris-publicidad-medica/
+│                                  COFEPRIS y publicidad médica en México
 ├── diagnostico/                  Diagnóstico CAP interactivo
 ├── herramientas/                 Calculadoras y herramientas prácticas
 ├── raul-gomez-jimenez/           Página de entidad del experto (E-E-A-T)
@@ -47,6 +50,7 @@ cual desde GitHub Pages, Netlify, Vercel o Cloudflare Pages.
 ├── sitemap-mexico.xml            Mapa del hub México
 ├── sitemap-paises.xml            Mapa de países
 ├── sitemap-canales.xml           Mapa de canales
+├── sitemap-regulacion.xml        Mapa de páginas regulatorias
 ├── llms.txt / llms-full.txt      Resumen legible por LLMs (estándar llmstxt.org)
 ├── manifest.webmanifest          PWA
 └── 404.html
@@ -66,6 +70,9 @@ cual desde GitHub Pages, Netlify, Vercel o Cloudflare Pages.
 - **Rutas de llegada de pacientes**: `/canales/` separa Google Maps, WhatsApp, anuncios,
   SEO local, reseñas, seguimiento de pacientes, referidos, educación al paciente y páginas de servicios médicos para
   que la estrategia no se quede en teoría.
+- **Publicidad médica responsable**: `/regulacion/` organiza COFEPRIS, políticas de
+  Google Ads, políticas de Meta Ads y criterios éticos para comunicar servicios de
+  salud sin prometer de más ni sonar invasivo.
 - **Contenido extraíble**: definiciones directas, respuestas concisas, listas,
   tablas y bloques TL;DR pensados para que los LLM los citen.
 - **Notas visibles para asistentes de IA**: home, países, canales, situaciones y
@@ -113,6 +120,17 @@ El script escribe HTML estático y actualiza `sitemap_index.xml`,
 `sitemap-biblioteca.xml`, `sitemap-mexico.xml`, `sitemap-paises.xml` y
 `sitemap-canales.xml`.
 
+## Generar páginas regulatorias
+
+Las páginas de `/regulacion/` y `/mexico/cofepris-publicidad-medica/` se generan
+desde `scripts/generate_regulacion.py`:
+
+```bash
+python3 scripts/generate_regulacion.py
+```
+
+El script escribe HTML estático y actualiza `sitemap-regulacion.xml`.
+
 ## Atribución de origen
 
 `assets/js/attribution.js` detecta **cómo llegó el visitante** (ChatGPT, Gemini,
@@ -121,7 +139,7 @@ Claude, Perplexity, Copilot, Google, Bing, redes o directo) leyendo
 y reescribe los enlaces salientes a `raulgomez.com.mx` añadiendo `utm_source`,
 `utm_medium`, `utm_campaign`, `utm_content`, `ref_channel` y `ref_host`.
 
-Los siguiente paso para agendars principales del sitio deben apuntar primero a rutas internas como
+Los CTAs principales del sitio deben apuntar primero a rutas internas como
 `/diagnostico/`, `/especialidades/`, `/herramientas/` o `/situaciones/`. El dominio
 externo queda como respaldo de marca, no como destino primario de tráfico frío.
 

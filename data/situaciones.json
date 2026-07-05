@@ -288,7 +288,7 @@
     "phrases": [
       "Necesito pacientes este mes.",
       "No puedo esperar seis meses a que el SEO funcione.",
-      "Quiero citas reales, no likes.",
+      "Quiero citas reales, no interacciones superficiales.",
       "Necesito acciones rápidas sin dañar mi reputación."
     ],
     "sources": [
@@ -655,7 +655,7 @@
     "lead": "Si pagaste publicidad médica y no llegaron pacientes, la pregunta útil no es solo quién tuvo la culpa. La pregunta importante es dónde se rompió la ruta del paciente.",
     "quickAnswer": "Una inversión en publicidad médica puede fallar por mala segmentación, oferta poco clara, anuncios genéricos, página confusa, seguimiento lento, recepción sin proceso, falta de medición o expectativas irreales. Antes de invertir otra vez, diagnostica cada paso: anuncio, página, WhatsApp, cita, asistencia y paciente atendido.",
     "reality": "Después de una mala experiencia, es normal desconfiar. Pero concluir que atraer pacientes no funciona puede cerrar la puerta a un sistema que sí funcionaría si estuviera bien medido y conectado con la operación del consultorio.",
-    "diagnostic": "Pide evidencia: fuentes, anuncios, página, conversaciones, citas, costo por cita y pacientes atendidos. Si solo te reportaron likes o alcance, no estabas midiendo la agenda del consultorio.",
+    "diagnostic": "Pide evidencia: fuentes, anuncios, página, conversaciones, citas, costo por cita y pacientes atendidos. Si solo te reportaron interacciones superficiales o alcance, no estabas midiendo la agenda del consultorio.",
     "emotionalContext": [
       "Desconfianza",
       "Frustración",
@@ -701,7 +701,7 @@
     ],
     "avoid": [
       "Volver a invertir sin acceso a métricas.",
-      "Aceptar reportes de likes como prueba de pacientes.",
+      "Aceptar reportes de interacciones superficiales como prueba de pacientes.",
       "Cambiar de proveedor sin arreglar oferta y seguimiento.",
       "Firmar promesas de pacientes garantizados sin base real."
     ],
